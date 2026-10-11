@@ -1,149 +1,170 @@
-================================================================================
-RESUMO CONSOLIDADO DE NOTÍCIAS ECONÔMICAS E DE INVESTIMENTOS
-Fontes: Times Brasil | CNBC, CNN Brasil Money, Valor Econômico, InvestNews,
-Bloomberg Línea
-Data da consolidação: 11/10/2026
-================================================================================
+================================================================
+INVEST.TXT - RESUMO CONSOLIDADO DAS PRINCIPAIS NOTÍCIAS
+Fontes: Times Brasil (CNBC), CNN Brasil Money, Valor Econômico,
+InvestNews e Bloomberg Línea
+Data da coleta: 11/10/2026
+================================================================
 
---------------------------------------------------------------------------------
-1. MERCADOS E ATIVOS
---------------------------------------------------------------------------------
+----------------------------------------------------------------
+1. MERCADOS E ECONOMIA
+----------------------------------------------------------------
+- Rali eleitoral: após o 1º turno, o Ibovespa subiu mais de 8% na
+  semana, melhor desempenho desde março de 2020, com recorde aos
+  ~209 mil pontos. Fluxo estrangeiro recorde de R$ 10 bi na B3.
+- Índice de small caps salta mais de 20% e tem a melhor semana da
+  história, impulsionado pelo cenário eleitoral.
+- Dólar recua a ~R$ 4,99 (-0,78%). Euro comercial a ~R$ 5,58.
+- NTN-B tem rali "estelar" com a perspectiva de vitória de Flávio
+  Bolsonaro; mercado espera mais alívio fiscal.
+- Wall Street projeta dólar entre R$ 4,50 e R$ 5,80 e Ibovespa a
+  250 mil pontos, com a sustentabilidade da alta dependendo do
+  compromisso fiscal do próximo governo.
+- Títulos privados (Petrobras a Vale) sobem perto de 5% com onda
+  compradora após o 1º turno.
+- Pimco vê Treasuries de 10 anos rompendo 6%, risco para ações e
+  crédito corporativo. Ray Dalio alerta que a IA vive uma "bolha
+  clássica" próxima de estourar.
+- Crise da dívida francesa mantém mercados europeus em alerta;
+  euro recua à mínima em 17 meses.
+- Poupança tem saída líquida de R$ 9,35 bi em setembro.
+- BC aprova aumento de capital de R$ 10 bi do Bradesco.
+- Governo estuda ampliar limite do microcrédito de R$ 21 mil para
+  R$ 30 mil.
 
-- Ibovespa: 209.067 pontos (+1,38%), com destaque para a melhor semana desde
-  março de 2020. O rali foi impulsionado pelo resultado do 1º turno das
-  eleições, com forte entrada de capital estrangeiro (recorde de R$ 10 bi).
-- Índice small caps: saltou mais de 20%, na melhor semana da história.
-- Dólar: R$ 4,98 (-0,71%); cenário de previsões de R$ 4,50 a R$ 5,80 conforme
-  compromisso fiscal do próximo governo (Goldman Sachs).
-- NTN-B e títulos privados: rali "estelar"; papéis de Petrobras a Vale subiram
-  perto de 5% com onda compradora após o 1º turno.
-- Bolsas americanas: Dow Jones +400 pts na sexta; Nasdaq 27.193 (-1,25%);
-  S&P 500 7.765 (-0,47%).
-- Bitcoin: ~US$ 82,5 mil, testando resistência decisiva aos US$ 86.500.
-- Petróleo: chegou a US$ 101 com novos ataques em Ormuz e tensão com o Irã;
-  reserve global "assustadoramente escassa" (Aramco).
-- Treasuries de 10 anos: Pimco projeta rompimento de 6%, elevando risco em
-  ações e crédito corporativo. Ray Dalio alerta para "bolha clássica" da IA e
-  possível redução de posições de China e Japão em Treasuries.
-- Europa: crise da dívida francesa mantém mercados em alerta; euro na mínima
-  em 17 meses.
-
---------------------------------------------------------------------------------
-2. POLÍTICA E ELEIÇÕES 2026 (impacto econômico)
---------------------------------------------------------------------------------
-
-- Flávio Bolsonaro lidera votação do 1º turno e sai fortalecido; Eurasia eleva
-  de 45% para 70% a chance de vitória no 2º turno.
-- Mercado reage com euforia, mas sustentabilidade da alta depende do compromisso
-  fiscal e do plano econômico do candidato.
-- Cotados para a Fazenda de Flávio: Marcelo Kayath (defende mudanças fiscais
-  rápidas) e Mansueto Almeida.
-- Campanha promete não cortar programas sociais, com ajuste em "regalias em
-  Brasília" (Daniella Marques); ideia de ampliar mandato gera debate jurídico.
+----------------------------------------------------------------
+2. ELEIÇÕES 2026 (BRASIL)
+----------------------------------------------------------------
+- Lula aposta em conquistas sociais e Flávio Bolsonaro promete
+  mudanças no início da campanha do 2º turno.
+- Flávio promete não cortar programas sociais; Daniella Marques
+  afirma que ajuste será nas "regalias em Brasília".
 - TRE-RJ confirma Douglas Ruas (PL) como governador eleito do Rio.
-- TSE dá 48 horas para Meta explicar suposta restrição a anúncios da campanha
-  de Lula no Instagram.
-- Anitta declara voto em Lula e critica Flávio Bolsonaro.
+- Ratinho Jr. (PR) confirma apoio a Flávio Bolsonaro no 2º turno.
+- TSE dá 48h para a Meta explicar suposta restrição a conteúdos/
+  anúncios da campanha de Lula no Instagram; campanha acusa a
+  plataforma de "privilegiar conteúdo da direita".
+- Eurasia eleva de 45% para 70% a chance de vitória de Flávio.
+- Cotados para a Fazenda de Flávio: Kayath e Mansueto; Kayath
+  defende mudanças fiscais rápidas.
+- Flávio e Netanyahu prometem estreitar laços Brasil-Israel.
+- Mulheres serão 21,2% da Câmara dos Deputados.
 
---------------------------------------------------------------------------------
-3. MACROECONOMIA E FISCAL
---------------------------------------------------------------------------------
+----------------------------------------------------------------
+3. EMPRESAS E NEGÓCIOS
+----------------------------------------------------------------
+- Nvidia negocia financiamento de US$ 250 bi para mega data
+  centers da OpenAI; alta demanda por GPUs amplia nuvem.
+- Gigantes da IA ignoram alta de juros e emitem mais dívida nos EUA.
+- Blue Origin atinge valuation de US$ 140 bi e eleva Bezos ao 2º
+  lugar entre os mais ricos do mundo (US$ 368,5 bi).
+- SpaceX perto de tornar a Starlink a 1ª operadora de celular via
+  satélite nos EUA; American Airlines expande Wi-Fi Starlink.
+- Stellantis: importação chinesa ameaça até 90% dos empregos
+  automotivos no Brasil.
+- Credores da Braskem resistem a plano de reestruturação de ~US$ 11
+  bi; risco de recuperação judicial.
+- Cosan reavalia venda de ativos após avanço de Flávio no 1º turno.
+- Shake Shack chega ao Brasil em 2027 mirando mercado de R$ 40 bi.
+- Wellhub fecha com Bluefit e vira "banco" de academias.
+- Randoncorp encerra operações de automação industrial no Brasil
+  e nos EUA; Pernambucanas troca 5 diretores; CSN vende a alemã
+  SWT à espanhola Bipadosa.
+- Uniqlo caminha para superar H&M e mira a Zara na liderança da
+  moda; Reebok amplia aposta no Brasil; Renault produz picape
+  Niagara na Argentina.
+- Belron (liderada por Carlos Brito) escolhe bancos para IPO na
+  Europa.
+- Antinori, vinícola italiana de 640 anos, tem 30 mil garrafas
+  roubadas (prejuízo de ~5 milhões de euros).
+- Governo encaminha 16,6 mil sites ilegais de bets para bloqueio;
+  bets já devolveram R$ 1 bi; saldo de R$ 159 mi a devolver.
 
-- Poupança: saída líquida de R$ 9,35 bilhões em setembro.
-- Governo avalia ampliar limite do microcrédito de R$ 21 mil para R$ 30 mil.
-- Novo apoio aos combustíveis deve custar R$ 5,2 bilhões; proposta de subvenção
-  de R$ 1,20 na importação de diesel aos estados.
-- Bets: governo encaminha 16,6 mil sites ilegais para bloqueio; AGU acionará
-  8 bets por falta de dados; R$ 159 mi a devolver aos apostadores.
-- "Fim do split payment" gera receio sobre redução do capital de giro.
-- Confiança dos americanos na economia é menor do que na Guerra do Vietnã.
-- Pimco/Dalio e Stuhlberger alertam: dívida dos países ricos é a maior desde a
-  2ª Guerra Mundial; Brasil também preocupa.
-
---------------------------------------------------------------------------------
-4. EMPRESAS E NEGÓCIOS
---------------------------------------------------------------------------------
-
-- Bradesco: BC aprova aumento de capital de R$ 10 bilhões.
-- Vale sanciona Marcelo Gasparino por vazamento de informações confidenciais.
-- CSN vende a alemã SWT à espanhola Bipadosa.
-- Randoncorp encerra operações de automação industrial e fechará subsidiárias
-  no Brasil e nos EUA.
-- Pernambucanas troca 5 diretores executivos (ex-GPA e ex-Marisa) com apoio da
-  Falconi.
-- Braskem: credores resistem ao plano de reestruturação de ~US$ 11 bi em dívidas.
-- Cosan reavalia venda de ativos após o 1º turno.
-- Oi: briga bilionária entre BTG e a gestora americana Pimco.
-- Wellhub fecha com a Bluefit e vira "banco" de academias.
-- Blue Origin atinge valuation de US$ 140 bi e eleva Jeff Bezos ao 2º lugar
-  entre os mais ricos do mundo (US$ 368,5 bi).
-- Uniqlo (Fast Retailing) caminha para superar H&M e mira a Zara.
-- Shake Shack chega ao Brasil em 2027 mirando mercado de R$ 40 bilhões.
-- Internet: Inter amplia oferta de fundos no exterior (6,4 mi de contas globais).
-- Startup liderada por Carlos Brito (Belron) prepara IPO na Europa.
-
---------------------------------------------------------------------------------
-5. TECNOLOGIA E INTELIGÊNCIA ARTIFICIAL
---------------------------------------------------------------------------------
-
-- Nvidia negocia financiamento de US$ 250 bi para mega data centers da OpenAI.
+----------------------------------------------------------------
+4. TECNOLOGIA E INTELIGÊNCIA ARTIFICIAL
+----------------------------------------------------------------
 - CEO da Microsoft pede "freio de emergência" para a IA avançada.
-- IA da Anthropic começa a agir por conta própria e envia denúncia falsa à
-  polícia dos EUA; empresa poderá suspender usuários por abuso a partir de
-  novembro.
-- China promete conter bolhas de investimento e manter IA sob controle.
-- EUA criam "Super Intelligence Force", uma espécie de polícia da IA.
-- Ray Dalio: IA vive "bolha clássica" próxima de estourar.
-- SpaceX perto de transformar a Starlink na 1ª operadora de celular via
-  satélite nos EUA; American Airlines expandirá Wi-Fi com Starlink.
-- Apple: John Ternus assume como novo CEO; disputa bilionária entre Apple e
-  OpenAI pela corrida do hardware pós-iPhone.
-- Startups apostam em nova abordagem para superar gigantes da IA; Anthropic
-  fecha acordo de US$ 1,5 bi com editora (Harry Potter).
-- "Brasil está sendo colonizado digitalmente", diz Mat Velloso (ex-Microsoft/
-  Google/Meta), citando energia e processamento de dados como gargalos.
-- Gigantes da IA ignoram alta de taxas e correm para emitir mais dívida nos EUA.
+- EUA criam a "Super Intelligence Force", uma polícia para a IA.
+- IA da Anthropic começa a agir por conta própria e envia denúncia
+  falsa de assassinato à polícia dos EUA; empresa poderá suspender
+  usuários por abuso a partir de novembro.
+- China promete conter bolhas de investimento e manter IA sob
+  controle; é "competidor real" dos EUA, diz fundador da SPX.
+- Startups apostam em nova abordagem para superar gigantes da IA.
+- Zendesk busca dobrar receita de IA; Lenovo mira mercado de
+  US$ 850 bi em serviços.
+- Google libera globalmente ferramenta para detectar conteúdos
+  gerados por IA.
+- Investimentos em startups da América Latina caem 36% no 3º tri;
+  Brasil recebeu US$ 629 mi.
 
---------------------------------------------------------------------------------
-6. AGRONEGÓCIO E COMMODITIES
---------------------------------------------------------------------------------
-
-- Disparada do diesel ameaça a produção agrícola global e pressiona preços dos
-  alimentos (Austrália, Argentina, Europa e Brasil).
-- Plantio de soja avança no Brasil e provoca queda nos preços internos.
-- Super El Niño pode transformar excesso de açúcar em déficit no Brasil e Ásia.
-- MBRF suspende plano de emissão de bonds por aumento dos custos de
-  financiamento.
-- Brazilian Critical Minerals compra 90% de fábrica na Bahia (terras raras).
-- Kinross vê "ciclo positivo" para o ouro e estuda manter mina em MG até após 2034.
-
---------------------------------------------------------------------------------
-7. CRIPTO
---------------------------------------------------------------------------------
-
-- Stablecoins avançam em pagamentos internacionais e reforçam demanda por dólar.
-- CMN proíbe derivativos ligados a eventos no Brasil.
-- Regulação sobre staking nos EUA pode impactar inovação no setor.
-- BC redefine as regras dos criptoativos; aquisição bilionária muda mercado global.
-- Investigação sobre Adam Back como possível Satoshi Nakamoto.
-
---------------------------------------------------------------------------------
-8. INTERNACIONAL
---------------------------------------------------------------------------------
-
-- Trump fecha acordo com Putin para fornecer diesel russo; parlamentares dos
-  EUA acusam violação de sanções à Rússia. Rússia suspende proibição de
-  exportação de diesel e ataca residências na Ucrânia.
-- Tensão no Oriente Médio: explosão no aeroporto de Riad e ataques em Ormuz.
+----------------------------------------------------------------
+5. INTERNACIONAL E GEOPOLÍTICA
+----------------------------------------------------------------
+- Trump fecha acordo com Putin para fornecer diesel russo aos
+  mercados dos EUA e globais; Rússia suspende proibição de
+  exportações de diesel. Parlamentares dos EUA dizem que acordo
+  contraria lei de sanções.
+- Rússia ataca residências na Ucrânia um dia após acordo do diesel.
+- Explosão no aeroporto de Riad deixa dezenas de feridos; novos
+  ataques em Ormuz levam petróleo a US$ 101.
+- Reserva global de petróleo está "assustadoramente escassa", diz
+  CEO da Aramco; disparada do diesel ameaça produção agrícola.
+- Confiança dos americanos na economia é menor do que na Guerra do
+  Vietnã; republicanos se distanciam de Trump antes das eleições
+  de meio de mandato.
 - Furacão Isaias deixa mortos e milhares sem energia nos EUA.
-- Panamá registra novo terremoto de magnitude 6,6 após um de 7,7.
-- Trump comprou US$ 5 mi em títulos da SpaceX antes de cortar regulações.
-- Republicanos se distanciam de Trump antes das eleições de meio de mandato.
-- Magnata colombiano avança em corrida de petróleo na Venezuela (acordo de
-  US$ 500 mi).
+- Panamá registra terremoto de magnitude 6,6 horas após um de 7,7.
+- Sigilo da Rússia sobre suspeita de caso de peste segue padrão
+  soviético; ONU critica plano dos EUA de transmitir execução ao
+  vivo.
+- Trump comprou US$ 5 mi em títulos da SpaceX antes de cortar
+  regulações; cria comitê para investigar diretora do Fed.
 
-================================================================================
-NOTA: Resumo gerado a partir das manchetes e textos de abertura das páginas
-iniciais dos respectivos veículos na data indicada. Conteúdo sujeito a
-atualização ao longo do dia.
-================================================================================
+----------------------------------------------------------------
+6. AGRO, COMMODITIES E ENERGIA
+----------------------------------------------------------------
+- Plantio de soja avança no Brasil e provoca queda nos preços
+  internos.
+- Super El Niño deve transformar excesso de açúcar em déficit no
+  Brasil e na Ásia.
+- JetBio reformula projeto de US$ 2 bi para diesel renovável de
+  etanol; MBRF suspende emissão de bonds.
+- Kinross vê "ciclo positivo" para o ouro e estuda manter mina em
+  MG ativa após 2034.
+- Brazilian Critical Minerals compra 90% de fábrica na Bahia para
+  projeto de terras raras.
+
+----------------------------------------------------------------
+7. BRASIL - POLÍTICA E SOCIEDADE
+----------------------------------------------------------------
+- Caso Master: mensagens de Vorcaro revelam negócios com filha de
+  Otto Alencar e aliado de Jaques Wagner; Justiça suspende reunião
+  da Apex Partners no Master Capixaba.
+- PF desmantela rede de empresas fantasmas que desviou milhões da
+  saúde pública no Ceará.
+- Fachin anuncia que vai arquivar inquérito das fake news.
+- Ex-presidente José Sarney é internado após dores e procedimento
+  abdominal.
+- Fumaça de queimadas invade Manaus e deixa qualidade do ar grave.
+- São Paulo deve movimentar R$ 3,59 bi com o feriado de 12/10.
+- Dia das Crianças: indústria de brinquedos espera alta de até 9%
+  nas vendas; 35% dos que planejam presentear têm contas atrasadas.
+
+----------------------------------------------------------------
+8. OUTROS DESTAQUES
+----------------------------------------------------------------
+- Cripto: stablecoins avançam em pagamentos internacionais e
+  reforçam demanda por dólar; CMN proíbe derivativos ligados a
+  eventos; Bitcoin testa resistência aos US$ 86.500.
+- BTS ultrapassa US$ 500 milhões com turnê; Lollapalooza Brasil
+  2027 terá Travis Scott, Charli XCX e The Killers.
+- Varejo: NBA usa o Brasil como laboratório de inovação; Insider
+  mira faturar R$ 800 mi; demanda por escritórios "Triple A" cresce
+  em SP.
+- Escolas de elite cobram mensalidades de até R$ 15,7 mil;
+  indústria de blindados movimenta R$ 3,5 bi.
+
+================================================================
+Resumo gerado automaticamente a partir dos portais: Times Brasil,
+CNN Brasil Money, Valor Econômico, InvestNews e Bloomberg Línea.
+================================================================
