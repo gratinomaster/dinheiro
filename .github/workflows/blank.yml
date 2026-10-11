@@ -22,6 +22,7 @@ jobs:
       - name: Run OpenCode
         run: |
           opencode run "LEIA https://timesbrasil.com.br/ https://www.cnnbrasil.com.br/money/ https://valor.globo.com/ https://investnews.com.br/ https://www.bloomberglinea.com.br/ e crie um arquivo INVEST.txt com um resumo consolidado das principais notícias de todos os sites."
+          opencode run "atualize os dados da planilha existente b3_completo_fundamentos.xlsx no repositório com os dados de hoje, sem criar outro arquivo e sem apagar abas, fórmulas ou dados históricos; salve a atualização no próprio arquivo"
           opencode run "analise a planilha b3_completo_fundamentos.xlsx disponível no repositório; eu tenho R$ 100,00, diga o que comprar para receber dividendos no mês que vem e indique apenas as melhores opções, sem inventar dados e deixando claro que é uma análise informativa"
           opencode run "salve em hoje.txt uma recomendação objetiva do que comprar, baseada nas notícias coletadas e nos números da planilha b3_completo_fundamentos.xlsx, incluindo justificativa, riscos e a data da análise"
 
@@ -30,6 +31,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          git add INVEST.txt hoje.txt
+          git add b3_completo_fundamentos.xlsx INVEST.txt hoje.txt
           git commit -m "Atualiza resumo e recomendação diária" || echo "Nada para commit"
           git push
