@@ -21,6 +21,7 @@ jobs:
 
       - name: Run OpenCode
         run: |
+          opencode run "corrija o blank.yml para que funcione perfeitamente"
           opencode run "atualize os dados da tabela que está no meu computador sem criar outro arquivo, quero os dados de hoje."
 
       - name: Commit INVEST.txt
