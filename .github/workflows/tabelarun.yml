@@ -2,7 +2,9 @@ name: ya
 
 on:
   workflow_dispatch:
-
+  schedule:
+    # 07:00 no horário de Brasília (UTC-3)
+    - cron: '0 10 * * 1'
 jobs:
   opencode:
     runs-on: ubuntu-latest
