@@ -1,96 +1,141 @@
 ================================================================
 RECOMENDAÇÃO OBJETIVA DE COMPRA - hoje.txt
-Data da análise: 11/10/2026
-Fontes: INVEST.txt (notícias coletadas em 11/10/2026) e
-        b3_completo_fundamentos.xlsx (cotações/fundamentos B3)
+Data da análise: 23/10/2026
+Fontes: INVEST.txt (notícias coletadas em 23/10/2026) e
+        b3_completo_fundamentos.xlsx (cotações de 19/10/2026,
+        base B3/Yahoo Finance e Fundamentus)
 ================================================================
 
-1. LEITURA DO CENÁRIO (o que as notícias dizem)
+1. LEITURA DO CENÁRIO
 ----------------------------------------------------------------
-- Rali pós-1º turno: Ibovespa +8% na semana (~209 mil pts, recorde),
-  fluxo estrangeiro recorde de R$ 10 bi na B3.
-- Small caps com a melhor semana da história (+20%).
-- Eurasia elevou de 45% para 70% a chance de vitória de Flávio
-  Bolsonaro; mercado precifica ajuste fiscal ("regalias em Brasília").
-- Rali "estelar" da NTN-B => queda dos juros longos.
-- Dólar recua a ~R$ 4,99. BC aprova aumento de capital de R$ 10 bi
-  do Bradesco.
-- Petróleo a US$ 101 (Ormuz/Rússia) - risco e oportunidade.
+- Eleição: 2º turno no domingo (25/10), com pesquisas divergentes e
+  "índice do medo" da B3 em recorde histórico. A Faria Lima mantém
+  aposta em Flávio, mas cresce a demanda por hedge para dólar e bolsa.
+- Juros: IPCA-15 sobe 0,32% em outubro e acumula 4,62% em 12 meses,
+  abaixo das projeções. Isso abre espaço para queda da Selic, desde
+  que haja compromisso fiscal crível.
+- Fluxo: entrada estrangeira recorde de R$ 10 bilhões na B3 após o
+  1º turno; small caps tiveram a melhor semana da história (+20%) e a
+  NTN-B teve rali "estelar" com a perspectiva de vitória de Flávio.
+- Petróleo: Brent perto de US$ 115, máxima em cinco meses, com risco
+  geopolítico no Oriente Médio e reservas globais "escassas" (Aramco).
+- Empresas: Bradesco lucra R$ 7,1 bilhões no 3º tri (+14,6% a/a), mas
+  com inadimplência e provisões em alta; Embraer tem carteira recorde
+  de US$ 35,7 bilhões; Braskem negocia US$ 11 bilhões em dívidas e
+  enfrenta pedido de Chapter 11.
 
-Leitura: o choque é de JURS LONGOS PARA BAIXO + entrada de capital
-externo em ativos domésticos. Quem ganha: bancos, elétricas/
-transmissoras e, com maior beta, incorporadoras (homebuilders).
+Leitura: o cenário favorece bancos líquidos e pagadores de dividendos,
+que capturam a queda dos juros e o fluxo estrangeiro, e, com maior
+beta, incorporadoras beneficiadas pela queda dos juros longos. A
+proximidade da eleição, porém, exige entrada escalonada e proteção.
 
 2. RECOMENDAÇÃO OBJETIVA
 ----------------------------------------------------------------
-Perfil sugerido: moderado, horizonte 6-12 meses.
+Perfil sugerido: moderado, horizonte de 6 a 12 meses.
 Estrutura núcleo + satélite:
 
-  NÚCLEO (60%) -> BBDC4 (Bradesco) R$ 21,61
-  SATÉLITE (40%) -> DIRR3 (Direcional Engenharia) R$ 12,30
+  NÚCLEO (60%)  -> BBDC4 (Bradesco)              R$ 20,15
+  SATÉLITE (25%) -> DIRR3 (Direcional Engenharia) R$ 10,70
+  OPCIONAL (15%) -> PETR4 (Petrobras)             R$ 58,44
 
-  Opcional (hedge geopolítico, até 10%): PETR4 R$ 56,00
+  Alternativa de menor volatilidade para o satélite: CMIG4
+  (Cemig) a R$ 11,63, caso o investidor não queira assumir o beta
+  de uma small cap antes do 2º turno.
 
-Números (base: planilha b3_completo_fundamentos.xlsx):
+Números da planilha (fechamento de 19/10/2026):
 
-  Ativo   Preço(R$)  P/L    P/VP   DY(%)   ROE(%)   Mkt Cap(R$)
-  BBDC4     21,61    9,77   1,38   5,51    14,13    226 bi
-  DIRR3     12,30    7,48   2,75  12,60    36,78     6,0 bi
-  PETR4     56,00    5,41   1,50   6,51    27,73    755 bi
+  Ativo   Preço(R$)  P/L    P/VP   DY(%)   ROE(%)   Mkt Cap(R$)  Volume
+  BBDC4     20,15    9,21   1,30   7,50    14,13    225,2 bi     28,4 mi
+  DIRR3     10,70    6,39   2,35  14,76    36,78      5,55 bi    11,4 mi
+  PETR4     58,44    5,77   1,60   6,11    27,73    798,5 bi     26,1 mi
+  CMIG4     11,63    7,37   1,16   8,63    15,75     33,3 bi      6,4 mi
 
 3. JUSTIFICATIVA
 ----------------------------------------------------------------
-- BBDC4 (núcleo):
-  * Notícia: BC aprovou aumento de capital de R$ 10 bi -> reforço de
-    capital, folga para crescer crédito em ciclo de juros caindo.
-  * Números: P/L 9,77 (barato p/ banco grande), P/VP 1,38, DY 5,51%,
-    ROE 14,13%, liquidez enorme (captura o fluxo estrangeiro recorde).
-  * Tese: beneficiário direto de queda da Selic/juros longos e de
-    melhora fiscal esperada; múltiplo baixo dá margem de segurança.
+- BBDC4 (compra principal / núcleo):
+  * Notícia: lucro recorrente de R$ 7,1 bilhões no 3º tri (+14,6% em
+    12 meses); Bradesco Seguros lucra R$ 2,88 bi (+14%). O banco vê
+    cenário desafiador com inadimplência e provisões maiores, mas
+    aposta em crédito para empresas.
+  * Números: P/L 9,21, P/VP 1,30, DY 7,50%, ROE 14,13% e liquidez
+    elevada (volume de 28,4 milhões). É um dos bancos mais baratos
+    entre os grandes e paga dividendo relevante.
+  * Tese: queda da Selic e dos juros longos melhora o custo de
+    funding e o valor dos ativos; o fluxo estrangeiro recorde tende a
+    priorizar papéis líquidos. O múltiplo baixo dá margem de segurança
+    para o risco de inadimplência já sinalizado.
 
-- DIRR3 (satélite, maior upside):
-  * Números: P/L 7,48, DY 12,60%, ROE 36,78% - combinação rara de
-    barato + alto retorno + alto dividendo.
-  * Tese: incorporadora é o ativo com maior beta à queda dos juros
-    longos (financiamento imobiliário) e ao rali das small caps
-    descrito nas notícias; captura o "trade eleitoral".
-  * Tamanho pequeno (R$ 6 bi) => mais sensível a fluxo estrangeiro.
+- DIRR3 (satélite / maior upside):
+  * Notícia: rali da NTN-B e queda dos juros longos, além da melhor
+    semana da história das small caps e do fluxo externo recorde.
+  * Números: P/L 6,39, DY 14,76%, ROE 36,78% e market cap de apenas
+    R$ 5,55 bi. É a combinação mais forte da planilha entre baixo P/L,
+    alto ROE e alto dividendo no setor de incorporação.
+  * Tese: incorporadoras são o ativo doméstico com maior sensibilidade
+    à queda dos juros longos e ao ciclo de crédito imobiliário. O
+    tamanho pequeno amplia o impacto do fluxo estrangeiro.
+  * Atenção: o P/VP de 2,35 mostra que o mercado já paga prêmio sobre
+    o patrimônio; é uma aposta de beta, não um ativo defensivo.
 
-- PETR4 (opcional):
-  * Petróleo a US$ 101 com reservas "escassas" (Aramco) e risco Ormuz.
-  * P/L 5,41 e DY 6,51% dão proteção, mas é hedge geopolítico, não
-    aposta no tema doméstico.
+- PETR4 (opcional / hedge geopolítico):
+  * Notícia: Brent perto de US$ 115, máxima em cinco meses, com Irã
+    ameaçando instalações de petróleo e a Aramco alertando para
+    reservas "assustadoramente escassas".
+  * Números: P/L 5,77, P/VP 1,60, DY 6,11% e ROE 27,73%, com liquidez
+    de 26,1 milhões. Barata e com dividendo, serve como proteção
+    contra alta do petróleo.
+  * Tese: funciona como hedge de carteira, não como aposta no tema
+    doméstico. O peso deve ficar limitado a 15%.
 
 4. RISCOS
 ----------------------------------------------------------------
-- Político/fiscal: a tese depende de ajuste fiscal crível; se o
-  compromisso fraquejar, juros longos voltam a subir e derrubam
-  bancos e, com força, homebuilders.
-- Externo: Pimco vê Treasuries 10a rompendo 6% (pressão global em
-  ações/crédito); Ray Dalio alerta "bolha clássica" de IA; crise da
-  dívida francesa. Risk-off global reduz o fluxo para o Brasil.
-- DIRR3: small cap de alta beta - cai 2x mais em correção; risco de
-  execução, distratos e ciclo imobiliário. Volatilidade elevada.
-- BBDC4: inadimplência e crescimento de crédito abaixo do esperado;
-  competição de bancos digitais.
-- PETR4: risco de interferência estatal (política de preços), risco
-  eleitoral e queda do petróleo em caso de trégua no Oriente Médio.
-- Commodities/agro: soja em queda; Braskem em risco de recuperação
-  judicial; Cosan (P/L negativo, ROE -178%) deve ser evitada.
-- Liquidez: preços da base de 10/10/2026; reavaliar na abertura.
+- Político/econômico: a tese depende de ajuste fiscal crível. Se o
+  compromisso fraquejar, os juros longos voltam a subir e derrubam
+  bancos e, com mais força, incorporadoras. A eleição de domingo é um
+  evento binário e as pesquisas divergem.
+- Externo: Treasuries de 10 anos perto de 6% pressionam ações e
+  crédito global; Ray Dalio alerta para "bolha clássica" de IA e o
+  Citi não vê a queda de Wall Street como oportunidade de compra.
+  Um risk-off global reduz o fluxo para o Brasil.
+- BBDC4: alta da inadimplência, provisões maiores e crescimento de
+  crédito abaixo do esperado; concorrência de bancos digitais.
+- DIRR3: small cap de alta beta, cai mais em correções; risco de
+  execução, distratos e ciclo imobiliário. O DY alto pode não se
+  repetir. Usar stop disciplinado (sugestão: -15%).
+- PETR4: interferência estatal na política de preços, medidas de
+  combustíveis com custo previsto de R$ 40 bilhões e queda do
+  petróleo em caso de trégua no Oriente Médio.
+- Dados: os preços da planilha são de 19/10/2026 e podem ter mudado
+  até a execução da ordem; reavaliar na abertura.
 
-5. GATILHOS DE REAVALIAÇÃO / SAÍDA
+5. PLANO DE EXECUÇÃO
 ----------------------------------------------------------------
-- Alta: confirmação de ajuste fiscal e corte de juros -> manter/aumentar
-  DIRR3.
-- Baixa: NTN-B voltando a subir (juros longos em alta) -> reduzir
-  homebuilders primeiro.
-- Stop sugerido p/ satélite DIRR3: -15% do preço de entrada.
+- Como a eleição é em 25/10 e o "índice do medo" está em recorde,
+  não concentrar a compra na sexta-feira: entrar com 50% do valor
+  total agora e completar os outros 50% na segunda-feira, após o
+  resultado.
+- Se houver confirmação de compromisso fiscal e queda dos juros
+  longos: manter ou aumentar DIRR3.
+- Se a NTN-B voltar a subir com força (juros longos em alta): reduzir
+  primeiro o satélite DIRR3 e preservar o núcleo BBDC4.
+- Stop sugerido para DIRR3: -15% do preço de entrada. Para PETR4,
+  reavaliar se o Brent perder US$ 100.
+
+6. O QUE EVITAR NESTE MOMENTO
+----------------------------------------------------------------
+- MGLU3: P/L 97,40 e ROE 0,79%, apesar da alta de 74% em outubro;
+  é momentum, não fundamento.
+- CSAN3: P/L -2,19, P/VP 3,93 e ROE -178,97%; prejuízo e alavancagem.
+- BRKM5: P/L -0,58 e P/VP -0,26, com risco de Chapter 11 da Braskem
+  America Finance e negociação de US$ 11 bilhões em dívidas.
+- WEGE3 e EMBJ3: teses boas (data centers/IA e carteira recorde da
+  Embraer), mas múltiplos altos (P/L 32,21 e 29,14, respectivamente);
+  não são as melhores entradas para este cenário.
 
 ----------------------------------------------------------------
 AVISO: análise baseada exclusivamente nos arquivos INVEST.txt e
 b3_completo_fundamentos.xlsx. Não é recomendação formal de
-investimento; não considera perfil, patrimônio nem objetivos do
-investidor. Decisões de investimento são de responsabilidade do
-usuário.
+investimento; não considera perfil, patrimônio ou objetivos
+específicos do investidor. Decisões de investimento são de
+responsabilidade do usuário.
 ================================================================
