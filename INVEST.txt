@@ -2,7 +2,7 @@
 INVEST.TXT - RESUMO CONSOLIDADO DAS PRINCIPAIS NOTÍCIAS
 Fontes: Times Brasil (CNBC), CNN Brasil Money, Valor Econômico,
 InvestNews e Bloomberg Línea
-Data da coleta: 23/10/2026
+Data da coleta: 24/10/2026
 ================================================================
 
 ----------------------------------------------------------------

@@ -1,7 +1,7 @@
 ================================================================
 RECOMENDAÇÃO OBJETIVA DE COMPRA - hoje.txt
-Data da análise: 23/10/2026
-Fontes: INVEST.txt (notícias coletadas em 23/10/2026) e
+Data da análise: 24/10/2026
+Fontes: INVEST.txt (notícias coletadas em 24/10/2026) e
         b3_completo_fundamentos.xlsx (cotações de 19/10/2026,
         base B3/Yahoo Finance e Fundamentus)
 ================================================================
