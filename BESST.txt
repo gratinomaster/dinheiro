@@ -1,0 +1,41 @@
+BESST - MELHORES POR SETOR (HOJE)
+
+Data: 24/10/2026
+Base: b3_completo_fundamentos.xlsx (Cotacoes_Atuais_B3) - cotações ~26/10/2026
+Filtros: ações (stock/unit), P/L>0 e <30, P/VP>0 e <5, com fundamentos disponíveis
+
+1) BANCO
+   Melhor: SANB11 - BCO SANTANDER (BRASIL) S.A.
+   Preço: R$ 26,39 | P/L: 6,86 | P/VP: 1,08 | DY: 8,13% | ROE: 15,69%
+   Setor/Subsetor: Finance / Bancos
+
+2) ENERGIA
+   Melhor: CMIG4 - CIA ENERGETICA DE MINAS GERAIS - CEMIG
+   Preço: R$ 10,21 | P/L: 7,37 | P/VP: 1,16 | DY: 8,63% | ROE: 15,75%
+   Setor/Subsetor: Utilities / Energia Elétrica
+   Obs: PETR4 (P/L 5,77) também muito atrativo, mas classificada como Energy Minerals (Petróleo/Gás Integrado).
+
+3) SANEAMENTO
+   Melhor: SBSP3 - CIA SANEAMENTO BASICO EST SAO PAULO
+   Preço: R$ 24,90 | P/L: 14,12 | P/VP: 2,51 | DY: 2,10% | ROE: 17,80%
+   Setor/Subsetor: Utilities / Água e Saneamento
+   Obs: SANEPAR (SAPR4/SAPR11) tem fundamentos mais fracos (ROE baixo).
+
+4) SEGUROS
+   Melhor: BBSE3 - BB SEGURIDADE PARTICIPAÇÕES S.A.
+   Preço: R$ 41,36 | P/L: 8,89 | P/VP: 7,50 | DY: 11,06% | ROE: 84,38%
+   Setor/Subsetor: Finance / Seguradoras
+   Obs: PSSA3 também sólido (P/L 9,31, ROE 22,84%, DY 5,65%).
+
+5) TELECOMUNICAÇÕES
+   Melhor: VIVT3 - TELEFÔNICA BRASIL S.A.
+   Preço: R$ 31,90 | P/L: 15,54 | P/VP: 1,56 | DY: 8,01% | ROE: 10,05%
+   Setor/Subsetor: Communications / Telecomunicações
+   Obs: TIMS3 tem P/L muito distorcido (3297,68) - não comparável.
+
+Resumo consolidado:
+- Banco: SANB11 (melhor balanço valor/qualidade entre grandes bancos)
+- Energia: CMIG4 (distribuição/geração elétrica, defensiva+dividendos)
+- Saneamento: SBSP3 (líder em saneamento básico SP, maior ROE no grupo)
+- Seguros: BBSE3 (altíssimo ROE, bom dividend yield)
+- Telecomunicações: VIVT3 (defensiva, bons dividendos, fundamentos consistentes)
