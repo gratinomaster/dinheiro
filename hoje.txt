@@ -34,21 +34,21 @@ proximidade da eleição, porém, exige entrada escalonada e proteção.
 Perfil sugerido: moderado, horizonte de 6 a 12 meses.
 Estrutura núcleo + satélite:
 
-  NÚCLEO (60%)  -> BBDC4 (Bradesco)              R$ 20,15
-  SATÉLITE (25%) -> DIRR3 (Direcional Engenharia) R$ 10,70
-  OPCIONAL (15%) -> PETR4 (Petrobras)             R$ 58,44
+  NÚCLEO (60%)  -> BBDC4 (Bradesco)              R$ 16,22
+  SATÉLITE (25%) -> DIRR3 (Direcional Engenharia) R$  9,50
+  OPCIONAL (15%) -> PETR4 (Petrobras)             R$ 53,06
 
   Alternativa de menor volatilidade para o satélite: CMIG4
-  (Cemig) a R$ 11,63, caso o investidor não queira assumir o beta
+  (Cemig) a R$ 10,58, caso o investidor não queira assumir o beta
   de uma small cap antes do 2º turno.
 
-Números da planilha (fechamento de 19/10/2026):
+Números da planilha (fechamento de 27/10/2026):
 
   Ativo   Preço(R$)  P/L    P/VP   DY(%)   ROE(%)   Mkt Cap(R$)  Volume
-  BBDC4     20,15    9,21   1,30   7,50    14,13    225,2 bi     28,4 mi
-  DIRR3     10,70    6,39   2,35  14,76    36,78      5,55 bi    11,4 mi
-  PETR4     58,44    5,77   1,60   6,11    27,73    798,5 bi     26,1 mi
-  CMIG4     11,63    7,37   1,16   8,63    15,75     33,3 bi      6,4 mi
+  BBDC4     16,22    9,21   1,30   7,50    14,13    225,2 bi     28,4 mi
+  DIRR3      9,50    6,39   2,35  14,76    36,78      5,55 bi    11,4 mi
+  PETR4     53,06    5,77   1,60   6,11    27,73    798,5 bi     26,1 mi
+  CMIG4     10,58    7,37   1,16   8,63    15,75     33,3 bi      6,4 mi
 
 3. JUSTIFICATIVA
 ----------------------------------------------------------------
