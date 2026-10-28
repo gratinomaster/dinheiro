@@ -1,8 +1,8 @@
 ================================================================
 RECOMENDAÇÃO OBJETIVA DE COMPRA - hoje.txt
-Data da análise: 24/10/2026
-Fontes: INVEST.txt (notícias coletadas em 24/10/2026) e
-        b3_completo_fundamentos.xlsx (cotações de 19/10/2026,
+Data da análise: 28/10/2026
+Fontes: INVEST.txt (notícias coletadas em 28/10/2026) e
+        b3_completo_fundamentos.xlsx (cotações de 28/10/2026,
         base B3/Yahoo Finance e Fundamentus)
 ================================================================
 
@@ -42,7 +42,7 @@ Estrutura núcleo + satélite:
   (Cemig) a R$ 10,58, caso o investidor não queira assumir o beta
   de uma small cap antes do 2º turno.
 
-Números da planilha (fechamento de 27/10/2026):
+Números da planilha (fechamento de 28/10/2026):
 
   Ativo   Preço(R$)  P/L    P/VP   DY(%)   ROE(%)   Mkt Cap(R$)  Volume
   BBDC4     16,22    9,21   1,30   7,50    14,13    225,2 bi     28,4 mi
@@ -105,7 +105,7 @@ Números da planilha (fechamento de 27/10/2026):
 - PETR4: interferência estatal na política de preços, medidas de
   combustíveis com custo previsto de R$ 40 bilhões e queda do
   petróleo em caso de trégua no Oriente Médio.
-- Dados: os preços da planilha são de 19/10/2026 e podem ter mudado
+- Dados: os preços da planilha são de 28/10/2026 e podem ter mudado
   até a execução da ordem; reavaliar na abertura.
 
 5. PLANO DE EXECUÇÃO
