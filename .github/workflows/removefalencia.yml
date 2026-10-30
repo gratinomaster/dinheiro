@@ -1,0 +1,73 @@
+
+name: besst
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 10 * * 1'
+
+jobs:
+  opencode:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Aguardar 1 minuto
+        run: sleep 60
+
+      - name: Instalar OpenCode
+        run: |
+          curl -fsSL https://opencode.ai/install | bash
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Filtrar empresas da planilha
+        run: |
+          opencode run "
+          Localize o arquivo Excel (.xlsx) no diretório de trabalho.
+
+          Analise todas as empresas e identifique exclusivamente aquelas
+          que estejam em alguma das seguintes situações:
+
+          1. OPA (Oferta Pública de Aquisição) em andamento ou vigente.
+          2. Recuperação judicial.
+          3. Recuperação extrajudicial.
+          4. Falência decretada.
+
+          Consulte fontes oficiais e atualizadas, principalmente CVM,
+          B3 e documentos oficiais das companhias.
+
+          EXCLUA da planilha Excel todas as linhas referentes às empresas
+          que se enquadrem em pelo menos uma dessas situações.
+
+          REGRAS IMPORTANTES:
+
+          - Não exclua empresas apenas por rumores ou notícias sem confirmação.
+          - Não exclua OPAs encerradas, canceladas ou indeferidas.
+          - Não exclua empresas que já encerraram sua recuperação judicial,
+            salvo se houver falência decretada.
+          - Não altere os demais ativos.
+          - Preserve fórmulas, formatação, abas e estrutura da planilha.
+          - Se houver dúvida, mantenha o ativo na planilha.
+
+          Salve a planilha Excel atualizada, substituindo a original.
+
+          Gere também um arquivo EXCLUIDOS.txt com os tickers,
+          nomes das empresas e motivos das exclusões.
+
+          Não faça nenhuma análise de indicadores financeiros,
+          classificação por setores ou recomendação de investimentos.
+          "
+
+      - name: Commit alterações
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add -A
+          git commit -m "Remove empresas em OPA, recuperação ou falência" || echo "Nada para commit"
+          git push
