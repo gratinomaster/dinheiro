@@ -23,7 +23,7 @@ jobs:
 
       - name: Run OpenCode
         run: |
-          opencode run "LEIA INVEST.txt e a planilha do excel que está no meu pc e diga a melhor de cada uma hoje Melhor empresa do tipo banco, energia, saneamento, seguros e telecomunicações, salve em BESST.txt"
+          opencode run "Localize e carregue os arquivos INVEST.txt e o arquivo .xlsx no diretório de trabalho. Processe os dados fundamentalistas para classificar as ações por setor. Para cada categoria (Bancos, Energia, Saneamento, Seguros e Telecomunicações), determine o melhor ativo com base nas métricas presentes nos arquivos (ex: P/L, ROE, Dividend Yield e Margens). Gere um relatório comparativo resumido e salve o resultado no arquivo BEST.txt."
 
       - name: Commit arquivos
         run: |
