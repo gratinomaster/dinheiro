@@ -1,151 +1,156 @@
 RESUMO CONSOLIDADO DE INVESTIMENTOS E NEGÓCIOS
 Fontes: Times Brasil (CNBC), CNN Brasil Money, Valor Econômico, InvestNews e Bloomberg Línea
-Data da coleta: 30/10/2026
+Data da coleta: 11/11/2026
+Cotações: B3/Yahoo Finance, dados intradiários por volta de 13h55 (horário de Brasília)
 
 ====================================================================
-1. CENÁRIO POLÍTICO E FISCAL (PÓS-ELEIÇÃO)
+1. CENÁRIO POLÍTICO E FISCAL
 ====================================================================
-- Lula foi reeleito e o mercado cobra uma agenda fiscal crível. Analistas e casas
-  como Moody's, Oxford Economics e BTG apontam que o maior desafio do 4º mandato
-  será aprovar reformas em um Congresso mais à direita e conter a trajetória da
-  dívida pública. (CNN Money, Valor, Bloomberg Línea)
-- Sem rumo fiscal claro, o Copom (Banco Central) passa a ser visto como a única
-  âncora da economia, com juros altos por mais tempo. (Valor)
-- A disputa pela Fazenda segue indefinida: Rafael Fonteles é cotado, mas enfrenta
-  resistência dentro do PT. O nome da nova equipe econômica é apontado como
-  determinante para o rumo da bolsa e do câmbio. (Times Brasil, Valor, Bloomberg Línea)
-- Preocupações fiscais: IFI pede urgência no anúncio de um plano fiscal; estudos
-  citam dívida podendo chegar a 105% do PIB em 2030. (CNN Money, Bloomberg Línea)
-- No campo político, cresce a pressão por reforma do Judiciário/STF, e o silêncio
-  dos EUA (Marco Rubio) sobre o Brasil após a eleição é visto como atípico. Há
-  ainda tensão em torno da contestação de Flávio Bolsonaro e de sua viagem aos EUA.
-  (Valor, Bloomberg Línea)
+- O governo Lula prepara um pacote de ajuste fiscal de até R$ 60 bilhões,
+  segundo a Bloomberg Línea. O Times Brasil cita negociação que pode chegar
+  a R$ 80 bilhões, sinalizando esforço para reduzir a desconfiança do mercado.
+- O acordo em discussão com o Congresso prevê ajuste equivalente a 0,5% do
+  PIB em 2027 e meta de superávit primário de 1,75% em 2030. O PLP é de autoria
+  de Jaques Wagner e tem Eduardo Braga como relator. (CNN Money, Valor)
+- A agenda fiscal segue como principal gatilho para bolsa, câmbio e juros.
+  O mercado quer medidas estruturais e credibilidade na execução, não apenas
+  receitas extraordinárias ou postergação de despesas. (Bloomberg Línea)
+- A ata do Copom reforçou que a Selic foi mantida em 13,75% e afastou, por ora,
+  uma nova elevação. O colegiado projeta desaceleração da economia, mas mantém
+  cautela com a inflação desancorada e as expectativas acima da meta. (Valor)
+- No radar político, seguem as negociações com o Congresso, a definição da
+  agenda econômica e a pressão por corte de despesas. O quadro ainda exige
+  prêmio de risco nos ativos domésticos. (Valor, Bloomberg Línea)
 
 ====================================================================
-2. MERCADOS: BOLSA, DÓLAR E JUROS
+2. MERCADOS: BOLSA, DÓLAR, JUROS E COMMODITIES
 ====================================================================
-- O Ibovespa acumula forte correção após a eleição, com a pior semana pós-eleição
-  em 37 anos segundo o Times Brasil, queda acumulada citada em torno de 18%.
-  No pregão de 30/10, o índice recuava cerca de 1,1% (≈167 mil pontos). (Times Brasil, Valor, Bloomberg Línea)
-- Dólar sobe com a ansiedade sobre a nova equipe econômica (comercial perto de
-  R$ 5,38–5,41). Juros futuros avançam. (Valor, Bloomberg Línea)
-- Fundos de ações e multimercados caíram até 66% no dia seguinte à reeleição.
-  (Valor Investe)
-- Tesouro IPCA+ se aproxima de 8% e o prefixado passa de 15%; o Tesouro fez
-  intervenções e recomprou NTN-Bs para conter as taxas. (InvestNews)
-- No exterior, Nasdaq cai com realização em techs após balanços de Amazon e Intel;
-  ações ligadas à IA perdem força e o mercado revisa a euforia com IA.
-  (Times Brasil, CNN Money, Bloomberg Línea)
-- Fed mantém juros e sinaliza cautela; operadores abandonam apostas de corte e já
-  veem chance de alta até 2027. Banco do Japão mantém juros em 1,25% e eleva
-  projeção de inflação. (Bloomberg Línea, Valor)
+- O Ibovespa opera em alta de cerca de 0,66%, aos 172.461 pontos, recuperando
+  parte das perdas recentes com o maior apetite por risco no exterior e as
+  expectativas em torno do pacote fiscal. (Yahoo Finance/B3)
+- O dólar à vista recua cerca de 0,37%, para R$ 5,5597, com melhora global e
+  entrada de fluxo para mercados emergentes. (Yahoo Finance)
+- Em Nova York, o Nasdaq sobe 1,99%, aos 25.563 pontos, e o S&P 500 avança
+  1,32%, aos 7.620 pontos, impulsionados por tecnologia e IA. (Yahoo Finance)
+- O petróleo opera em alta no momento da coleta: Brent a US$ 93,88 (+2,61%)
+  e WTI a US$ 88,06 (+2,35%). O petróleo caro segue como risco inflacionário
+  global e como suporte para ações do setor. (Yahoo Finance)
+- Entre as maiores altas do dia na B3 estão MGLU3 (+14,11%), VIVT3 (+5,85%),
+  DIRR3 (+4,26%), CYRE3 (+4,25%) e SBSP3 (+2,95%). Entre as quedas, EGIE3
+  (-3,50%), SANB11 (-1,52%), PETR4 (-1,45%) e BBSE3 (-1,26%). (B3/Yahoo)
+- Os juros longos seguem elevados, ainda pressionados pela incerteza fiscal.
+  A melhora do câmbio e da bolsa não elimina o prêmio de risco embutido na
+  curva. (Valor, Bloomberg Línea)
 
 ====================================================================
 3. EMPRESAS E NEGÓCIOS
 ====================================================================
-- CSN assina acordo de exclusividade para vender a CSN Cimentos à chinesa Huaxin
-  por cerca de R$ 12,7 bilhões; a pressão da dívida do grupo continua. (Valor, InvestNews)
-- Vale: lucro líquido do 3º tri cai cerca de 53% (para ~US$ 1,25 bi), pressionado
-  por câmbio, Samarco e minério; o cobre ganha espaço na estratégia. (Valor, CNN, Bloomberg Línea, InvestNews)
-- Raízen avança em reestruturação; Shell terá direitos sobre a distribuidora, e a
-  empresa estuda vender participação no negócio de distribuição. (Bloomberg Línea)
-- Ambev e AB InBev: consumo de cerveja volta ao "normal"; volumes pressionados por
-  calendário da Copa e demanda fraca na China/EUA, mas receita e share resistem.
-  (InvestNews, Bloomberg Línea)
-- Irmãos Muffato se tornam maiores acionistas do Assaí, com participação de 15%.
-  (InvestNews, CNN Money)
-- Setor financeiro: Santander mantém planos no Brasil e mira rentabilidade de 20%;
-  retomada do Santander Brasil deve demorar com juro alto; Bradesco defende crédito
-  com garantia pública em qualquer governo. (Times Brasil, Bloomberg Línea)
-- Caso Banco Master/BRB segue sob investigação da PF, com depoimentos de Vorcaro e
-  do ex-presidente do BRB. (Valor)
-- Recuperações judiciais e extrajudiciais crescem em meio a juros altos e crises
-  acumuladas, atingindo grandes marcas. (CNN Money)
-- Outros destaques: BYD confirma marca Yangwang no Brasil em 2027; Atech (Embraer)
-  quer dobrar de tamanho até 2030 com drones; setor de celulose avança com
-  eucalipto transgênico; superjatinhos dobram no Brasil. (Valor, Bloomberg Línea, InvestNews)
+- Petrobras (PETR4): lucro do 3T26 cresce cerca de 21%, mas os dividendos de
+  R$ 15,3 bilhões ficam abaixo das expectativas e a ação recua 1,45%. A empresa
+  elevou a projeção de produção, o que reforça a tese operacional, mas o mercado
+  cobra maior previsibilidade na política de capital. (CNN Money, Valor)
+- Embraer (EMBJ3): lucro de R$ 379,8 milhões no 3T26, queda de 15,6%, com
+  receita recorde de R$ 12,07 bilhões (+11%). A companhia revisou para cima o
+  guidance de receita e caixa, mas a ação cai 2,37% com a pressão de custos e a
+  qualidade do resultado. (Times Brasil, Valor)
+- Braskem (BRKM5): duas propostas de reestruturação, de cerca de US$ 4 bilhões,
+  estão na mesa. Bondholders pedem aporte de US$ 1,5 bilhão da Petrobras, enquanto
+  bancos propõem US$ 1,4 bilhão. O prazo da recuperação extrajudicial é 23/11 e o
+  impasse entre Petrobras e IG4 mantém a incerteza. (Valor, Bloomberg Línea)
+- Vale (VALE3): lucro do 3T26 cai cerca de 53%, pressionado por câmbio, Samarco
+  e minério. A ação recua 0,73%; o desconto não compensa a queda de resultado no
+  curto prazo. (Valor, CNN Money)
+- JBS (JBSS3): lucro é afetado pelas cotas de importação da China. A companhia
+  anunciou a compra da Flora Higiene e do Canal Rural por cerca de R$ 3 bilhões,
+  ampliando a diversificação. (Valor, InvestNews)
+- Fleury (FLRY3) e Bradsaúde criam uma empresa de oncologia em meio à crise da
+  Oncoclínicas. O movimento busca ganhar escala em um segmento de margens altas
+  e demanda crescente. (Valor)
+- O setor financeiro segue no radar: Santander mantém planos de expansão no
+  Brasil, Bradesco defende crédito com garantia pública e o caso Banco Master/BRB
+  continua sob investigação. (Times Brasil, Valor, Bloomberg Línea)
+- Recuperações judiciais e extrajudiciais seguem crescendo com juros altos e
+  balanços pressionados, atingindo empresas de diferentes setores. (CNN Money)
 
 ====================================================================
 4. CRIPTOATIVOS
 ====================================================================
-- Maior roubo da história das criptomoedas: ataque hacker à Binance de US$ 6,3
-  bilhões. A exchange promete cobrir perdas e suspende saques (inclusive no Brasil);
-  empresas de segurança atribuem a ação a grupos ligados à Coreia do Norte.
-  (Times Brasil, CNN Money, Valor, InvestNews, Bloomberg Línea)
-- Fundador da Binance ameaça vender ações da SpaceX após provocação de Elon Musk
-  sobre o ataque. (Times Brasil)
-- Bitcoin opera em queda, na casa de US$ 77 mil. (Times Brasil, Bloomberg Línea)
-- Regulação: CMN proíbe derivativos ligados a eventos; debate sobre staking nos EUA
-  e novas regras do BC para criptoativos seguem no radar. (Times Brasil, CNN Money)
+- O Bitcoin opera a cerca de US$ 74,1 mil, em alta de 1,82% no dia, mas ainda
+  distante dos picos históricos. O mercado acompanha o apetite global por risco
+  e o fluxo para ativos digitais. (Yahoo Finance)
+- A regulação de criptoativos segue no radar, com debate sobre derivativos,
+  staking e novas regras para exchanges e custodiantes. (Times Brasil, Valor)
 
 ====================================================================
 5. INTERNACIONAL
 ====================================================================
-- Eleições de meio de mandato nos EUA testam a influência de Trump e podem afetar
-  política fiscal e nomeações; "vida cara" e corrupção dominam o debate.
-  (Times Brasil, Valor, InvestNews, Bloomberg Línea)
-- Petróleo segue como principal risco global: guerras inflacionam o Brent e o diesel.
-  Chevron, Exxon e BP superam expectativas (BP quadruplica lucro para US$ 8,5 bi).
-  Citi vê petróleo e juros elevados como os maiores riscos à América Latina em 2027.
-  (Times Brasil, Bloomberg Línea)
-- Banco Mundial prevê alta de 23% nas commodities em 2026, com alívio em 2027.
+- As bolsas americanas sobem com o rally de tecnologia e IA, apesar da alta do
+  petróleo. O Nasdaq lidera os ganhos e o S&P 500 também avança. (Yahoo Finance)
+- A Nvidia volta ao centro das atenções após reportagem sobre um suposto esquema
+  de espionagem envolvendo Jensen Huang. O caso adiciona ruído regulatório e
+  reputacional ao setor de semicondutores. (Times Brasil, Bloomberg Línea)
+- A alta do petróleo mantém a pressão inflacionária global. O Citi segue vendo
+  petróleo e juros elevados como os maiores riscos para a América Latina em 2027.
   (Bloomberg Línea)
-- Israel: apuração aponta impasse eleitoral. Venezuela sinaliza abrir ativos estatais
-  ao setor privado. Japão planeja drones aquáticos para monitorar submarinos.
-  (Valor)
-- América Latina recebe mais capital externo, mas vê queda em novos investimentos (ONU).
-  (Bloomberg Línea)
+- Estudo aponta que um El Niño extremo pode causar perdas de até US$ 4 trilhões
+  na economia global. A COP31, na Turquia, discute financiamento climático e
+  adaptação. (Bloomberg Línea, Valor)
+- A economia chinesa e as cotas de importação seguem afetando exportadores
+  brasileiros, especialmente frigoríficos e commodities. (Valor)
 
 ====================================================================
 6. TECNOLOGIA E INTELIGÊNCIA ARTIFICIAL
 ====================================================================
-- Google perdeu cerca de meio trilhão de dólares em um único dia; big techs vivem
-  má fase, o que dá fôlego à agenda de Lula para regular Meta e Google. (CNN Money, Valor)
-- Anthropic pede abertura de capital e pode ser a primeira grande empresa de IA na
-  bolsa, com potencial de multiplicar fortunas de fundos. (Bloomberg Línea, Times Brasil)
-- Nvidia rebate suspeitas de espionagem chinesa; Amazon e Intel decepcionam e
-  derrubam ações de tecnologia. (Times Brasil, Bloomberg Línea)
-- Na China, sinais de que a "bolha da IA" já estourou; Musk prevê consolidação no
-  setor de neocloud. (CNN Money)
-- JPMorgan alerta que o impacto da IA sobre empregos ainda pode surpreender;
-  Bill Gates defende empregos "reservados para humanos". (Times Brasil)
-- Casos corporativos: sucessão na Apple (John Ternus assume com foco em IA);
-  disputa Apple x OpenAI por hardware; Nubank escala Patrick Dempsey para campanha.
-  (Times Brasil)
+- O rally global de tecnologia e IA impulsiona Nasdaq e S&P 500. O mercado
+  volta a comprar ações de semicondutores e software após dias de correção.
+  (Yahoo Finance, Times Brasil)
+- A Nvidia nega irregularidades e tenta conter os efeitos da reportagem sobre
+  espionagem. O episódio reforça o escrutínio sobre a cadeia de chips e a
+  dependência de fornecedores asiáticos. (Bloomberg Línea)
+- A disputa por infraestrutura de IA, data centers e energia continua elevando
+  o capex das big techs e pressionando a demanda por eletricidade. (Valor)
+- No Brasil, a agenda de regulação de plataformas e o debate sobre uso de IA no
+  setor público seguem em discussão. (CNN Money, Valor)
 
 ====================================================================
 7. AGRO E COMMODITIES
 ====================================================================
-- Chuvas do El Niño ameaçam o início da próxima safra de açúcar no Brasil.
-  (Bloomberg Línea)
-- Vitória de Lula frustra lobby do agro por mais poder; Argentina pode ganhar
-  mercado de farelo na Europa às custas do Brasil. (Bloomberg Línea, CNN Money)
-- Crise do suco de laranja: Brasil produz para um mundo que bebe cada vez menos.
-  (InvestNews)
-- Bayer vence julgamento sobre glifosato nos EUA. (Valor/Globo Rural)
-- Brasil amplia liderança em petróleo e gás na América Latina com o pré-sal, e a
-  Petrobras registra produção recorde. (Bloomberg Línea)
+- O El Niño extremo é apontado como risco de até US$ 4 trilhões para a economia
+  global, com impacto em safras, energia e alimentos. (Bloomberg Línea)
+- A alta do petróleo favorece receitas de exportadores, mas encarece insumos e
+  frete. O Brent acima de US$ 93 mantém o risco inflacionário. (Yahoo Finance)
+- As cotas chinesas para carne seguem pressionando o resultado da JBS e de
+  outros frigoríficos, enquanto o setor busca novos mercados. (Valor)
+- O Brasil mantém protagonismo em petróleo e gás com o pré-sal, e a Petrobras
+  elevou a projeção de produção no 3T26. (Bloomberg Línea, Valor)
 
 ====================================================================
 8. INDICADORES E DADOS LOCAIS
 ====================================================================
-- Desemprego cai a 5,2% no 3º trimestre, menor taxa para o período desde 2012;
-  população ocupada chega a 103,6 milhões. (Times Brasil, CNN Money, Valor)
-- Endividamento das famílias renova recorde e pressiona a inadimplência. (Valor)
-- Brasil poderá ter o maior IVA do mundo a partir de 2027; alta de carga tributária
-  preocupa. (Valor)
-- SP faz ofensiva contra fraude fiscal no mercado financeiro ("Operação Carbono
-  Oculto") e bloqueia R$ 10,8 bilhões. (Valor)
-- Banco Central decreta liquidação da MW Pay, ligada a bets, por violações graves.
-  (Times Brasil)
+- A produção industrial ficou negativa em 9 dos 15 locais pesquisados pelo IBGE,
+  sinal de atividade fraca e disseminação da desaceleração. (IBGE/Valor)
+- O setor de serviços recuou 0,1% em setembro, abaixo do esperado, reforçando a
+  leitura de perda de ritmo da economia no 3º trimestre. (IBGE/Valor)
+- A reforma tributária segue no centro do debate: a Receita defende início
+  imediato das novas regras, enquanto o governo propõe prazo adicional de 30 dias.
+  O foco está na CBS e na transição para o novo modelo. (Valor, CNN Money)
+- O mercado monitora a trajetória da dívida pública, o endividamento das famílias
+  e a inadimplência, que seguem como vulnerabilidades domésticas. (Valor)
+- A Selic em 13,75% e a inflação acima da meta mantêm o custo de capital elevado
+  e favorecem empresas com caixa, dividendos e receita previsível. (Copom/Valor)
 
 ====================================================================
 SÍNTESE
 ====================================================================
-O tom dominante é de aversão a risco: a reeleição de Lula trouxe correção forte na
-bolsa, alta do dólar e juros, com o mercado à espera de um plano fiscal crível e da
-nova equipe econômica. No exterior, a queda das big techs e a fraqueza das ações de
-IA, somadas ao petróleo caro, aumentam a volatilidade. Entre os fatos corporativos
-de maior impacto estão a venda da CSN Cimentos, o tombo do lucro da Vale, a
-reestruturação da Raízen e o megahack da Binance (US$ 6,3 bi). No radar de risco,
-seguem a dívida pública, o endividamento das famílias e a reforma tributária.
+O tom é de melhora parcial do apetite por risco: Ibovespa e dólar devolvem parte
+das perdas recentes, enquanto o exterior ajuda com o rally de tecnologia e IA.
+O gatilho doméstico é o pacote fiscal em negociação, que pode chegar a R$ 60-80
+bilhões e prevê ajuste de 0,5% do PIB em 2027. Ainda assim, a Selic em 13,75%,
+a inflação desancorada e a incerteza fiscal mantêm o prêmio de risco elevado.
+Nos resultados do 3T26, Petrobras tem lucro maior, mas dividendos abaixo do
+esperado; Embraer revisa guidance, porém lucra menos; Braskem segue em impasse
+na reestruturação; Vale sofre com a queda do lucro; e JBS é afetada pela China.
+No radar global, petróleo acima de US$ 93, El Niño extremo, COP31 e o escrutínio
+sobre a Nvidia. A preferência segue por empresas líquidas, com bons dividendos,
+caixa e receita previsível, evitando alavancagem e ativos dependentes de juros
+longos mais baixos.

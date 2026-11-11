@@ -1,148 +1,155 @@
 ================================================================
 RECOMENDAÇÃO OBJETIVA DE COMPRA — hoje.txt
-Data da análise: 30/10/2026
-Fontes: INVEST.txt (notícias coletadas em 30/10/2026) e
-        b3_completo_fundamentos.xlsx (cotações de fechamento de
-        26/10/2026; fundamentos do Fundamentus de 19/10/2026)
-Observação: os preços da planilha são anteriores à correção mais
-forte relatada em 30/10/2026. Revalidar a cotação antes de executar.
+Data da análise: 11/11/2026
+Fontes: INVEST.txt (notícias coletadas em 11/11/2026) e
+        b3_completo_fundamentos.xlsx (cotações intradiárias de
+        11/11/2026; fundamentos do Fundamentus de 19/10/2026)
+Observação: os preços são intradiários e podem mudar até o fechamento.
+Revalidar a cotação, o volume e as notícias antes de executar.
 ================================================================
 
 RESUMO DA RECOMENDAÇÃO
 ----------------------------------------------------------------
-Comprar, de forma escalonada e seletiva:
-  NÚCLEO (45%)  -> BBSE3 (BB Seguridade)          R$ 41,36
-  SATÉLITE (30%)-> PETR4 (Petrobras)              R$ 52,49
-  DEFENSIVO (25%)-> CMIG4 (Cemig)                 R$ 10,21
+Manter compra escalonada e seletiva:
+  NÚCLEO (45%)  -> BBSE3 (BB Seguridade)          R$ 39,27
+  SATÉLITE (30%)-> PETR4 (Petrobras)              R$ 44,30
+  DEFENSIVO (25%)-> CMIG4 (Cemig)                 R$ 10,72
 
-Se o investidor quiser uma única ação, a escolha principal é BBSE3.
-Alternativa de núcleo bancário: BBDC4 (R$ 15,59), para quem prefere
-menor P/VP e maior liquidez, aceitando o risco de crédito.
-Evitar incorporadoras e small caps domésticas até haver plano fiscal
-crível: a tese anterior em DIRR3 perdeu validade com a alta dos juros
-longos.
+Se o investidor quiser uma única ação, a escolha principal segue
+sendo BBSE3. Alternativa de núcleo bancário: BBDC4 (R$ 14,55),
+para quem prefere menor P/VP e maior liquidez, aceitando o risco
+de crédito. Evitar incorporadoras e small caps domésticas até
+haver aprovação e execução crível do pacote fiscal: a tese em
+DIRR3 continua dependente de queda dos juros longos.
 
-1. LEITURA DO CENÁRIO PÓS-ELEIÇÃO
+1. LEITURA DO CENÁRIO ATUAL
 ----------------------------------------------------------------
-- Política/fiscal: Lula foi reeleito e o mercado cobra uma agenda
-  fiscal crível. Moody's, Oxford Economics e BTG apontam reformas
-  difíceis em um Congresso mais à direita e risco de dívida perto de
-  105% do PIB em 2030. Sem rumo fiscal, o Copom vira a única âncora e
-  os juros devem ficar altos por mais tempo. A definição da equipe
-  econômica é o principal gatilho para bolsa e câmbio.
-- Mercado: o Ibovespa teve a pior semana pós-eleição em 37 anos, com
-  queda acumulada citada em torno de 18%, e operava perto de 167 mil
-  pontos em 30/10. O dólar comercial ronda R$ 5,38–5,41 e os juros
-  futuros seguem em alta.
-- Renda fixa: o Tesouro IPCA+ se aproxima de 8% e o prefixado passa de
-  15%; o Tesouro chegou a recomprar NTN-Bs para conter as taxas.
-- Exterior: o Fed mantém juros e sinaliza cautela, com operadores já
-  vendo chance de alta até 2027. Nasdaq e ações de IA corrigem após
-  balanços fracos. O petróleo segue caro e o Citi aponta petróleo e
-  juros elevados como os maiores riscos para a América Latina em 2027.
-- Local: o desemprego caiu a 5,2%, mas o endividamento das famílias
-  renova recorde e pressiona a inadimplência. A reforma tributária
-  deve elevar a carga a partir de 2027.
+- Política/fiscal: o governo prepara um pacote de ajuste de até
+  R$ 60 bilhões, com negociação citada em até R$ 80 bilhões. O
+  acordo com o Congresso prevê ajuste de 0,5% do PIB em 2027 e
+  meta de superávit de 1,75% em 2030. O anúncio melhorou o
+  apetite por risco, mas a aprovação e a execução ainda são
+  incertas. (Bloomberg Línea, Times Brasil, CNN Money, Valor)
+- Copom: a Selic foi mantida em 13,75% e a ata afastou, por ora,
+  nova elevação. O colegiado projeta desaceleração da economia,
+  mas mantém cautela com a inflação desancorada. Juro alto por
+  mais tempo favorece caixa, dividendos e receita previsível.
+  (Valor)
+- Mercado: o Ibovespa sobe cerca de 0,66%, aos 172.461 pontos, e
+  o dólar recua para R$ 5,5597 (-0,37%). O exterior ajuda, com
+  Nasdaq +1,99% e S&P 500 +1,32%. O petróleo, porém, sobe: Brent
+  a US$ 93,88 (+2,61%) e WTI a US$ 88,06 (+2,35%). (Yahoo/B3)
+- Renda fixa: com Selic em 13,75% e inflação acima da meta, o
+  custo de capital segue elevado. A melhora do câmbio e da bolsa
+  não elimina o prêmio de risco fiscal. (Valor, Copom)
+- Local: a produção industrial ficou negativa em 9 dos 15 locais
+  pesquisados pelo IBGE e os serviços recuaram 0,1% em setembro.
+  A atividade perde ritmo, o que ajuda a ancorar juros, mas
+  pressiona lucros domésticos. (IBGE/Valor)
 
-Leitura: o ambiente é de aversão a risco, juros longos altos e dólar
-forte. Isso favorece empresas com caixa, dividendos, receita previsível
-e proteção cambial/commodities. Prejudica incorporadoras, varejo
-alavancado e small caps dependentes de crédito barato.
+Leitura: o ambiente melhorou no curto prazo, mas ainda é de juro
+alto, crescimento fraco e incerteza fiscal. Isso favorece empresas
+com caixa, dividendos, receita previsível e proteção cambial ou de
+commodities. Prejudica incorporadoras, varejo alavancado e small
+caps dependentes de crédito barato.
 
 2. RECOMENDAÇÃO OBJETIVA
 ----------------------------------------------------------------
-Perfil sugerido: moderado, horizonte de 6 a 12 meses, entrada em até
-três tranches. Não concentrar a compra em um único pregão.
+Perfil sugerido: moderado, horizonte de 6 a 12 meses, entrada em
+até três tranches. Não concentrar a compra em um único pregão.
 
   Ativo   Peso   Preço(R$)   P/L    P/VP   DY(%)   ROE(%)   Mkt Cap(R$)   Volume
-  BBSE3   45%      41,36     8,89   7,50   11,06    84,38     80,7 bi      2,39 mi
-  PETR4   30%      52,49     5,77   1,60    6,11    27,73    798,5 bi     26,1 mi
-  CMIG4   25%      10,21     7,37   1,16    8,63    15,75     33,3 bi      6,4 mi
+  BBSE3   45%      39,27     8,44   7,12   11,65    84,38     76,6 bi      1,74 mi
+  PETR4   30%      44,30     4,87   1,35    7,24    27,73    673,9 bi     38,05 mi
+  CMIG4   25%      10,72     7,74   1,22    8,22    15,75     34,9 bi      4,23 mi
 
-  Alternativa de núcleo: BBDC4 a R$ 15,59 (P/L 9,21; P/VP 1,30;
-  DY 7,50%; ROE 14,13%; volume 28,4 mi). Alternativa bancária com
-  desconto patrimonial: SANB11 a R$ 26,39 (P/L 6,86; P/VP 1,08;
-  DY 8,13%; ROE 15,69%), mas com liquidez menor e retomada mais lenta
-  em ambiente de juro alto.
+  Alternativa de núcleo: BBDC4 a R$ 14,55 (P/L 8,60; P/VP 1,21;
+  DY 8,04%; ROE 14,13%; volume 16,88 mi). Alternativa bancária com
+  desconto patrimonial: SANB11 a R$ 27,27 (P/L 7,09; P/VP 1,12;
+  DY 7,87%; ROE 15,69%), mas com liquidez menor e retomada mais
+  lenta em ambiente de juro alto.
 
 3. JUSTIFICATIVA
 ----------------------------------------------------------------
 - BBSE3 (núcleo / renda):
-  * Com Selic alta por mais tempo, o resultado financeiro do float de
-    seguros tende a se beneficiar. O negócio é menos exposto ao ciclo
-    de crédito do que um banco comercial.
-  * Números: P/L 8,89, DY 11,06%, ROE 84,38% e LPA de R$ 4,67. É a
-    combinação mais forte da planilha entre dividendo alto, ROE muito
-    alto e múltiplo ainda razoável.
-  * Tese: funciona como núcleo de renda e defensividade em um cenário
-    de juro alto e incerteza fiscal. O P/VP de 7,50 mostra que a
-    qualidade já está precificada; por isso o peso é de núcleo, não de
-    aposta de grande upside.
+  * Com Selic alta por mais tempo, o resultado financeiro do float
+    de seguros tende a se beneficiar. O negócio é menos exposto ao
+    ciclo de crédito do que um banco comercial.
+  * Números: P/L 8,44, DY 11,65%, ROE 84,38% e LPA de R$ 4,65. É
+    a combinação mais forte da planilha entre dividendo alto, ROE
+    muito alto e múltiplo ainda razoável.
+  * Tese: funciona como núcleo de renda e defensividade em um
+    cenário de juro alto e incerteza fiscal. O P/VP de 7,12 mostra
+    que a qualidade já está precificada; por isso o peso é de
+    núcleo, não de aposta de grande upside.
 
 - PETR4 (satélite / hedge):
-  * Notícia: a Petrobras registra produção recorde e o Brasil amplia
-    a liderança em petróleo e gás na América Latina com o pré-sal. O
-    Brent segue caro, com risco geopolítico e commodities fortes.
-  * Números: P/L 5,77, P/VP 1,60, DY 6,11% e ROE 27,73%, com liquidez
-    de 26,1 milhões. É a ação mais líquida e mais barata por lucro
-    entre as três escolhidas.
+  * Notícia: a Petrobras teve lucro 21% maior no 3T26 e elevou a
+    projeção de produção, mas os dividendos de R$ 15,3 bilhões
+    ficaram abaixo das expectativas. O Brent acima de US$ 93
+    sustenta a receita e o hedge cambial. (CNN Money, Valor)
+  * Números: P/L 4,87, P/VP 1,35, DY 7,24% e ROE 27,73%, com
+    liquidez de 38,05 milhões. É a ação mais líquida e mais barata
+    por lucro entre as três escolhidas.
   * Tese: proteção natural contra dólar alto, inflação e choque de
-    petróleo. O peso fica limitado a 30% por causa do risco político e
-    de interferência na política de preços.
+    petróleo. O peso fica limitado a 30% por causa do risco político,
+    da interferência na política de preços e da menor previsibilidade
+    de dividendos.
 
 - CMIG4 (defensivo / dividendos):
-  * Números: P/L 7,37, P/VP 1,16, DY 8,63% e ROE 15,75%, com volume
-    de 6,4 milhões. É uma utility regulada, com receita mais previsível
-    e beta menor do que incorporadoras e varejo.
-  * Tese: em um mercado com queda de 18%, empresas de energia elétrica
+  * Números: P/L 7,74, P/VP 1,22, DY 8,22% e ROE 15,75%, com volume
+    de 4,23 milhões. É uma utility regulada, com receita mais
+    previsível e beta menor do que incorporadoras e varejo.
+  * Tese: em um mercado ainda volátil, empresas de energia elétrica
     com bom dividendo servem de amortecedor. O risco é a pressão dos
     juros longos sobre o valor presente dos fluxos e a interferência
     do controlador estatal.
 
 - Por que não manter DIRR3 como satélite:
-  * A tese anterior dependia da queda dos juros longos. O cenário
-    mudou: IPCA+ perto de 8% e prefixado acima de 15% encarecem o
-    crédito imobiliário e elevam a taxa de desconto das incorporadoras.
-  * DIRR3 tem P/VP de 2,35 e DY de 14,76% que vem de um único
-    dividendo de R$ 1,55 em dezembro/2025, não de proventos recorrentes.
-    É uma small cap de alta beta, justamente o perfil que mais sofre
-    em risk-off. Reavaliar apenas se houver plano fiscal crível e queda
+  * A tese anterior dependia da queda dos juros longos. O pacote
+    fiscal em negociação melhorou o humor, mas a Selic segue em
+    13,75% e a aprovação não está garantida.
+  * DIRR3 tem P/VP de 2,54 e DY de 13,66% que ainda depende de
+    provento extraordinário, não de dividendos recorrentes. É uma
+    small cap de alta beta, justamente o perfil que mais sofre em
+    risk-off. Reavaliar apenas se houver aprovação do pacote e queda
     consistente dos juros longos.
 
 4. RISCOS
 ----------------------------------------------------------------
-- Fiscal/político: sem plano fiscal crível e sem nome forte na Fazenda,
-  os juros longos podem subir mais e o dólar pode romper R$ 5,50. Nesse
-  cenário, BBSE3 e CMIG4 sofrem com a marcação a mercado e PETR4 pode
-  cair junto, apesar do hedge cambial.
-- BBSE3: P/VP de 7,50 exige entrega de lucro; corte ou normalização do
-  payout derruba a ação. Há dependência do Banco do Brasil e risco de
-  interferência política na controladora. Liquidez menor que a dos
-  grandes bancos.
+- Fiscal/político: se o pacote vier abaixo do esperado, atrasar ou
+  perder credibilidade, os juros longos podem subir mais e o dólar
+  pode voltar a R$ 5,60-5,70. Nesse cenário, BBSE3 e CMIG4 sofrem
+  com a marcação a mercado e PETR4 pode cair junto, apesar do hedge.
+- BBSE3: P/VP de 7,12 exige entrega de lucro; corte ou normalização
+  do payout derruba a ação. Há dependência do Banco do Brasil e
+  risco de interferência política na controladora. Liquidez menor
+  que a dos grandes bancos.
 - PETR4: risco de interferência do governo na política de preços,
-  mudanças em capex e dividendos e queda do petróleo em caso de trégua
-  no Oriente Médio ou desaceleração global. O Citi vê petróleo e juros
-  altos como riscos centrais para a região em 2027.
+  mudanças em capex e dividendos e queda do petróleo em caso de
+  trégua no Oriente Médio ou desaceleração global. Os dividendos
+  abaixo do esperado no 3T26 mostram essa sensibilidade.
 - CMIG4: juros longos altos comprimem o múltiplo; risco regulatório,
-  hidrológico e de decisões do controlador estatal. O DY alto pode não
-  se repetir.
-- Externo: Fed sem cortes, correção das big techs e das ações de IA e
-  eventual risk-off global reduzem o fluxo para o Brasil.
-- Dados: as cotações da planilha são de 26/10/2026 e podem estar
-  defasadas frente à correção de 30/10/2026. Reavaliar preço, volume e
-  notícias na abertura antes de enviar a ordem.
+  hidrológico e de decisões do controlador estatal. O DY alto pode
+  não se repetir.
+- Externo: petróleo acima de US$ 93, escrutínio sobre a Nvidia,
+  correção das ações de IA e eventual risk-off global reduzem o
+  fluxo para o Brasil.
+- Dados: as cotações são intradiárias de 11/11/2026 e os fundamentos
+  são de 19/10/2026. Resultados do 3T26 podem alterar P/L, P/VP e
+  DY. Reavaliar preço, volume e notícias antes de enviar a ordem.
 
 5. PLANO DE EXECUÇÃO
 ----------------------------------------------------------------
-- Entrar em três tranches: 40% agora, 30% após o anúncio da equipe
-  econômica e 30% após os primeiros sinais sobre o plano fiscal. Se o
-  investidor preferir simplicidade, dividir em duas metades: metade
-  agora e metade depois da definição da Fazenda.
-- Se houver plano fiscal crível e os juros longos caírem: aumentar
-  CMIG4 e, só então, reavaliar incorporadoras (DIRR3/CYRE3).
-- Se os juros longos continuarem subindo e o dólar passar de R$ 5,50:
+- Entrar em três tranches: 40% agora, 30% após a aprovação do
+  pacote fiscal e 30% após os primeiros sinais de execução e
+  arrecadação. Se o investidor preferir simplicidade, dividir em
+  duas metades: metade agora e metade após a votação.
+- Se houver aprovação de um pacote crível e os juros longos caírem:
+  aumentar CMIG4 e, só então, reavaliar incorporadoras (DIRR3/CYRE3).
+- Se o pacote atrasar ou os juros longos continuarem subindo:
   reduzir CMIG4 primeiro, manter BBSE3 e PETR4 e elevar caixa.
-- Para PETR4, reavaliar a tese se o Brent perder US$ 100 ou se houver
+- Para PETR4, reavaliar a tese se o Brent perder US$ 85 ou se houver
   mudança abrupta na política de preços. Para BBSE3, reavaliar se o
   payout cair de forma estrutural. Para CMIG4, reavaliar em caso de
   decisão regulatória adversa.
@@ -151,30 +158,32 @@ três tranches. Não concentrar a compra em um único pregão.
 6. O QUE EVITAR NESTE MOMENTO
 ----------------------------------------------------------------
 - DIRR3, CYRE3 e MRVE3: incorporadoras dependem de juros longos mais
-  baixos; o cenário atual é o oposto. DIRR3 ainda tem P/VP 2,35 e DY
-  não recorrente.
-- MGLU3: P/L 97,40 e ROE 0,79%, apesar do rali; é momentum, não
-  fundamento.
-- CSAN3: P/L -2,19, P/VP 3,93 e ROE -178,97%; prejuízo e alavancagem.
-- BRKM5: P/L -0,58 e P/VP -0,26, com patrimônio negativo e balanço
+  baixos; o cenário atual ainda é de Selic em 13,75%. DIRR3 tem P/VP
+  2,54 e DY não recorrente; CYRE3 tem P/VP 0,77 e P/L 4,23, mas o
+  setor segue sensível ao crédito.
+- MGLU3: P/L 130,1 e ROE 0,79%, apesar do rali de 14,11% no dia; é
+  momentum, não fundamento.
+- CSAN3: P/L -2,28, P/VP 4,09 e ROE -178,97%; prejuízo e alavancagem.
+- BRKM5: P/L -0,51 e P/VP -0,23, com patrimônio negativo e balanço
   frágil; não é caso de compra para perfil moderado.
-- VALE3: lucro do 3º tri caiu cerca de 53%, P/L 28,35 e ROE 5,27%;
+- VALE3: lucro do 3º tri caiu cerca de 53%, P/L 28,18 e ROE 5,27%;
   o desconto não compensa a queda de resultado e a pressão de câmbio,
   Samarco e minério.
-- CSNA3: P/L -2,91 e ROE -21,59%, com dívida elevada e venda de ativos.
-- WEGE3 e EMBJ3: boas empresas, mas P/L 32,21 e 29,14; múltiplos altos
+- CSNA3: P/L -2,54 e ROE -21,59%, com dívida elevada e venda de ativos.
+- WEGE3 e EMBJ3: boas empresas, mas P/L 36,80 e 35,66; múltiplos altos
   para um ambiente de aversão a risco.
-- RAIZ4: P/L -0,14 e P/VP -0,34, em reestruturação; não é caso de
+- RAIZ4: P/L -0,11 e P/VP -0,26, em reestruturação; não é caso de
   compra para perfil moderado.
 
-7. MUDANÇA EM RELAÇÃO À LEITURA PRÉ-ELEIÇÃO
+7. MUDANÇA EM RELAÇÃO À ÚLTIMA VERSÃO
 ----------------------------------------------------------------
-A versão anterior de hoje.txt apostava em BBDC4 + DIRR3 + PETR4, com a
-tese de queda dos juros longos após a eleição. O resultado eleitoral
-trouxe o oposto: bolsa em forte queda, dólar e juros futuros em alta e
-fiscal ainda indefinido. Por isso, a carteira foi girada para BBSE3
-(renda e defensividade), PETR4 (hedge) e CMIG4 (utility com dividendos),
-com redução de beta e de exposição ao ciclo imobiliário.
+A carteira BBSE3 + PETR4 + CMIG4 foi mantida. A principal mudança é o
+cenário: o pacote fiscal em negociação melhorou o apetite por risco,
+o dólar recuou para perto de R$ 5,56 e a bolsa recuperou parte das
+perdas. Ainda assim, a Selic segue em 13,75%, a inflação está
+desancorada e a execução fiscal é incerta. Por isso, não aumentamos
+beta nem voltamos para incorporadoras; seguimos seletivos e com
+entrada escalonada.
 
 ----------------------------------------------------------------
 AVISO: análise baseada exclusivamente nos arquivos INVEST.txt e
