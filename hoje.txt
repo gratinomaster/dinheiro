@@ -1,12 +1,13 @@
 ================================================================
 RECOMENDAÇÃO OBJETIVA DE COMPRA — hoje.txt
-Data da análise: 13/11/2026
-Fontes: INVEST.txt (notícias consolidadas em 13/11/2026) e
-        b3_completo_fundamentos.xlsx (cotações de 26/10/2026;
-        fundamentos do Fundamentus de 19/10/2026)
-Nota sobre os dados: os preços da planilha têm cerca de 2,5
-semanas e podem estar defasados em relação ao mercado de hoje.
-Revalidar cotação, volume e notícias antes de executar a ordem.
+Data da análise: 14/11/2026 (sábado)
+Fontes: INVEST.txt (notícias consolidadas em 14/11/2026) e
+        b3_completo_fundamentos.xlsx (cotações de fechamento de
+        13/11/2026; fundamentos do Fundamentus de 19/10/2026)
+Nota sobre os dados: 14/11/2026 é sábado e a B3 está fechada. Os
+preços são os fechamentos de 13/11/2026. Revalidar cotação,
+volume e notícias na segunda-feira (16/11/2026), antes de enviar
+a ordem.
 ================================================================
 
 RESUMO DA RECOMENDAÇÃO
@@ -14,79 +15,101 @@ RESUMO DA RECOMENDAÇÃO
 Carteira sugerida (perfil moderado, horizonte de 6 a 12 meses,
 entrada em até três tranches):
 
-  CMIG4  35%   R$ 10,21   defensivo / energia elétrica
-  BBSE3  30%   R$ 41,36   núcleo de renda / seguros
-  SANB11 20%   R$ 26,39   banco / valor
-  PETR4  15%   R$ 52,49   satélite / hedge de petróleo
+  CMIG4  35%   R$ 11,03   defensivo / energia elétrica
+  BBSE3  30%   R$ 37,33   núcleo de renda / seguros
+  BBDC4  20%   R$ 14,52   banco / valor e liquidez
+  PETR4  15%   R$ 45,30   satélite / hedge de petróleo
 
-Se for comprar uma única ação, a escolha principal é CMIG4. É a
-combinação mais equilibrada da planilha entre múltiplo baixo,
-dividendo alto, receita regulada e exposição positiva a uma queda
-dos juros longos. Para quem prioriza renda imediata, BBSE3 é a
-alternativa, mas o P/VP de 7,50 e o payout de 97% aumentam o risco
-de corte ou normalização dos proventos.
+  Métricas ponderadas aproximadas: P/L 6,8; DY 9,8%; payout 68,6%.
+  O P/VP ponderado (cerca de 2,9) é distorcido pelo P/VP 6,77 da
+  BBSE3 e não deve ser lido como "barato" para a carteira inteira.
+
+Se for comprar uma única ação, a escolha principal continua sendo
+CMIG4. É a combinação mais equilibrada da planilha entre múltiplo
+baixo (P/L 6,99), dividendo alto (DY 9,26%), receita regulada e
+exposição positiva a uma queda dos juros longos. Para quem
+prioriza renda imediata, BBSE3 é a alternativa (DY 12,14%), mas o
+P/VP de 6,77 e o payout de 97,0% aumentam o risco de corte ou
+normalização dos proventos.
 
 Evitar neste momento: BBAS3 (corte de lucro e dividendos por
 inadimplência no agro), incorporadoras (DIRR3/CYRE3/MRVE3),
 MGLU3, CSAN3, BRKM5, CSNA3, VALE3, RAIZ4 e POMO4 (DY alto, mas
-payout acima de 100% e sem notícia que sustente a tese).
+payout acima de 100% e sem notícia que sustente a tese). SANB11
+sai da carteira por causa da OPA; não é caso de nova compra.
 
   Ativo     Peso   Preço(R$)     P/L    P/VP    DY(%)    ROE(%)    Payout    Vol(mi)   Mkt Cap
-  CMIG4      35%       10,21    7,37    1,16     8,63     15,75     64,7%       6,39   33,3 bi
-  BBSE3      30%       41,36    8,89    7,50    11,06     84,38     97,0%       2,39   80,7 bi
-  SANB11     20%       26,39    6,86    1,08     8,13     15,69     57,0%       1,30       n/d
-  PETR4      15%       52,49    5,77    1,60     6,11     27,73     35,7%      26,12  798,5 bi
+  CMIG4      35%       11,03    6,99    1,25     9,26     15,75     64,7%      26,05   31,6 bi
+  BBSE3      30%       37,33    7,99    6,77    12,14     84,38     97,0%       8,77   72,5 bi
+  BBDC4      20%       14,52    6,64    1,21     8,67     14,13     57,5%      32,39  162,1 bi
+  PETR4      15%       45,30    4,47    1,38     7,99     27,73     35,7%      23,44  619,0 bi
 
   Payout = Proventos 12m / LPA. Valores acima de 100% indicam
   distribuição não coberta pelo lucro do período.
 
 1. LEITURA DO CENÁRIO ATUAL
 ----------------------------------------------------------------
-- Fiscal: o Senado aprovou por 45 votos a 31 o pacote fiscal com
-  economia prevista de até R$ 60 bilhões. O governo prepara medidas
-  adicionais para elevar o ajuste a R$ 80 bilhões. A leitura
-  predominante, porém, é de "vitória frágil e provisória": o texto
-  é considerado insuficiente por parte do mercado e ainda depende
-  de execução. (Valor, Bloomberg Línea, CNN Money)
-- Juros e inflação: o Copom não sinaliza corte no curto prazo. A
-  ata projeta desaceleração da economia, mas o IPCA de outubro
-  ficou em 4,63% em 12 meses, acima do teto da meta. Galípolo
-  alerta que a queda da Selic não garante queda dos juros longos.
-  (Bloomberg Línea, Valor)
+- Fiscal: o Senado aprovou na noite de 12/11, por 45 votos a 31,
+  o texto-base do pacote fiscal, com economia prevista de até
+  R$ 60 bilhões (o JOTA estima até R$ 56 bilhões em 2027). Quatro
+  pontos ainda serão votados, e o governo prepara uma segunda
+  rodada com PEC de cerca de R$ 20 bilhões para elevar o ajuste a
+  até R$ 80 bilhões. A leitura predominante, porém, é de "vitória
+  frágil e provisória": o texto é considerado tímido e ainda
+  depende de execução. (Valor, Bloomberg Línea, InfoMoney, JOTA)
+- Política: a cúpula do PT decidiu apoiar o ajuste fiscal e
+  responsabilizou o Banco Central pela crise e pelos juros altos.
+  A decisão reduz o risco de sabotagem política ao pacote, mas
+  aumenta a tensão entre o governo e o BC. (InfoMoney, Estadão)
+- Juros e inflação: a Selic está em 13,75%. O Copom não sinaliza
+  corte no curto prazo, e o IPCA de outubro ficou em 4,63% em 12
+  meses, acima do teto da meta. Galípolo alerta que a queda da
+  Selic não garante queda dos juros longos. (Bloomberg Línea,
+  Valor)
 - Atividade: as vendas no varejo surpreenderam com alta de 0,2%
   em setembro, mas a atividade segue fraca e o crédito continua
   caro. (IBGE/Valor)
-- Mercado: Ibovespa em torno de 172.551 pontos (+0,72%), dólar a
-  R$ 5,64 (-0,16%). O exterior pesou: Nasdaq caiu 1,45%, com a
-  crise da Nvidia e o apagão da Microsoft reduzindo o apetite por
-  risco em tecnologia. Bitcoin recuou 4,04%. (Valor, Bloomberg
-  Línea)
-- Empresas: Nubank teve lucro recorde, mas a inadimplência subiu a
-  7,3%; BTG teve lucro recorde e aprovou recompra de R$ 2 bi; o
-  Banco do Brasil cortou pela metade a projeção de lucro e reduziu
-  dividendos por causa da inadimplência no agro; CSN e Braskem
-  tiveram prejuízos relevantes; a MRV teve lucro recorde no Brasil
-  e prioriza desalavancagem. (INVEST.txt)
-- Petróleo: a AIE projeta oferta global superior à demanda no 4º
-  trimestre, o que limita o preço do Brent. A Petrobras defende a
-  política de preços atual e compra fatia da Raízen em logística de
-  etanol por R$ 620 milhões; a BP negocia vender à Petrobras uma
-  fatia de sua maior descoberta em 25 anos. (INVEST.txt)
+- Mercado: o Ibovespa fechou em 172.458 pontos (+0,66%) em 13/11
+  e acumulou alta de 2,35% na semana. O dólar ficou em R$ 5,65,
+  praticamente estável na sexta, mas subiu 2,66% na semana. O
+  exterior pesou: Nasdaq caiu 0,91%, com a crise da Nvidia e o
+  apagão da Microsoft reduzindo o apetite por risco em
+  tecnologia. O Bitcoin recuou para cerca de US$ 65,6 mil no
+  sábado, acumulando queda de aproximadamente 11% na semana.
+  (Valor, G1, Poder360, Yahoo Finance)
+- Empresas: o Banco do Brasil teve lucro ajustado 66,5% menor,
+  cortou as projeções pela metade e passou a pagar o dividendo
+  mínimo; a ação caiu 8,35% em 12/11. A BBSE3 não está à venda,
+  segundo a CEO do BB, e o banco planeja dois IPOs de empresas do
+  grupo. O Santander elevou em 5% a OPA por SANB11, em troca de
+  ações da matriz espanhola. A Stone cortou o guidance de lucro,
+  com inadimplência apontada como maior risco. A Cosan anunciou a
+  troca de CEO para janeiro de 2027. (INVEST.txt)
+- Petróleo: o terceiro petroleiro atingido por mina no Estreito de
+  Ormuz em menos de uma semana elevou o prêmio de risco
+  geopolítico: o Brent subiu para cerca de US$ 95,8, com alta de
+  4,7% desde 10/11, e pode dar suporte de curto prazo ao Brent. No
+  médio prazo, a AIE ainda vê oferta global superior à demanda no
+  4º trimestre, o que limita a alta. (INVEST.txt)
 
 Leitura: o pacote fiscal aprovado melhora o humor e reduz o risco
-extremo nos juros longos, mas a execução é incerta e a inflação
-segue acima da meta. O ambiente continua favorecendo empresas com
-caixa, dividendos, receita previsível e menor dependência de
-crédito barato. O risk-off global em tecnologia aumenta a atração
-relativa por defensivas domésticas, mas pode pressionar o fluxo
-estrangeiro para a bolsa brasileira.
+extremo nos juros longos, mas é tímido e de execução incerta. A
+inflação acima da meta e a Selic em 13,75% mantêm o custo de
+capital alto. O ambiente continua favorecendo empresas com caixa,
+dividendos, receita previsível e menor dependência de crédito
+barato. O risk-off global em tecnologia aumenta a atração relativa
+por defensivas domésticas, mas pode pressionar o fluxo estrangeiro
+para a bolsa brasileira. O choque no Estreito de Ormuz é um risco
+geopolítico com efeito ambíguo: pode elevar o petróleo no curto
+prazo, mas piora o risk-off global se a situação escalar.
 
 2. JUSTIFICATIVA POR ATIVO
 ----------------------------------------------------------------
 - CMIG4 (35% — defensivo / energia):
-  * Números: P/L 7,37; P/VP 1,16; DY 8,63%; ROE 15,75%; LPA de
-    R$ 1,58; payout de 64,7%; volume de 6,39 milhões; valor de
-    mercado de R$ 33,3 bilhões.
+  * Números: P/L 6,99; P/VP 1,25; DY 9,26%; ROE 15,75%; LPA de
+    R$ 1,58; payout de 64,7%; volume de 26,05 milhões; valor de
+    mercado de R$ 31,6 bilhões. Fechou a R$ 11,03 (+3,86%) em
+    13/11.
   * Tese: utility regulada, com receita mais previsível e menor
     beta do que varejo e incorporadoras. A aprovação do pacote
     fiscal aumenta a chance de queda dos juros longos, o que
@@ -95,167 +118,236 @@ estrangeiro para a bolsa brasileira.
     dividendo.
   * Papel na carteira: âncora defensiva e principal aposta na
     melhora fiscal. É a maior posição porque combina preço baixo,
-    dividendo alto e risco de crédito baixo.
+    dividendo alto e risco de crédito baixo. Mesmo após a alta de
+    3,86% em 13/11, o DY segue acima de 9%.
 
 - BBSE3 (30% — núcleo de renda / seguros):
-  * Números: P/L 8,89; P/VP 7,50; DY 11,06%; ROE 84,38%; LPA de
-    R$ 4,67; payout de 97,0%; volume de 2,39 milhões; valor de
-    mercado de R$ 80,7 bilhões.
+  * Números: P/L 7,99; P/VP 6,77; DY 12,14%; ROE 84,38%; LPA de
+    R$ 4,67; payout de 97,0%; volume de 8,77 milhões; valor de
+    mercado de R$ 72,5 bilhões. Fechou a R$ 37,33 (-0,93%) em
+    13/11.
   * Tese: o float de seguros tende a se beneficiar de juro alto por
     mais tempo, e o negócio é menos exposto ao ciclo de crédito do
     que um banco comercial. O ROE de 84% é o mais alto entre as
-    escolhas e o DY de 11% é o maior da carteira.
-  * Por que não é a maior posição: o P/VP de 7,50 já precifica
-    muita qualidade e o payout de 97% deixa pouca margem para
-    surpresas negativas. Além disso, o corte de lucro e de
-    dividendos do Banco do Brasil, controlador, por inadimplência
-    no agro, aumenta o risco de contágio e de menor distribuição
-    via rede bancária. Por isso o peso cai de 45% para 30%.
+    escolhas e o DY de 12,14% é o maior da carteira.
+  * O que mudou para melhor: o Banco do Brasil descartou vender a
+    fatia na BBSE3 e planeja dois IPOs de empresas do grupo para
+    recompor capital. Isso remove o risco de oferta secundária da
+    BBSE3 e reduz a leitura de que a controladora venderia ativos
+    para tapar buraco.
+  * Por que não é a maior posição: o P/VP de 6,77 já precifica
+    muita qualidade, e o payout de 97% deixa pouca margem para
+    surpresas negativas. O lucro do Banco do Brasil caiu 66,5%, o
+    guidance foi cortado pela metade e os dividendos ficaram na
+    mínima obrigatória; isso não muda o balanço da BBSE3 no curto
+    prazo, mas aumenta o risco de contágio e de menor distribuição
+    via rede bancária. Por isso o peso fica em 30%, sem aumento.
 
-- SANB11 (20% — banco / valor):
-  * Números: P/L 6,86; P/VP 1,08; DY 8,13%; ROE 15,69%; LPA de
-    R$ 4,05; payout de 57,0%; volume de 1,30 milhão.
-  * Tese: tem o menor P/L (6,86) entre os grandes bancos da
-    planilha e um P/VP baixo (1,08), atrás apenas de BBAS3 (0,75),
-    que hoje está sob revisão negativa de lucro. O dividendo está
-    acima de 8% e o payout é saudável. Tem exposição ao agro menor
-    do que o Banco do Brasil, o que reduz o risco específico que
-    hoje derruba BBAS3.
-  * Alternativas: BBDC4 (R$ 15,59; P/L 9,21; P/VP 1,30; DY 7,50%;
-    volume 28,35 milhões) tem muito mais liquidez; ITSA4 (R$ 13,05;
-    P/L 9,53; P/VP 1,84; DY 7,31%; ROE 19,36%) tem mais qualidade,
-    mas múltiplo mais alto. SANB11 fica no meio, com o melhor
-    preço relativo.
+- BBDC4 (20% — banco / valor e liquidez):
+  * Números: P/L 6,64; P/VP 1,21; DY 8,67%; ROE 14,13%; LPA de
+    R$ 2,19; payout de 57,5%; volume de 32,39 milhões; valor de
+    mercado de R$ 162,1 bilhões. Fechou a R$ 14,52 (+1,40%) em
+    13/11.
+  * Tese: é o banco líquido com o menor P/L entre os grandes,
+    excluindo BBAS3 (5,92), cujo lucro está em colapso: 6,64,
+    abaixo de SANB11 (7,01), ITSA4 (8,44) e ITUB4 (10,02).
+    O P/VP de 1,21 também é bem menor que o de ITUB4 (2,65) e o de
+    ITSA4 (1,92), e o DY de 8,67% é superior ao dos dois. O payout
+    de 57,5% é saudável e dá espaço para manter proventos.
+  * Papel na carteira: substitui SANB11 na diversificação
+    financeira, com muito mais liquidez (32,39 milhões contra 3,09
+    milhões de SANB11) e sem o teto de preço imposto por uma OPA em
+    andamento.
+  * Alternativas: ITSA4 (R$ 13,65; P/L 8,44; P/VP 1,92; DY 8,38%;
+    ROE 19,36%) tem mais qualidade, mas múltiplo mais alto. BBDC4
+    fica com o melhor equilíbrio entre preço, dividendo e liquidez
+    para um perfil moderado.
 
 - PETR4 (15% — satélite / hedge):
-  * Números: P/L 5,77; P/VP 1,60; DY 6,11%; ROE 27,73%; LPA de
-    R$ 10,13; payout de 35,7%; volume de 26,12 milhões; valor de
-    mercado de R$ 798,5 bilhões.
+  * Números: P/L 4,47; P/VP 1,38; DY 7,99%; ROE 27,73%; LPA de
+    R$ 10,13; payout de 35,7%; volume de 23,44 milhões; valor de
+    mercado de R$ 619,0 bilhões. Fechou a R$ 45,30 (+1,34%) em
+    13/11.
   * Tese: é a ação mais líquida e mais barata por lucro da
     carteira. Funciona como proteção parcial contra dólar alto,
-    inflação e choque de petróleo, além de ter balanço forte.
-  * Por que o peso cai de 30% para 15%: a AIE vê oferta global de
-    petróleo superior à demanda no 4º trimestre, o que limita o
-    Brent; a política de preços segue sujeita a interferência
+    inflação e choque de petróleo, além de ter balanço forte. O
+    payout baixo (35,7%) preserva caixa e reduz o risco de corte
+    de dividendos.
+  * Por que o peso fica em 15%: a AIE vê oferta global de petróleo
+    superior à demanda no 4º trimestre, o que limita o Brent no
+    médio prazo; a política de preços segue sujeita a interferência
     política e os dividendos do 3T26 vieram abaixo do esperado. O
-    peso menor mantém o hedge sem transformar a carteira em aposta
-    em commodity.
+    ataque a petroleiros no Estreito de Ormuz adiciona prêmio de
+    risco de curto prazo e reforça o papel de hedge, mas não muda a
+    tese estrutural de oferta abundante. O peso menor mantém a
+    proteção sem transformar a carteira em aposta em commodity.
 
 3. RISCOS
 ----------------------------------------------------------------
-- Fiscal/político: o pacote foi aprovado, mas é considerado frágil
+- Fiscal/político: o pacote foi aprovado, mas é considerado tímido
   e provisório. Se a execução falhar, se o ajuste efetivo ficar
   abaixo dos R$ 60-80 bilhões ou se o Congresso desidratar as
   medidas, os juros longos podem voltar a subir, o dólar pode
-  pressionar e tanto CMIG4 quanto SANB11 sofrem com marcação a
-  mercado e piora do crédito.
+  pressionar e tanto CMIG4 quanto BBDC4 sofrem com marcação a
+  mercado e piora do crédito. A PEC da segunda rodada ainda não
+  foi votada e o Fundeb pode perder R$ 20 bilhões, o que aumenta a
+  resistência política.
 - Juros: mesmo com o pacote, a inflação acima da meta e a cautela
-  do Copom podem manter a Selic alta por mais tempo. Juro alto
+  do Copom podem manter a Selic em 13,75% por mais tempo. Juro alto
   ajuda o float de BBSE3, mas comprime o múltiplo de utilities e
   encarece o crédito de bancos e empresas.
 - Crédito: a inadimplência do Nubank em 7,3% e o corte de lucro do
   Banco do Brasil por causa do agro mostram deterioração relevante.
-  SANB11 e BBDC4 não estão imunes a um ciclo de provisões maior.
-- BBSE3: P/VP de 7,50 exige entrega consistente de lucro; payout de
+  BBDC4 não está imune a um ciclo de provisões maior; acompanhar
+  inadimplência, cobertura e custo do risco nos próximos balanços.
+- BBSE3: P/VP de 6,77 exige entrega consistente de lucro; payout de
   97% deixa pouca folga; há dependência do Banco do Brasil e risco
-  de interferência política na controladora. Liquidez menor do que
-  a dos grandes bancos.
+  de interferência política na controladora. A decisão de não
+  vender a fatia é positiva, mas o banco pode pressionar a
+  seguradora por dividendos se precisar de capital. Liquidez menor
+  do que a dos grandes bancos.
 - CMIG4: risco regulatório, hidrológico e de decisões do
-  controlador estatal. O DY de 8,63% pode não se repetir se o lucro
-  cair ou se o payout for revisto.
+  controlador estatal. O DY de 9,26% pode não se repetir se o lucro
+  cair ou se o payout for revisto. A alta de 3,86% em 13/11 reduz
+  parte do prêmio de entrada; usar ordens limitadas.
 - PETR4: risco de interferência do governo na política de preços,
   mudanças em capex e dividendos, queda do Brent em caso de
   excesso de oferta ou desaceleração global. A AIE já sinaliza
-  oferta maior que demanda no 4º trimestre.
+  oferta maior que demanda no 4º trimestre. O risco geopolítico no
+  Estreito de Ormuz tem dois lados: pode elevar o petróleo no curto
+  prazo, mas, se escalar, amplia o risk-off global e derruba bolsas
+  e moedas emergentes.
 - Externo: a crise da Nvidia, o apagão da Microsoft e a correção
   das ações de IA podem ampliar o risk-off global e reduzir o fluxo
-  para o Brasil. Commodities têm previsão de alta de 23% em 2026,
-  mas com alívio em 2027, segundo o Banco Mundial; o El Niño é um
-  risco adicional.
-- Dados: as cotações são de 26/10/2026 e os fundamentos de
+  para o Brasil. A suspensão de voos nos EUA e o caos aéreo também
+  afetam a confiança. Commodities têm previsão de alta de 23% em
+  2026, mas com alívio em 2027, segundo o Banco Mundial; o El Niño
+  é um risco adicional.
+- SANB11/OPA: o preço de R$ 28,40 está próximo do valor implícito
+  da oferta de permuta do Santander. O upside fica limitado ao
+  prêmio final, e há risco de liquidez e de tratamento tributário
+  da troca por ações da matriz. Quem já tem SANB11 deve comparar o
+  valor da OPA com o custo de oportunidade de migrar para BBDC4.
+- Dados: as cotações são de 13/11/2026 e os fundamentos de
   19/10/2026. Resultados do 3T26 e a variação de preços desde então
   podem mudar P/L, P/VP, DY e payout. Reavaliar antes de enviar a
   ordem.
 
 4. PLANO DE EXECUÇÃO
 ----------------------------------------------------------------
-- Entrar em três tranches: 40% agora, 30% após a aprovação final e
-  publicação do pacote e os primeiros sinais de queda dos juros
-  longos, e 30% após os primeiros dados de execução fiscal e
-  arrecadação.
+- Como 14/11/2026 é sábado, não há pregão. Programar as ordens para
+  segunda-feira (16/11/2026), revalidando preço, volume e notícias.
+- Entrar em três tranches: 40% na segunda-feira, 30% após a
+  conclusão da votação dos destaques do pacote e os primeiros
+  sinais de execução fiscal, e 30% após os primeiros dados de
+  arrecadação/despesa de 2027 ou após a temporada de resultados do
+  4T26.
 - Se o investidor preferir simplicidade, dividir em duas metades:
   metade agora e metade após a confirmação da execução fiscal.
 - Se a execução fiscal vier crível e os juros longos caírem:
   aumentar CMIG4 e, só então, reavaliar uma posição pequena em
   incorporadoras (CYRE3/DIRR3).
 - Se o pacote atrasar, perder credibilidade ou os juros longos
-  voltarem a subir: reduzir CMIG4 primeiro, manter BBSE3 e SANB11
-  e elevar caixa. Para PETR4, reavaliar se o Brent perder US$ 85.
+  voltarem a subir: reduzir CMIG4 primeiro, manter BBSE3 e BBDC4 e
+  elevar caixa. Para PETR4, reavaliar se o Brent perder US$ 85.
 - Para BBSE3, reavaliar a tese se o payout cair de forma
-  estrutural. Para SANB11, reavaliar se a inadimplência subir muito
-  acima do esperado. Para CMIG4, reavaliar em caso de decisão
-  regulatória adversa.
+  estrutural ou se o Banco do Brasil sinalizar necessidade de
+  capital que afete a seguradora. Para BBDC4, reavaliar se a
+  inadimplência subir muito acima dos pares. Para CMIG4, reavaliar
+  em caso de decisão regulatória adversa.
+- Para quem já tem SANB11: comparar o valor da OPA (troca por ações
+  do Santander) com o preço de mercado e com a alternativa BBDC4.
+  Se o prêmio for adequado e o investidor quiser exposição ao
+  Santander Espanha, a adesão pode fazer sentido; se o objetivo for
+  renda em reais e liquidez, a migração para BBDC4 é mais
+  eficiente. Avaliar custos, tributação e custódia antes.
 - Não usar alavancagem e não comprometer a reserva de emergência.
-- Revalidar preço, volume e notícias no dia da execução: a
-  planilha não reflete necessariamente o mercado de 13/11/2026.
+- Revalidar preço, volume e notícias no dia da execução: a planilha
+  reflete o fechamento de 13/11/2026, não o pregão de segunda.
 
 5. O QUE EVITAR NESTE MOMENTO
 ----------------------------------------------------------------
-- BBAS3: P/L 9,35 e P/VP 0,75 parecem baratos, mas o banco cortou
-  pela metade a projeção de lucro e reduziu dividendos com a
-  inadimplência no agro. O múltiplo baixo é sobre lucro que deve
-  cair; melhor esperar a estabilização da inadimplência.
-- DIRR3: P/L 6,39 e DY 14,76%, mas o DY vem de um único provento
+- BBAS3: P/L 5,92 e P/VP 0,65 parecem muito baratos, mas o lucro
+  ajustado caiu 66,5%, o guidance foi cortado pela metade e o
+  dividendo passou ao mínimo obrigatório. O múltiplo baixo é sobre
+  lucro que deve cair; a ação caiu 8,35% em 12/11 e perdeu mais de
+  R$ 8 bilhões em valor de mercado. Melhor esperar a estabilização
+  da inadimplência no agro.
+- SANB11: P/L 7,01, P/VP 1,16 e DY 8,12% ainda são atraentes, mas
+  a OPA de permuta do Santander, elevada em 5% (oferta de cerca de
+  € 1,9 bilhão), cria um teto prático para o preço. O caso é
+  event-driven e não de compounding; por isso sai da carteira
+  recomendada.
+- DIRR3: P/L 5,69 e DY 16,26%, mas o DY vem de um único provento
   extraordinário de R$ 1,55 (data-ex 16/12/2025), não de dividendo
-  recorrente. P/VP 2,35 e setor dependente de juros longos. Só
+  recorrente. P/VP 2,53 e setor dependente de juros longos. Só
   reavaliar com execução fiscal crível e queda consistente dos
   juros.
-- CYRE3: P/L 7,16, P/VP 1,31 e DY 7,18%, mas também com um único
-  provento no período. O setor segue sensível ao crédito e aos
-  juros longos.
-- MRVE3: P/L -7,06 e ROE -12,58%, apesar do lucro recorde no
-  Brasil e da alta de 10,39% no dia. É turnaround e desalavancagem,
+- CYRE3: P/L 4,37, P/VP 0,80 e DY 13,83%, mas também com um único
+  provento no período (R$ 2,7299; data-ex 09/12/2025). O setor
+  segue sensível ao crédito e aos juros longos.
+- MRVE3: P/L -4,46 e ROE -12,58%, apesar do lucro recorde no
+  Brasil e da alta de 5,66% em 13/11. É turnaround e desalavancagem,
   não caso de compra para perfil moderado.
-- MGLU3: P/L 97,4 e ROE 0,79%, apesar do rali de 8,28% no dia;
-  é momentum, não fundamento.
-- CSAN3: P/L -2,19, P/VP 3,93 e ROE -178,97%; prejuízo e
-  alavancagem.
-- BRKM5: P/L -0,58 e P/VP -0,26, com patrimônio negativo e balanço
+- MGLU3: P/L 63,24 e ROE 0,79%, apesar do rali de 10,47% em
+  13/11; é momentum, não fundamento.
+- CSAN3: P/L -1,33, P/VP 4,41 e ROE -178,97%; prejuízo,
+  alavancagem e troca de CEO em janeiro de 2027. A alta de 8,77% em
+  13/11 não muda a tese.
+- BRKM5: P/L -0,42 e P/VP -0,26, com patrimônio negativo e balanço
   frágil.
-- CSNA3: P/L -2,91, P/VP 0,63 e ROE -21,59%; prejuízo e dívida
-  elevada (R$ 44,9 bi no 3T26).
-- VALE3: P/L 28,35 e ROE 5,27%; o DY de 8,47% não compensa a queda
+- CSNA3: P/L -1,80, P/VP 0,46 e ROE -21,59%; prejuízo de R$ 1,25
+  bilhão e dívida de R$ 44,9 bilhões no 3T26. A queda de 12,06% em
+  13/11 mostra o estresse.
+- VALE3: P/L 27,16 e ROE 5,27%; o DY de 8,84% não compensa a queda
   de resultado e a pressão sobre as commodities.
-- WEGE3 e EMBJ3: boas empresas, mas P/L 32,21 e 29,14 e P/VP 10,68
-  e 3,79; múltiplos altos para um ambiente de risk-off.
-- RAIZ4: P/L -0,14 e P/VP -0,34; reestruturação.
-- POMO4: aparece no topo do screening (P/L 4,80; DY 20,05%; ROE
-  28,32%; volume 11,31 milhões), mas o payout de 103,4% indica
+- WEGE3 e EMBJ3: boas empresas, mas P/L 34,80 e 35,20 e P/VP 12,15
+  e 4,58; múltiplos altos para um ambiente de risk-off.
+- RAIZ4: P/L -0,11 e P/VP -0,34; reestruturação e volume zero no
+  pregão de 13/11, o que inviabiliza execução.
+- POMO4: aparece no topo do screening (P/L 3,90; DY 26,53%; ROE
+  28,32%; volume 16,06 milhões), mas o payout de 103,4% indica
   dividendo acima do lucro e não há notícia no INVEST.txt que
   sustente a tese. Não incluir sem confirmar se o provento é
   recorrente.
 
-6. MUDANÇAS EM RELAÇÃO À VERSÃO DE 11/11/2026
+6. MUDANÇAS EM RELAÇÃO À VERSÃO DE 13/11/2026
 ----------------------------------------------------------------
-A carteira anterior era BBSE3 45%, PETR4 30% e CMIG4 25%. A nova
-versão passa para CMIG4 35%, BBSE3 30%, SANB11 20% e PETR4 15%.
+A carteira anterior era CMIG4 35%, BBSE3 30%, SANB11 20% e PETR4
+15%. A nova versão mantém CMIG4 (35%), BBSE3 (30%) e PETR4 (15%) e
+troca SANB11 (20%) por BBDC4 (20%).
 
 Motivos:
-- O pacote fiscal foi aprovado no Senado, o que melhora a
-  perspectiva dos juros longos e favorece utilities; por isso
-  CMIG4 sobe de 25% para 35%.
-- O Banco do Brasil cortou lucro e dividendos por inadimplência no
-  agro, o que aumenta o risco de contágio para BBSE3; por isso
-  BBSE3 cai de 45% para 30%.
-- A AIE vê oferta de petróleo acima da demanda no 4º trimestre e a
-  Petrobras teve dividendos abaixo do esperado; por isso PETR4 cai
-  de 30% para 15%.
-- SANB11 entra com 20% para diversificar a exposição financeira,
-  com o menor P/VP entre os grandes bancos e menor exposição ao
-  agro do que o Banco do Brasil.
+- SANB11 sai porque o Santander elevou em 5% a OPA de permuta pelas
+  ações remanescentes (cerca de 10% do capital, negócio de
+  aproximadamente € 1,9 bilhão). O preço de R$ 28,40 está próximo
+  do valor implícito da oferta, o upside fica limitado e o caso
+  passa a ser event-driven, com risco de liquidez e de tratamento
+  tributário da troca por ações da matriz.
+- BBDC4 entra por ter P/L 6,64 (abaixo de SANB11, ITSA4 e ITUB4,
+  excluindo BBAS3, cujo lucro está em colapso), P/VP 1,21,
+  DY 8,67%, payout saudável de 57,5% e liquidez muito superior
+  (32,39 milhões contra 3,09 milhões de SANB11). É a alternativa
+  mais eficiente para manter a exposição a bancos sem o teto da
+  OPA.
+- BBSE3 fica em 30%, sem aumento: a decisão do BB de não vender a
+  fatia e de fazer dois IPOs remove o risco de oferta secundária,
+  mas o lucro 66,5% menor da controladora, o guidance pela metade
+  e os dividendos na mínima recomendam cautela.
+- CMIG4 fica em 35%: a aprovação do pacote fiscal e a possibilidade
+  de queda dos juros longos seguem sendo o principal catalisador.
+  A alta de 3,86% em 13/11 foi forte, mas o DY de 9,26% e o payout
+  de 64,7% ainda justificam a posição.
+- PETR4 fica em 15%: o ataque a petroleiros no Estreito de Ormuz
+  aumenta o prêmio de risco de curto prazo e reforça o papel de
+  hedge, mas a AIE vê oferta superior à demanda no 4º trimestre e
+  a política de preços segue sujeita a interferência. O peso menor
+  mantém a proteção sem transformar a carteira em aposta em
+  commodity.
 - A cautela com incorporadoras e small caps de alta beta foi
-  mantida: a aprovação do pacote é um avanço, mas ainda é frágil e
-  não garante queda sustentada dos juros longos.
+  mantida: a aprovação do pacote é um avanço, mas é tímida, a Selic
+  está em 13,75% e não há sinal fiscal crível que justifique
+  aumentar risco agora.
 
 ----------------------------------------------------------------
 AVISO: análise baseada exclusivamente nos arquivos INVEST.txt e

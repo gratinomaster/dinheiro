@@ -1,218 +1,290 @@
 ================================================================================
 INVEST.txt — RESUMO CONSOLIDADO DE NOTÍCIAS
 Fontes: Times Brasil | CNBC, CNN Brasil Money, Valor Econômico,
-        InvestNews e Bloomberg Línea
-Data da consolidação: 13/11/2026
+        InvestNews, Bloomberg Línea, InfoMoney, G1, Estadão e Folha
+Data da consolidação: 14/11/2026 (sábado)
+Cotações: fechamento de 13/11/2026 (sexta-feira). Em 14/11 os mercados
+de ações brasileiros estão fechados; notícias do fim de semana estão
+sinalizadas com a data.
 ================================================================================
 
 --------------------------------------------------------------------------------
-1. DESTAQUE PRINCIPAL — APAGÃO GLOBAL DA MICROSOFT
+1. DESTAQUES DO DIA
 --------------------------------------------------------------------------------
-- Falha generalizada nos serviços da Microsoft (Outlook, Teams e Copilot) entrou
-  no segundo dia, afetando bancos, hospitais, governos e empresas no mundo todo.
-- A companhia identificou "sobrecarga em processos centrais dos servidores" como
-  causa associada à interrupção; recuperação vem ocorrendo de forma gradual.
-- Impactos relevantes:
-  * STF teve serviços de comunicação interrompidos (plenário virtual seguiu
-    funcionando).
-  * Nos EUA, a pane impediu o processamento de fianças e atrasou a liberação de
-    presos.
-  * Mesas de operações de bancos recorreram a telefone e até fax para fechar
-    negócios, com atrasos na divulgação de informações.
-- Ações da Microsoft recuaram (~2% no pré-mercado) com a interrupção do Office em
-  "timing inoportuno".
-- Especialistas destacam a dependência tecnológica e a necessidade de redundância
-  e resiliência cibernética.
+- EUA suspenderam todas as decolagens na sexta-feira (13/11) por falha de
+  comunicação no controle de tráfego aéreo. A paralisação durou mais de quatro
+  horas e afetou mais de 15 mil voos; a retomada foi gradual e, no sábado
+  (14/11), ainda havia mais de 2,5 mil voos cancelados. A Anac monitora a
+  situação e recomenda que passageiros procurem as companhias; a agência
+  europeia chegou a suspender decolagens com destino aos EUA.
+- Microsoft restabeleceu Outlook, Teams e Copilot após pane global de mais de
+  30 horas que atingiu 74 países. A companhia pediu desculpas e disse que os
+  serviços estão operacionais; a falha afetou bancos, hospitais, governos e
+  mesas de operações no mundo todo.
+- Terceiro petroleiro foi atingido por mina naval no Estreito de Ormuz em menos
+  de uma semana; um dos navios pegou fogo. A Guarda Revolucionária do Irã
+  confirmou dois petroleiros atingidos por minas. O episódio eleva o risco de
+  interrupção da navegação, pressiona o Brent e o frete e aumenta a incerteza
+  sobre o abastecimento global.
+- Nvidia: Jensen Huang renunciou ao cargo de CEO em 12/11 após revelações de
+  casos extraconjugais; a CFO Colette Kress assumiu interinamente. A empresa
+  agradeceu as "contribuições profundas" de Huang, e o mercado debate o impacto
+  sobre uma companhia avaliada em cerca de US$ 3,3 trilhões.
+- Cúpula do PT decidiu, no fim de semana, apoiar o ajuste fiscal do governo e
+  elegeu o Banco Central como culpado pela crise e pelos juros altos. A decisão
+  reduz o risco de sabotagem política ao pacote, mas aumenta a tensão entre
+  política fiscal e política monetária.
 
 --------------------------------------------------------------------------------
-2. CASO NVIDIA / JENSEN HUANG (tema mais recorrente entre as fontes)
---------------------------------------------------------------------------------
-- Jensen Huang renunciou ao cargo de CEO da Nvidia após relatos de casos
-  extraconjugais; a CFO Colette Kress assumiu o comando de forma interina.
-- Huang estava à frente da companhia desde a fundação, em 1993 — era o CEO há
-  mais tempo entre as grandes techs dos EUA.
-- Ações da Nvidia despencaram em Wall Street após a renúncia e ensaiam leve
-  recuperação; a crise pressiona bolsas globais e amplia incertezas sobre o
-  avanço da IA.
-- Suspeita de espionagem: Alice Huang (Huang Le), fundadora da Megaspeed (maior
-  compradora de chips da Nvidia no Sudeste Asiático, com importações acima de
-  US$ 4,6 bi desde 2023), é apontada como suspeita de espionar Huang.
-- O escândalo envolve o secretário de Comércio dos EUA, Howard Lutnick, que
-  aceitou depor sobre a venda de chips à China; o Congresso pediu depoimentos.
-- Impactos: CFO Colette Kress virou peça central na sucessão; Apple ultrapassou a
-  Nvidia e se tornou a empresa mais valiosa do mundo (Bloomberg Línea).
-- Análises de fundo: o caso reforça a tese de que a vida pessoal de CEOs afeta os
-  negócios e levanta lições sobre os chamados "CEOs rockstars".
-
---------------------------------------------------------------------------------
-3. ECONOMIA BRASILEIRA — FISCAL, JUROS E INFLAÇÃO
+2. ECONOMIA BRASILEIRA — FISCAL, JUROS E INFLAÇÃO
 --------------------------------------------------------------------------------
 Pacote fiscal:
-- Senado aprovou, por 45 votos a 31, o pacote fiscal do governo com economia
-  prevista de até R$ 60 bilhões. O texto reduz benefícios tributários, impõe
-  limites mais rígidos ao crescimento das despesas e altera regras de metas
-  fiscais; permite desconsiderar até R$ 10,5 bi em subsídios ao diesel do
-  resultado de 2026.
-- Governo prepara medidas adicionais para elevar o ajuste a R$ 80 bilhões,
-  reduzindo despesas excluídas da meta e contendo gastos obrigatórios.
-- Análise (Valor/César Felício): "vitória frágil e provisória"; editorial chama o
-  pacote de insuficiente e que só cobre carências de 2027.
-- Entidades empresariais criticam o "sacrifício imposto ao setor privado".
-- Ministro do Planejamento afirma que o pacote contribuirá para a redução dos
-  juros; Bruno Moretti diz que a taxa de crescimento das despesas pode ficar
-  abaixo de 2%.
+- O Senado aprovou na noite de 12/11, por 45 votos a 31, o texto-base do
+  pacote fiscal do governo, com economia prevista de até R$ 60 bilhões. O JOTA
+  estima impacto de até R$ 56 bilhões em 2027. Quatro pontos ainda serão
+  votados em destaque, e a tramitação não está concluída.
+- O texto reduz benefícios tributários, impõe limites mais rígidos ao crescimento
+  das despesas e altera regras de metas fiscais; permite desconsiderar até
+  R$ 10,5 bilhões em subsídios ao diesel do resultado de 2026.
+- O governo prepara uma segunda rodada, com PEC de impacto de cerca de
+  R$ 20 bilhões, para elevar o ajuste a até R$ 80 bilhões em 2027. O Fundeb pode
+  perder até R$ 20 bilhões na nova etapa, o que já gera resistência.
+- A leitura predominante no mercado é de "vitória frágil e provisória". O jornal
+  Gazeta do Povo chamou o texto de "um arremedo de pacote fiscal"; economistas
+  avaliam que o ajuste é tímido e mantém juros e dólar pressionados.
+- InfoMoney: "Sem sinal fiscal crível, pessimismo com Selic e PIB seguirá punindo
+  ações cíclicas". A conclusão é que a bolsa só deve destravar valor em cíclicas
+  quando houver sinal claro de queda estrutural dos juros longos.
 
 Juros e Banco Central:
-- Presidente do BC, Gabriel Galípolo, alerta que a queda da Selic não garante
+- A Selic está em 13,75%. O Copom não sinaliza corte no curto prazo, e a ata
+  projeta desaceleração da economia à medida que a inflação segue elevada.
+- O presidente do BC, Gabriel Galípolo, alerta que a queda da Selic não garante
   redução dos juros de longo prazo e diz que o debate sobre juros virou "disputa
   de torcida organizada".
-- Galípolo critica "especialistas de vídeos gravados na vertical" e afirma que
-  "custa caro ir atrás da verdade".
-- Esteves (BTG): com maior disciplina fiscal, o governo Lula poderia reduzir
-  juros a 7% ao ano; também critica a percepção de que o mercado se resume a
-  "meia dúzia de pessoas que decidem os preços da economia".
-- Ata do Copom (Bloomberg Línea): BC prevê desaceleração da economia à medida que
-  a inflação aumenta. Relatos indicam críticas duras ao BC em jantar na Faria
-  Lima.
+- O PT passou a culpar o BC pela crise, enquanto o governo tenta aprovar o
+  ajuste fiscal. A combinação de fiscal tímido e BC cauteloso mantém o prêmio
+  de risco alto.
 
 Inflação e atividade:
-- IPCA de outubro subiu menos que o esperado, mas ficou acima do teto da meta
-  (4,63% em 12 meses). Ainda não sustenta a volta dos cortes da Selic.
-- Vendas no varejo brasileiro surpreenderam com alta de 0,2% em setembro.
-- Comida encarece mais nos bairros de menor renda de São Paulo.
-- Economia precisa de produtividade para crescer mais, diz Galípolo.
+- O IPCA de outubro subiu menos que o esperado, mas ficou em 4,63% em 12 meses,
+  acima do teto da meta (4,5%). O dado ainda não sustenta a volta dos cortes da
+  Selic.
+- As vendas no varejo brasileiro surpreenderam com alta de 0,2% em setembro,
+  mas a atividade segue fraca e o crédito continua caro.
+- A economia precisa de produtividade para crescer mais, diz Galípolo.
 
 --------------------------------------------------------------------------------
-4. MERCADOS
+3. MERCADOS
 --------------------------------------------------------------------------------
-- Ibovespa: +0,72% aos ~172.551 pontos (Valor) / +0,74% aos 172.584 pontos
-  (Bloomberg Línea), com apoio de Wall Street; Banco do Brasil recuou (~2,58%).
-- Dólar comercial: ~R$ 5,64 (-0,16%).
-- Nasdaq: ~25.000 pts (-1,45%); S&P 500 e Dow Jones também recuaram.
-- Bitcoin: ~US$ 68.590 (-4,04%).
-- Destaques: Nubank +10,95% (NU); Itaú +1,94%; Bradesco +1,26%; Petrobras +0,56%;
-  Vale -0,75%; Banco do Brasil -2,58%.
-- Futuros de Wall Street oscilam antes dos dados de inflação dos EUA, com pressão
-  sobre as techs. Williams (Fed) diz que a inflação está "muito alta" e que
-  ainda há trabalho a ser feito. Dimon (JPMorgan) vê inflação persistente nos
-  EUA e relativiza a mudança no Congresso.
-- InvestNews: ETFs têm captação histórica de R$ 15,7 bi em outubro; debêntures de
-  infraestrutura isentas de IR voltam a atrair compradores (com cautela).
-- Bloomberg Línea: IPO da Anthropic tem demanda várias vezes maior que a oferta.
+- Ibovespa: 172.458 pontos (+0,66%) em 13/11, acumulando alta de 2,35% na
+  semana, com apoio de Petrobras, Itaú, balanços e da aprovação do pacote
+  fiscal. O índice recuperou parte das perdas recentes, mas segue sensível ao
+  fiscal e ao exterior.
+- Dólar: R$ 5,65, praticamente estável na sexta, mas com alta de 2,66% na
+  semana e renovando máxima desde 2025 durante o pregão. O fiscal frágil e a
+  inflação americana seguem no radar.
+- Wall Street: Nasdaq 25.136 pontos (-0,91%), pressionado por Nvidia e pelas
+  techs; S&P 500 caiu 0,40%, enquanto o Dow Jones subiu 0,10%.
+- Brent: cerca de US$ 95,8 em 13/11, em alta de 4,7% desde 10/11, com o
+  prêmio de risco geopolítico no Estreito de Ormuz.
+- Bitcoin: US$ 68,2 mil em 13/11 (-4,3%) e cerca de US$ 65,6 mil em 14/11
+  (-3,8% no dia), acumulando queda de aproximadamente 11% na semana.
+- Destaques locais em 13/11: Petrobras +1,34%; Itaú +1,42%; Bradesco +1,40%;
+  CMIG4 +3,86%; Cyrela +3,89%; Magazine Luiza +10,47%; Cosan +8,77%.
+  Do lado negativo: Banco do Brasil -2,45%, CSN -12,06% e BBSE3 -0,93%.
+- ETFs tiveram captação histórica de R$ 15,7 bilhões em outubro; debêntures de
+  infraestrutura isentas de IR voltam a atrair compradores, com cautela.
+- Bloomberg Línea: o IPO da Anthropic tem demanda várias vezes maior que a
+  oferta.
 
 --------------------------------------------------------------------------------
-5. EMPRESAS E RESULTADOS TRIMESTRAIS (3T26)
+4. EMPRESAS E RESULTADOS TRIMESTRAIS (3T26)
 --------------------------------------------------------------------------------
-- Nubank: lucro recorde de US$ 1,09–1,1 bi, acima das projeções; inadimplência
-  sobe a 7,3%. Ações chegaram a subir 4,9% e fecharam +10,95%.
-- Banco do Brasil: cortou pela metade a previsão de lucro e reduziu dividendos
-  com a inadimplência no agro; nega culpar o setor pela queda (90% dos clientes
-  do agro estariam em dia).
-- BTG Pactual: lucro recorde no 3º tri, superou projeções e aprovou recompra de
-  R$ 2 bi.
-- Banco Inter: lucro de R$ 425 milhões no 3º tri; 46,8 milhões de clientes.
-- CSN: prejuízo de R$ 1,25 bi no trimestre; dívida de R$ 44,9 bi desafia novo
-  CEO; problema de curto prazo "indiscutível" em mineração (frete alto, preços
-  baixos).
-- Braskem: prejuízo de R$ 1,07 bi, aquém das estimativas, com queda dos spreads
-  das resinas.
-- Azul: reduziu prejuízo no 3º tri (R$ 538 mi negativos), mas custos pressionam.
-- Embraer: avança no resultado operacional e revisa projeção de receita.
+Bancos e serviços financeiros:
+- Banco do Brasil: o lucro ajustado caiu 66,5% no 3T26, o banco cortou as
+  projeções pela metade e passou a pagar o dividendo mínimo obrigatório. A
+  inadimplência no agro é o foco da deterioração; o BB afirma que 90% dos
+  clientes do agro estão em dia. A ação caiu 8,35% em 12/11 e perdeu mais de
+  R$ 8 bilhões em valor de mercado.
+- BB Seguridade: a CEO do Banco do Brasil, Tarciana Medeiros, descartou vender a
+  fatia do BB na BBSE3 — "não está à venda". O banco planeja abrir o capital de
+  duas empresas do grupo quando houver janela de mercado, para recompor capital.
+  A notícia remove o risco de oferta secundária de BBSE3, mas não elimina a
+  pressão sobre a controladora.
+- Santander Brasil: o banco elevou em 5% a oferta de permuta por ações
+  remanescentes na OPA, um negócio de cerca de € 1,9 bilhão para os minoritários
+  que ainda detêm aproximadamente 10% do capital. A operação é uma troca por
+  ações do Banco Santander (Espanha), não um pagamento em dinheiro. SANB11
+  fechou a R$ 28,40 (+0,04%) em 13/11, próximo do valor implícito da oferta.
+- Nubank: lucro recorde de US$ 1,09–1,1 bilhão, acima das projeções, com
+  inadimplência em 7,3%. As ações subiram 10,95% em 13/11.
+- BTG Pactual: lucro recorde no 3T26, acima das projeções, e recompra de
+  R$ 2 bilhões aprovada.
+- Banco Inter: lucro de R$ 425 milhões no 3T26 e 46,8 milhões de clientes.
+- Stone: lucro de R$ 542,1 milhões no 3T26, queda anual de 15,5%; a companhia
+  cortou a projeção de lucro, e a inadimplência é apontada por analistas como o
+  maior risco. XP classificou o resultado como fraco e disse que o crédito
+  segue no centro do debate.
+
+Indústria, energia e varejo:
+- CSN: prejuízo de R$ 1,25 bilhão no trimestre e dívida de R$ 44,9 bilhões
+  desafiam o novo CEO; a ação caiu 12,06% em 13/11. O problema de curto prazo
+  em mineração é "indiscutível" (frete alto e preços baixos).
+- Braskem: prejuízo de R$ 1,07 bilhão, aquém das estimativas, com queda dos
+  spreads das resinas.
+- Azul: reduziu o prejuízo no 3T26 para R$ 538 milhões negativos, mas os custos
+  seguem pressionando.
+- Embraer: avanço no resultado operacional e revisão da projeção de receita.
 - WEG: planeja investir US$ 250 milhões no México até 2030.
-- Petrobras: compra fatia da Raízen em logística de etanol por R$ 620 mi; defende
-  política de preços atual diante da volatilidade do Brent. BP negocia vender
-  fatia de sua maior descoberta em 25 anos à Petrobras.
-- MBRF/National Beef: pior fase do ciclo do gado nos EUA ficou para trás.
-- JBS: lucro cai afetado por cotas da China, apesar de melhora nos EUA.
-- Raízen: avança em reestruturação; Shell terá direitos na distribuidora.
+- Petrobras: comprou fatia da Raízen em logística de etanol por R$ 620 milhões;
+  defende a política de preços atual diante da volatilidade do Brent. A BP
+  negocia vender à Petrobras uma fatia de sua maior descoberta em 25 anos.
+- JBS: lucro caiu afetado pelas cotas da China, apesar da melhora nos EUA.
+- Raízen: avança na reestruturação; a Shell terá direitos na distribuidora.
 - MRV: prioriza desalavancagem após lucro recorde no Brasil.
-- Outros: Bemobi (lucro de R$ 51 mi), IRB(Re) (foco no rural em 2027), CPQD
-  (receita +50% com IA), Natura (falhas de abastecimento e recuperação lenta),
-  M. Dias Branco (receita -2%), Espaçolaser, Iguatemi, Fleury/Bradsaúde.
-- Fintechs/Startups: CEO da Neon prevê crescer dois dígitos em 2027 com cautela no
-  crédito; Swile investe R$ 600 mi no Brasil.
-- Mercado de rodovias pode ter novo ciclo de consolidação a partir de 2027.
+- Cosan: lucro de R$ 190 milhões no 3T26, com redução de dívida. A companhia
+  anunciou a saída do CEO Marcelo Martins em janeiro de 2027; Guilherme Penin
+  assume interinamente enquanto a sucessão é definida. A ação subiu 8,77% em
+  13/11.
+- Outros: Bemobi (lucro de R$ 51 milhões), IRB(Re) (foco no rural em 2027),
+  CPQD (receita +50% com IA), Natura (falhas de abastecimento e recuperação
+  lenta), M. Dias Branco (receita -2%), Espaçolaser, Iguatemi e
+  Fleury/Bradsaúde.
+- Fintechs e startups: o CEO da Neon prevê crescer dois dígitos em 2027, com
+  cautela no crédito; a Swile investe R$ 600 milhões no Brasil.
+- O mercado de rodovias pode ter um novo ciclo de consolidação a partir de 2027.
 
 --------------------------------------------------------------------------------
-6. POLÍTICA E SEGURANÇA
+5. POLÍTICA E SEGURANÇA
 --------------------------------------------------------------------------------
-- PF fez nova operação contra suspeitas de desvios de emendas ligadas à produtora
-  do filme "Dark Horse".
-- PF intimou Jaques Wagner e Rui Costa para depor na investigação do caso Master.
-- PGR se manifestou contra pedido de anulação da condenação de Bolsonaro.
+- A PF fez nova operação contra suspeitas de desvios de emendas ligadas à
+  produtora do filme "Dark Horse".
+- A PF intimou Jaques Wagner e Rui Costa para depor na investigação do caso
+  Master.
+- A PGR se manifestou contra o pedido de anulação da condenação de Bolsonaro.
 - Liminar de Flávio Dino sobre o fim da jornada 6x1: veja os principais pontos.
-- Relator busca votos do centro para aprovar a regulação de mercados digitais
-  (votação prevista para terça-feira).
-- Governo espera votar o Ploa até meados de dezembro.
-- Tesouro Nacional identificou acesso indevido a 30 mil cadastros e 4 mil chaves
-  Pix; Caixa Vida e Previdência diz que vazamento não envolveu dados sensíveis.
-- Ataques hackers podem gerar prejuízo de R$ 2,9 trilhões ao Brasil em 3 anos.
+- Relator busca votos do centro para aprovar a regulação de mercados digitais;
+  a votação estava prevista para terça-feira.
+- O governo espera votar o Ploa até meados de dezembro.
+- O Tesouro Nacional identificou acesso indevido a 30 mil cadastros e 4 mil
+  chaves Pix; a Caixa Vida e Previdência diz que o vazamento não envolveu dados
+  sensíveis.
+- Ataques hackers podem gerar prejuízo de R$ 2,9 trilhões ao Brasil em três anos.
+- A cúpula do PT aprovou apoio ao ajuste fiscal e responsabilizou o Banco
+  Central pela crise; a decisão foi tomada no fim de semana e deve orientar a
+  atuação do partido no Congresso.
 
 --------------------------------------------------------------------------------
-7. MUNDO E INTERNACIONAL
+6. MUNDO E INTERNACIONAL
 --------------------------------------------------------------------------------
-- Trump pressiona o México a barrar migrantes após vitória democrata nos EUA.
-- Inflação na Argentina supera expectativas e acelera para 2,2% em outubro; imagem
-  de Milei piora e o desemprego vira a principal preocupação dos argentinos.
-- Zelensky diz que a velocidade do Starshield voltou a ser limitada, prejudicando
-  as defesas da Ucrânia.
-- Paraguai gasta US$ 330 mi e diz que 95% dos clientes do Ueno Bank receberam
-  pagamentos; crise do Ueno afetou até jogadores da seleção paraguaia. BC
-  paraguaio critica "falência regulatória" nos casos Ueno e Master.
-- Lula retoma diálogo com a Venezuela e abre caminho para mais investimentos em
-  petróleo.
-- Lula cobra ação global na COP31 e alerta que guerra e inflação ofuscam a crise
-  climática.
-- AIE: oferta global de petróleo deve superar a demanda no 4º trimestre.
-- Banco Mundial prevê alta de 23% nas commodities neste ano, com alívio em 2027.
-- El Niño extremo ameaça o crescimento global, com perdas potenciais de US$ 4 tri.
+- EUA: a suspensão das decolagens por falha de comunicação no controle de
+  tráfego aéreo causou caos nos aeroportos, com mais de 2,5 mil voos ainda
+  cancelados no sábado. A retomada é gradual, e companhias e passageiros seguem
+  com atrasos.
+- Oriente Médio: o terceiro petroleiro atingido por mina no Estreito de Ormuz
+  em menos de uma semana aumenta o risco de interrupção de uma das principais
+  rotas do petróleo mundial. O Brent subiu com o prêmio de risco, e o mercado
+  avalia a possibilidade de um choque de oferta.
+- Argentina: a inflação superou as expectativas e acelerou para 2,2% em outubro;
+  a imagem de Milei piorou e o desemprego virou a principal preocupação dos
+  argentinos.
+- Ucrânia: Zelensky diz que a velocidade do Starshield voltou a ser limitada,
+  prejudicando as defesas do país.
+- Paraguai: o país gastou US$ 330 milhões e diz que 95% dos clientes do Ueno
+  Bank receberam pagamentos; a crise afetou até jogadores da seleção paraguaia.
+  O BC paraguaio critica a "falência regulatória" nos casos Ueno e Master.
+- Lula retomou o diálogo com a Venezuela e abriu caminho para mais investimentos
+  em petróleo.
+- Lula cobrou ação global na COP31 e alertou que guerra e inflação ofuscam a
+  crise climática.
+- AIE: a oferta global de petróleo deve superar a demanda no 4º trimestre, o que
+  limita o Brent no médio prazo, em contraste com o choque geopolítico de curto
+  prazo no Estreito de Ormuz.
+- Banco Mundial: alta de 23% nas commodities em 2026, com alívio em 2027.
+- El Niño extremo ameaça o crescimento global, com perdas potenciais de
+  US$ 4 trilhões.
+- EUA: a inflação segue "muito alta" na avaliação de Williams (Fed), e Dimon
+  (JPMorgan) vê inflação persistente. Os dados de inflação americana seguem no
+  radar dos mercados.
 
 --------------------------------------------------------------------------------
-8. TECNOLOGIA, IA E CRIPTO
+7. TECNOLOGIA, IA E CRIPTO
 --------------------------------------------------------------------------------
-- IA: corrida por data centers enfrenta resistência nos EUA; ações ligadas à IA
-  desafiam o cenário macro. Cisco superou expectativas de lucro e projeta dobrar a
-  receita com infraestrutura de IA no ano fiscal.
-- Diretor global de crédito do JPMorgan alerta que o impacto da IA sobre empregos
-  ainda pode surpreender; Bill Gates defende empregos "reservados para humanos".
+- Nvidia: a renúncia de Jensen Huang após revelações de casos extraconjugais
+  abriu uma crise de sucessão. A CFO Colette Kress assumiu interinamente e virou
+  peça central na transição; as ações recuaram em Wall Street, e o caso também
+  envolve suspeita de espionagem e reacendeu o debate sobre a venda de chips à
+  China.
+- Microsoft: a pane global de mais de 30 horas afetou Outlook, Teams e Copilot
+  em 74 países. A companhia restabeleceu os serviços no sábado e pediu
+  desculpas; o episódio reforça a necessidade de redundância e resiliência
+  cibernética.
+- IA: a corrida por data centers enfrenta resistência nos EUA; ações ligadas à
+  IA desafiam o cenário macro. A Cisco superou expectativas de lucro e projeta
+  dobrar a receita com infraestrutura de IA no ano fiscal.
+- O diretor global de crédito do JPMorgan alerta que o impacto da IA sobre
+  empregos ainda pode surpreender; Bill Gates defende empregos "reservados para
+  humanos".
 - Exclusivo Times/CNBC: dados regulamentados e código-fonte somam 93% das
   violações com IA no Brasil.
-- Líderes brasileiros dão mais valor a comandos de IA que a média global (62% vs
-  46%, pesquisa Monday).
-- Anthropic exige US$ 25 milhões iniciais em investimento; IPO com forte demanda.
-- Cripto: stablecoins avançam em pagamentos internacionais e reforçam demanda por
-  dólar; CMN proíbe derivativos ligados a eventos; regulação sobre staking nos
-  EUA pode impactar inovação. Bitcoin em queda (~-4%).
-- Outros: Hugging Face como peça-chave da revolução da IA; sucessão de Tim Cook
-  (John Ternus assume a Apple); Motorola nomeia Amar Babu (Lenovo) como CEO
-  global após saída de Sergio Buniac.
+- Líderes brasileiros dão mais valor a comandos de IA que a média global
+  (62% vs 46%, pesquisa Monday).
+- Anthropic exige US$ 25 milhões iniciais em investimento; o IPO tem forte
+  demanda.
+- Cripto: stablecoins avançam em pagamentos internacionais e reforçam a demanda
+  por dólar; o CMN proíbe derivativos ligados a eventos; a regulação sobre
+  staking nos EUA pode impactar a inovação. O Bitcoin caiu para cerca de
+  US$ 65,6 mil no sábado, com realização de lucros e aversão a risco.
+- Outros: Hugging Face como peça-chave da revolução da IA; a sucessão de Tim
+  Cook (John Ternus assume a Apple); a Motorola nomeia Amar Babu (Lenovo) como
+  CEO global após a saída de Sergio Buniac.
 
 --------------------------------------------------------------------------------
-9. AGRONEGÓCIO
+8. AGRONEGÓCIO
 --------------------------------------------------------------------------------
-- Conab corta projeção em 1 milhão de toneladas para a safra de grãos.
-- Inadimplência no agro pressiona preço de terras e crise deve seguir em 2027.
-- Agronegócio amplia pessimismo após a vitória de Lula, com crédito caro e
+- A Conab cortou a projeção em 1 milhão de toneladas para a safra de grãos.
+- A inadimplência no agro pressiona o preço de terras, e a crise deve seguir em
+  2027; o Banco do Brasil é o caso mais visível, com lucro em queda e dividendos
+  na mínima.
+- O agronegócio ampliou o pessimismo após a vitória de Lula, com crédito caro e
   inadimplência.
-- Chuvas do El Niño no Brasil ameaçam o início da próxima safra de açúcar.
-- Brasil confirma novo caso de doença de Newcastle e mantém alerta para exportação
-  de aves.
+- As chuvas do El Niño no Brasil ameaçam o início da próxima safra de açúcar.
+- O Brasil confirmou novo caso de doença de Newcastle e mantém o alerta para a
+  exportação de aves.
 - JBS e bancos são alvo de queixas na Europa por desmatamento.
-- Reforma tributária está levando fábricas à Zona Franca de Manaus.
-- "Boom" de terras raras pode beneficiar até estados sem reserva mineral.
+- A reforma tributária está levando fábricas à Zona Franca de Manaus.
+- O "boom" de terras raras pode beneficiar até estados sem reserva mineral.
 
 --------------------------------------------------------------------------------
-10. OUTROS DESTAQUES
+9. OUTROS DESTAQUES
 --------------------------------------------------------------------------------
-- Análise: remédio para contas públicas pode não conter avalanche (Thais Herédia).
-- Segunda rodada de ajuste fiscal terá PEC com impacto de R$ 20 bilhões.
-- Na COP31, BNDES projeta R$ 39 bi em projetos climáticos.
-- Dívida dos países ricos é a maior desde a 2ª Guerra; Brasil também preocupa,
-  diz Stuhlberger.
-- Classe média sobe a 42,8% na América Latina; Noruega lidera ranking de melhores
-  países para se aposentar (Brasil é o 41º).
-- Crianças e adolescentes já investem R$ 3,5 bi em ações, FIIs e ETFs no Brasil.
+- Análise: o remédio para as contas públicas pode não conter a avalanche
+  (Thais Herédia).
+- A segunda rodada de ajuste fiscal terá PEC com impacto de cerca de
+  R$ 20 bilhões, podendo elevar o esforço total para até R$ 80 bilhões.
+- Na COP31, o BNDES projeta R$ 39 bilhões em projetos climáticos.
+- A dívida dos países ricos é a maior desde a 2ª Guerra; o Brasil também
+  preocupa, diz Stuhlberger.
+- A classe média subiu a 42,8% na América Latina; a Noruega lidera o ranking de
+  melhores países para se aposentar (o Brasil é o 41º).
+- Crianças e adolescentes já investem R$ 3,5 bilhões em ações, FIIs e ETFs no
+  Brasil.
 - Por que países europeus recomendam estoques de comida e água para três dias.
+
+--------------------------------------------------------------------------------
+10. FONTES, DATAS E METODOLOGIA
+--------------------------------------------------------------------------------
+- Notícias: Times Brasil | CNBC, CNN Brasil Money, Valor Econômico,
+  InvestNews, Bloomberg Línea, InfoMoney, G1, Estadão e Folha, com checagem
+  cruzada de títulos e datas entre 11/11/2026 e 14/11/2026.
+- Cotações: fechamento de 13/11/2026 (Yahoo Finance/B3). Em 14/11/2026, sábado,
+  não há pregão na B3.
+- Fundamentos: Fundamentus de 19/10/2026, preservados na planilha
+  b3_completo_fundamentos.xlsx; P/L, DY e P/VP foram recalculados com os preços
+  de 13/11/2026.
+- Observação: números de resultado trimestral e de mercado podem sofrer revisão;
+  confirme os dados antes de qualquer decisão de investimento.
 
 ================================================================================
 FIM DO RESUMO — INVEST.txt
