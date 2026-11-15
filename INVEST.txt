@@ -2,38 +2,44 @@
 INVEST.txt — RESUMO CONSOLIDADO DE NOTÍCIAS
 Fontes: Times Brasil | CNBC, CNN Brasil Money, Valor Econômico,
         InvestNews, Bloomberg Línea, InfoMoney, G1, Estadão e Folha
-Data da consolidação: 14/11/2026 (sábado)
-Cotações: fechamento de 13/11/2026 (sexta-feira). Em 14/11 os mercados
-de ações brasileiros estão fechados; notícias do fim de semana estão
-sinalizadas com a data.
+Data da consolidação: 15/11/2026 (domingo)
+Cotações: fechamento de 13/11/2026 (sexta-feira). Em 14/11 e 15/11 os
+mercados de ações brasileiros estão fechados; notícias do fim de semana
+estão sinalizadas com a data.
 ================================================================================
 
 --------------------------------------------------------------------------------
 1. DESTAQUES DO DIA
 --------------------------------------------------------------------------------
-- EUA suspenderam todas as decolagens na sexta-feira (13/11) por falha de
-  comunicação no controle de tráfego aéreo. A paralisação durou mais de quatro
-  horas e afetou mais de 15 mil voos; a retomada foi gradual e, no sábado
-  (14/11), ainda havia mais de 2,5 mil voos cancelados. A Anac monitora a
-  situação e recomenda que passageiros procurem as companhias; a agência
-  europeia chegou a suspender decolagens com destino aos EUA.
-- Microsoft restabeleceu Outlook, Teams e Copilot após pane global de mais de
-  30 horas que atingiu 74 países. A companhia pediu desculpas e disse que os
-  serviços estão operacionais; a falha afetou bancos, hospitais, governos e
-  mesas de operações no mundo todo.
-- Terceiro petroleiro foi atingido por mina naval no Estreito de Ormuz em menos
-  de uma semana; um dos navios pegou fogo. A Guarda Revolucionária do Irã
-  confirmou dois petroleiros atingidos por minas. O episódio eleva o risco de
-  interrupção da navegação, pressiona o Brent e o frete e aumenta a incerteza
-  sobre o abastecimento global.
-- Nvidia: Jensen Huang renunciou ao cargo de CEO em 12/11 após revelações de
-  casos extraconjugais; a CFO Colette Kress assumiu interinamente. A empresa
-  agradeceu as "contribuições profundas" de Huang, e o mercado debate o impacto
-  sobre uma companhia avaliada em cerca de US$ 3,3 trilhões.
-- Cúpula do PT decidiu, no fim de semana, apoiar o ajuste fiscal do governo e
-  elegeu o Banco Central como culpado pela crise e pelos juros altos. A decisão
-  reduz o risco de sabotagem política ao pacote, mas aumenta a tensão entre
-  política fiscal e política monetária.
+- O vice-presidente Geraldo Alckmin disse neste domingo (15/11) que o governo
+  trabalha para levar o pacote fiscal à votação na Câmara na quarta-feira
+  (18/11). No Senado, os quatro destaques do texto-base ficaram para terça-feira
+  (17/11). A expectativa oficial é de redução de despesas entre R$ 50 bilhões e
+  R$ 60 bilhões em 2027.
+- A bancada do PT na Câmara protocolou, na sexta-feira (13/11), quatro projetos
+  que aumentam a carga tributária: imposto de 15% sobre lucros e dividendos,
+  taxa de 7,5% sobre LCI e LCA, elevação do JCP de 17,5% para 20% e imposto
+  sobre grandes patrimônios de 0,7% a 3% acima de R$ 15 milhões. As propostas
+  não têm tramitação garantida, mas acendem alerta para ações de renda.
+- Economistas avaliam que o ajuste aprovado é insuficiente para estabilizar a
+  dívida. A segunda etapa depende de uma PEC com impacto de cerca de
+  R$ 20 bilhões, e a dívida bruta já se aproxima de 83% do PIB. O Congresso
+  também suavizou o corte de supersalários, o que reduz a economia efetiva.
+- A crise do Banco do Brasil se aprofundou: o lucro ajustado do 3T26 caiu
+  66,5%, o ROE ficou em 2,8% e 31 mil produtores rurais (5,5% de 566 mil
+  clientes do agro) estão inadimplentes. A inadimplência do agro chegou a 6,92%,
+  com R$ 42,6 bilhões provisionados. Cresce a pressão pela troca da CEO
+  Tarciana Medeiros.
+- A Nvidia divulga resultados na terça-feira (17/11) em meio à crise de
+  sucessão aberta com a renúncia de Jensen Huang. A companhia perdeu valor de
+  mercado desde o anúncio, e o evento é o principal teste para o humor global
+  em tecnologia e IA na semana.
+- O caos aéreo nos EUA continua: mais de 16 mil voos foram cancelados desde a
+  falha no controle de tráfego aéreo, e a retomada segue gradual. A Microsoft
+  restabeleceu Outlook, Teams e Copilot após pane de mais de 30 horas.
+- O Bitcoin opera em torno de US$ 64,7 mil neste domingo, com o índice de medo
+  e ganância em "medo extremo". O Ethereum fica perto de US$ 1.808, e o mercado
+  cripto segue sem fôlego depois de uma semana de aversão a risco.
 
 --------------------------------------------------------------------------------
 2. ECONOMIA BRASILEIRA — FISCAL, JUROS E INFLAÇÃO
@@ -41,20 +47,33 @@ sinalizadas com a data.
 Pacote fiscal:
 - O Senado aprovou na noite de 12/11, por 45 votos a 31, o texto-base do
   pacote fiscal do governo, com economia prevista de até R$ 60 bilhões. O JOTA
-  estima impacto de até R$ 56 bilhões em 2027. Quatro pontos ainda serão
-  votados em destaque, e a tramitação não está concluída.
+  estima impacto de até R$ 56 bilhões em 2027.
+- Os quatro pontos que ficaram pendentes serão votados em destaque na
+  terça-feira (17/11). A votação não está concluída, e o governo corre para
+  fechar o calendário antes da votação na Câmara, que Alckmin quer para
+  quarta-feira (18/11).
 - O texto reduz benefícios tributários, impõe limites mais rígidos ao crescimento
   das despesas e altera regras de metas fiscais; permite desconsiderar até
   R$ 10,5 bilhões em subsídios ao diesel do resultado de 2026.
 - O governo prepara uma segunda rodada, com PEC de impacto de cerca de
   R$ 20 bilhões, para elevar o ajuste a até R$ 80 bilhões em 2027. O Fundeb pode
   perder até R$ 20 bilhões na nova etapa, o que já gera resistência.
-- A leitura predominante no mercado é de "vitória frágil e provisória". O jornal
-  Gazeta do Povo chamou o texto de "um arremedo de pacote fiscal"; economistas
-  avaliam que o ajuste é tímido e mantém juros e dólar pressionados.
+- A leitura predominante no mercado é de "vitória frágil e provisória".
+  Economistas apontam que o ajuste é tímido, que a dívida bruta caminha para
+  cerca de 83% do PIB e que o Congresso retirou partes do corte de supersalários.
+  Sem sinal fiscal crível, juros longos e dólar seguem pressionados.
 - InfoMoney: "Sem sinal fiscal crível, pessimismo com Selic e PIB seguirá punindo
   ações cíclicas". A conclusão é que a bolsa só deve destravar valor em cíclicas
   quando houver sinal claro de queda estrutural dos juros longos.
+
+Risco tributário:
+- Os quatro projetos protocolados pela bancada do PT na sexta-feira (13/11)
+  miram lucros e dividendos (15%), LCI/LCA (7,5%), JCP (17,5% para 20%) e
+  grandes patrimônios (0,7% a 3% acima de R$ 15 milhões).
+- A proposta de taxar dividendos atinge diretamente a tese de renda de ações
+  como BBSE3, CMIG4 e PETR4. A de JCP afeta seguradoras e bancos, que usam o
+  mecanismo para remunerar acionistas. Ainda não há votação marcada, mas o tema
+  entra no radar de risco regulatório.
 
 Juros e Banco Central:
 - A Selic está em 13,75%. O Copom não sinaliza corte no curto prazo, e a ata
@@ -73,6 +92,9 @@ Inflação e atividade:
 - As vendas no varejo brasileiro surpreenderam com alta de 0,2% em setembro,
   mas a atividade segue fraca e o crédito continua caro.
 - A economia precisa de produtividade para crescer mais, diz Galípolo.
+- O mercado de fusões e aquisições somou R$ 254 bilhões em nove meses de 2026,
+  alta de 16% em valor apesar de 871 negócios (queda de cerca de 40% no número).
+  A Selic alta deve acelerar a venda de ativos e a consolidação em 2027.
 
 --------------------------------------------------------------------------------
 3. MERCADOS
@@ -80,16 +102,18 @@ Inflação e atividade:
 - Ibovespa: 172.458 pontos (+0,66%) em 13/11, acumulando alta de 2,35% na
   semana, com apoio de Petrobras, Itaú, balanços e da aprovação do pacote
   fiscal. O índice recuperou parte das perdas recentes, mas segue sensível ao
-  fiscal e ao exterior.
+  fiscal e ao exterior. Não houve pregão em 14/11 e 15/11.
 - Dólar: R$ 5,65, praticamente estável na sexta, mas com alta de 2,66% na
   semana e renovando máxima desde 2025 durante o pregão. O fiscal frágil e a
   inflação americana seguem no radar.
-- Wall Street: Nasdaq 25.136 pontos (-0,91%), pressionado por Nvidia e pelas
-  techs; S&P 500 caiu 0,40%, enquanto o Dow Jones subiu 0,10%.
-- Brent: cerca de US$ 95,8 em 13/11, em alta de 4,7% desde 10/11, com o
+- Wall Street (13/11): Nasdaq 25.136 pontos (-0,91%), pressionado por Nvidia e
+  pelas techs; S&P 500 caiu 0,40%, para 7.561 pontos, enquanto o Dow Jones subiu
+  0,10%, para 52.347 pontos.
+- Brent: cerca de US$ 95,84 em 13/11, em alta de 4,7% desde 10/11, com o
   prêmio de risco geopolítico no Estreito de Ormuz.
-- Bitcoin: US$ 68,2 mil em 13/11 (-4,3%) e cerca de US$ 65,6 mil em 14/11
-  (-3,8% no dia), acumulando queda de aproximadamente 11% na semana.
+- Bitcoin: US$ 68,2 mil em 13/11 (-4,3%) e cerca de US$ 64,7 mil em 15/11,
+  acumulando queda de aproximadamente 11% na semana. Ethereum perto de
+  US$ 1.808. O sentimento está em "medo extremo".
 - Destaques locais em 13/11: Petrobras +1,34%; Itaú +1,42%; Bradesco +1,40%;
   CMIG4 +3,86%; Cyrela +3,89%; Magazine Luiza +10,47%; Cosan +8,77%.
   Do lado negativo: Banco do Brasil -2,45%, CSN -12,06% e BBSE3 -0,93%.
@@ -102,16 +126,19 @@ Inflação e atividade:
 4. EMPRESAS E RESULTADOS TRIMESTRAIS (3T26)
 --------------------------------------------------------------------------------
 Bancos e serviços financeiros:
-- Banco do Brasil: o lucro ajustado caiu 66,5% no 3T26, o banco cortou as
-  projeções pela metade e passou a pagar o dividendo mínimo obrigatório. A
-  inadimplência no agro é o foco da deterioração; o BB afirma que 90% dos
-  clientes do agro estão em dia. A ação caiu 8,35% em 12/11 e perdeu mais de
-  R$ 8 bilhões em valor de mercado.
-- BB Seguridade: a CEO do Banco do Brasil, Tarciana Medeiros, descartou vender a
-  fatia do BB na BBSE3 — "não está à venda". O banco planeja abrir o capital de
-  duas empresas do grupo quando houver janela de mercado, para recompor capital.
-  A notícia remove o risco de oferta secundária de BBSE3, mas não elimina a
-  pressão sobre a controladora.
+- Banco do Brasil: o lucro ajustado caiu 66,5% no 3T26, o ROE recuou para 2,8%
+  e o banco cortou as projeções pela metade, passando a pagar o dividendo mínimo
+  obrigatório. São 31 mil produtores rurais inadimplentes, 5,5% dos 566 mil
+  clientes do agro; a inadimplência do segmento chegou a 6,92%, com R$ 42,6
+  bilhões provisionados. A ação caiu 8,35% em 12/11 e perdeu mais de R$ 8
+  bilhões em valor de mercado. A pressão pela troca da CEO Tarciana Medeiros
+  aumentou.
+- BB Seguridade: a CEO do Banco do Brasil descartou vender a fatia do BB na
+  BBSE3 — "não está à venda". O banco planeja abrir o capital de duas empresas
+  do grupo quando houver janela de mercado, para recompor capital. A notícia
+  remove o risco de oferta secundária de BBSE3, mas não elimina a pressão sobre
+  a controladora nem o risco de a seguradora ser chamada a sustentar dividendos
+  do banco.
 - Santander Brasil: o banco elevou em 5% a oferta de permuta por ações
   remanescentes na OPA, um negócio de cerca de € 1,9 bilhão para os minoritários
   que ainda detêm aproximadamente 10% do capital. A operação é uma troca por
@@ -126,6 +153,9 @@ Bancos e serviços financeiros:
   cortou a projeção de lucro, e a inadimplência é apontada por analistas como o
   maior risco. XP classificou o resultado como fraco e disse que o crédito
   segue no centro do debate.
+- Banco ABC Brasil: comprou 40% da Angá Asset, com opção de chegar a 100% até
+  2031; o negócio pode chegar a R$ 690 milhões e amplia a área de gestão de
+  recursos do banco.
 
 Indústria, energia e varejo:
 - CSN: prejuízo de R$ 1,25 bilhão no trimestre e dívida de R$ 44,9 bilhões
@@ -165,7 +195,7 @@ Indústria, energia e varejo:
 - A PGR se manifestou contra o pedido de anulação da condenação de Bolsonaro.
 - Liminar de Flávio Dino sobre o fim da jornada 6x1: veja os principais pontos.
 - Relator busca votos do centro para aprovar a regulação de mercados digitais;
-  a votação estava prevista para terça-feira.
+  a votação estava prevista para terça-feira (17/11).
 - O governo espera votar o Ploa até meados de dezembro.
 - O Tesouro Nacional identificou acesso indevido a 30 mil cadastros e 4 mil
   chaves Pix; a Caixa Vida e Previdência diz que o vazamento não envolveu dados
@@ -173,15 +203,19 @@ Indústria, energia e varejo:
 - Ataques hackers podem gerar prejuízo de R$ 2,9 trilhões ao Brasil em três anos.
 - A cúpula do PT aprovou apoio ao ajuste fiscal e responsabilizou o Banco
   Central pela crise; a decisão foi tomada no fim de semana e deve orientar a
-  atuação do partido no Congresso.
+  atuação do partido no Congresso. Dias antes, porém, a bancada do partido
+  protocolou os quatro projetos de aumento de tributos, o que mantém a
+  desconfiança do mercado sobre a coerência fiscal da base.
+- O Congresso suavizou o corte de supersalários no pacote, reduzindo o impacto
+  efetivo da economia prevista pelo governo.
 
 --------------------------------------------------------------------------------
 6. MUNDO E INTERNACIONAL
 --------------------------------------------------------------------------------
 - EUA: a suspensão das decolagens por falha de comunicação no controle de
-  tráfego aéreo causou caos nos aeroportos, com mais de 2,5 mil voos ainda
-  cancelados no sábado. A retomada é gradual, e companhias e passageiros seguem
-  com atrasos.
+  tráfego aéreo causou caos nos aeroportos. Mais de 16 mil voos foram cancelados
+  desde o início do problema, e a retomada segue gradual, com atrasos e
+  remarcações.
 - Oriente Médio: o terceiro petroleiro atingido por mina no Estreito de Ormuz
   em menos de uma semana aumenta o risco de interrupção de uma das principais
   rotas do petróleo mundial. O Brent subiu com o prêmio de risco, e o mercado
@@ -196,8 +230,13 @@ Indústria, energia e varejo:
   O BC paraguaio critica a "falência regulatória" nos casos Ueno e Master.
 - Lula retomou o diálogo com a Venezuela e abriu caminho para mais investimentos
   em petróleo.
-- Lula cobrou ação global na COP31 e alertou que guerra e inflação ofuscam a
-  crise climática.
+- Lula participou da cúpula da Asean, em Manila, e defendeu um salto industrial
+  e tecnológico, além de regulação das grandes empresas de tecnologia. O Brasil
+  tenta ampliar investimentos asiáticos em infraestrutura, energia e transição
+  verde.
+- O Canadá anunciou US$ 560 milhões (cerca de R$ 2,2 bilhões) para o fundo
+  florestal TFFF durante a cúpula da Asean, em Manila. Na COP31, Lula cobrou
+  ação global e alertou que guerra e inflação ofuscam a crise climática.
 - AIE: a oferta global de petróleo deve superar a demanda no 4º trimestre, o que
   limita o Brent no médio prazo, em contraste com o choque geopolítico de curto
   prazo no Estreito de Ormuz.
@@ -211,15 +250,20 @@ Indústria, energia e varejo:
 --------------------------------------------------------------------------------
 7. TECNOLOGIA, IA E CRIPTO
 --------------------------------------------------------------------------------
-- Nvidia: a renúncia de Jensen Huang após revelações de casos extraconjugais
-  abriu uma crise de sucessão. A CFO Colette Kress assumiu interinamente e virou
-  peça central na transição; as ações recuaram em Wall Street, e o caso também
-  envolve suspeita de espionagem e reacendeu o debate sobre a venda de chips à
-  China.
+- Nvidia: a renúncia de Jensen Huang em 12/11, após revelações de casos
+  extraconjugais, abriu uma crise de sucessão. A CFO Colette Kress assumiu
+  interinamente e virou peça central na transição. A companhia, que chegou a
+  valer cerca de US$ 5,8 trilhões, perdeu valor de mercado e valia perto de
+  US$ 4 trilhões no fechamento de sexta-feira, segundo relatos de mercado. O
+  caso também envolve suspeita de espionagem e reacendeu o debate sobre a venda
+  de chips à China.
+- A divulgação de resultados da Nvidia na terça-feira (17/11) é o principal
+  evento da semana para ações de tecnologia e para o humor global. Analistas
+  esperam saber se a demanda por IA segue forte e como a empresa lida com as
+  restrições de exportação.
 - Microsoft: a pane global de mais de 30 horas afetou Outlook, Teams e Copilot
-  em 74 países. A companhia restabeleceu os serviços no sábado e pediu
-  desculpas; o episódio reforça a necessidade de redundância e resiliência
-  cibernética.
+  em 74 países. A companhia restabeleceu os serviços e pediu desculpas; o
+  episódio reforça a necessidade de redundância e resiliência cibernética.
 - IA: a corrida por data centers enfrenta resistência nos EUA; ações ligadas à
   IA desafiam o cenário macro. A Cisco superou expectativas de lucro e projeta
   dobrar a receita com infraestrutura de IA no ano fiscal.
@@ -231,11 +275,12 @@ Indústria, energia e varejo:
 - Líderes brasileiros dão mais valor a comandos de IA que a média global
   (62% vs 46%, pesquisa Monday).
 - Anthropic exige US$ 25 milhões iniciais em investimento; o IPO tem forte
-  demanda.
+  demanda e é apontado como um dos maiores testes para o mercado de tecnologia
+  em 2026.
 - Cripto: stablecoins avançam em pagamentos internacionais e reforçam a demanda
   por dólar; o CMN proíbe derivativos ligados a eventos; a regulação sobre
   staking nos EUA pode impactar a inovação. O Bitcoin caiu para cerca de
-  US$ 65,6 mil no sábado, com realização de lucros e aversão a risco.
+  US$ 64,7 mil no domingo, com realização de lucros e aversão a risco.
 - Outros: Hugging Face como peça-chave da revolução da IA; a sucessão de Tim
   Cook (John Ternus assume a Apple); a Motorola nomeia Amar Babu (Lenovo) como
   CEO global após a saída de Sergio Buniac.
@@ -245,8 +290,8 @@ Indústria, energia e varejo:
 --------------------------------------------------------------------------------
 - A Conab cortou a projeção em 1 milhão de toneladas para a safra de grãos.
 - A inadimplência no agro pressiona o preço de terras, e a crise deve seguir em
-  2027; o Banco do Brasil é o caso mais visível, com lucro em queda e dividendos
-  na mínima.
+  2027; o Banco do Brasil é o caso mais visível, com 31 mil produtores
+  inadimplentes, lucro em queda e dividendos na mínima.
 - O agronegócio ampliou o pessimismo após a vitória de Lula, com crédito caro e
   inadimplência.
 - As chuvas do El Niño no Brasil ameaçam o início da próxima safra de açúcar.
@@ -277,9 +322,9 @@ Indústria, energia e varejo:
 --------------------------------------------------------------------------------
 - Notícias: Times Brasil | CNBC, CNN Brasil Money, Valor Econômico,
   InvestNews, Bloomberg Línea, InfoMoney, G1, Estadão e Folha, com checagem
-  cruzada de títulos e datas entre 11/11/2026 e 14/11/2026.
-- Cotações: fechamento de 13/11/2026 (Yahoo Finance/B3). Em 14/11/2026, sábado,
-  não há pregão na B3.
+  cruzada de títulos e datas entre 11/11/2026 e 15/11/2026.
+- Cotações: fechamento de 13/11/2026 (Yahoo Finance/B3). Em 14/11 e 15/11/2026,
+  sábado e domingo, não há pregão na B3.
 - Fundamentos: Fundamentus de 19/10/2026, preservados na planilha
   b3_completo_fundamentos.xlsx; P/L, DY e P/VP foram recalculados com os preços
   de 13/11/2026.

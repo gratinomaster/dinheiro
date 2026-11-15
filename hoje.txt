@@ -1,10 +1,10 @@
 ================================================================
 RECOMENDAÇÃO OBJETIVA DE COMPRA — hoje.txt
-Data da análise: 14/11/2026 (sábado)
-Fontes: INVEST.txt (notícias consolidadas em 14/11/2026) e
+Data da análise: 15/11/2026 (domingo)
+Fontes: INVEST.txt (notícias consolidadas em 15/11/2026) e
         b3_completo_fundamentos.xlsx (cotações de fechamento de
         13/11/2026; fundamentos do Fundamentus de 19/10/2026)
-Nota sobre os dados: 14/11/2026 é sábado e a B3 está fechada. Os
+Nota sobre os dados: 15/11/2026 é domingo e a B3 está fechada. Os
 preços são os fechamentos de 13/11/2026. Revalidar cotação,
 volume e notícias na segunda-feira (16/11/2026), antes de enviar
 a ordem.
@@ -51,16 +51,31 @@ sai da carteira por causa da OPA; não é caso de nova compra.
 ----------------------------------------------------------------
 - Fiscal: o Senado aprovou na noite de 12/11, por 45 votos a 31,
   o texto-base do pacote fiscal, com economia prevista de até
-  R$ 60 bilhões (o JOTA estima até R$ 56 bilhões em 2027). Quatro
-  pontos ainda serão votados, e o governo prepara uma segunda
-  rodada com PEC de cerca de R$ 20 bilhões para elevar o ajuste a
-  até R$ 80 bilhões. A leitura predominante, porém, é de "vitória
-  frágil e provisória": o texto é considerado tímido e ainda
-  depende de execução. (Valor, Bloomberg Línea, InfoMoney, JOTA)
+  R$ 60 bilhões (o JOTA estima até R$ 56 bilhões em 2027). Os
+  quatro destaques ficaram para terça-feira (17/11). O vice-
+  presidente Geraldo Alckmin disse neste domingo (15/11) que o
+  governo trabalha para votar o pacote na Câmara na quarta-feira
+  (18/11), com redução de despesas entre R$ 50 bilhões e
+  R$ 60 bilhões em 2027. A segunda rodada depende de PEC de cerca
+  de R$ 20 bilhões. (Valor, Bloomberg Línea, InfoMoney, JOTA)
+- Qualidade do ajuste: economistas consideram o pacote
+  insuficiente para estabilizar a dívida, que se aproxima de 83%
+  do PIB. O Congresso suavizou o corte de supersalários, e o
+  Fundeb pode perder até R$ 20 bilhões na segunda etapa, o que
+  aumenta a resistência política. A leitura predominante segue a
+  de "vitória frágil e provisória". (Valor, Estadão, Folha)
+- Risco tributário: a bancada do PT protocolou, em 13/11, quatro
+  projetos que criam imposto de 15% sobre lucros e dividendos,
+  taxa de 7,5% sobre LCI/LCA, elevam o JCP de 17,5% para 20% e
+  criam imposto de 0,7% a 3% sobre patrimônios acima de
+  R$ 15 milhões. Não há votação marcada, mas, se avançarem, essas
+  propostas reduzem o rendimento líquido justamente das ações de
+  renda que sustentam a carteira. (InfoMoney, Valor)
 - Política: a cúpula do PT decidiu apoiar o ajuste fiscal e
   responsabilizou o Banco Central pela crise e pelos juros altos.
-  A decisão reduz o risco de sabotagem política ao pacote, mas
-  aumenta a tensão entre o governo e o BC. (InfoMoney, Estadão)
+  A decisão reduz o risco de sabotagem política ao pacote, mas os
+  projetos tributários da bancada mantêm a desconfiança sobre a
+  coerência da base. (InfoMoney, Estadão)
 - Juros e inflação: a Selic está em 13,75%. O Copom não sinaliza
   corte no curto prazo, e o IPCA de outubro ficou em 4,63% em 12
   meses, acima do teto da meta. Galípolo alerta que a queda da
@@ -74,34 +89,50 @@ sai da carteira por causa da OPA; não é caso de nova compra.
   praticamente estável na sexta, mas subiu 2,66% na semana. O
   exterior pesou: Nasdaq caiu 0,91%, com a crise da Nvidia e o
   apagão da Microsoft reduzindo o apetite por risco em
-  tecnologia. O Bitcoin recuou para cerca de US$ 65,6 mil no
-  sábado, acumulando queda de aproximadamente 11% na semana.
+  tecnologia. O Bitcoin recuou para cerca de US$ 64,7 mil no
+  domingo, acumulando queda de aproximadamente 11% na semana, com
+  "medo extremo". O mercado de M&A somou R$ 254 bilhões em nove
+  meses, alta de 16% em valor apesar de 40% menos negócios.
   (Valor, G1, Poder360, Yahoo Finance)
 - Empresas: o Banco do Brasil teve lucro ajustado 66,5% menor,
-  cortou as projeções pela metade e passou a pagar o dividendo
-  mínimo; a ação caiu 8,35% em 12/11. A BBSE3 não está à venda,
+  ROE de 2,8%, 31 mil produtores rurais inadimplentes (5,5% dos
+  clientes do agro) e inadimplência do agro em 6,92%, com
+  R$ 42,6 bilhões provisionados. O banco cortou as projeções pela
+  metade, passou a pagar o dividendo mínimo e enfrenta pressão
+  pela troca da CEO Tarciana Medeiros. A BBSE3 não está à venda,
   segundo a CEO do BB, e o banco planeja dois IPOs de empresas do
   grupo. O Santander elevou em 5% a OPA por SANB11, em troca de
   ações da matriz espanhola. A Stone cortou o guidance de lucro,
   com inadimplência apontada como maior risco. A Cosan anunciou a
-  troca de CEO para janeiro de 2027. (INVEST.txt)
+  troca de CEO para janeiro de 2027, e o Banco ABC Brasil comprou
+  40% da Angá Asset. (INVEST.txt)
 - Petróleo: o terceiro petroleiro atingido por mina no Estreito de
   Ormuz em menos de uma semana elevou o prêmio de risco
-  geopolítico: o Brent subiu para cerca de US$ 95,8, com alta de
-  4,7% desde 10/11, e pode dar suporte de curto prazo ao Brent. No
-  médio prazo, a AIE ainda vê oferta global superior à demanda no
-  4º trimestre, o que limita a alta. (INVEST.txt)
+  geopolítico: o Brent subiu para cerca de US$ 95,84, com alta de
+  4,7% desde 10/11. No médio prazo, a AIE ainda vê oferta global
+  superior à demanda no 4º trimestre, o que limita a alta.
+  (INVEST.txt)
+- Exterior: a Nvidia divulga resultados na terça-feira (17/11) em
+  meio à crise de sucessão após a renúncia de Jensen Huang, e o
+  evento é o principal teste para o humor global em tecnologia.
+  O caos aéreo nos EUA continua, com mais de 16 mil voos
+  cancelados, e a Microsoft restabeleceu os serviços após pane de
+  mais de 30 horas. (INVEST.txt)
 
-Leitura: o pacote fiscal aprovado melhora o humor e reduz o risco
-extremo nos juros longos, mas é tímido e de execução incerta. A
-inflação acima da meta e a Selic em 13,75% mantêm o custo de
-capital alto. O ambiente continua favorecendo empresas com caixa,
-dividendos, receita previsível e menor dependência de crédito
-barato. O risk-off global em tecnologia aumenta a atração relativa
-por defensivas domésticas, mas pode pressionar o fluxo estrangeiro
-para a bolsa brasileira. O choque no Estreito de Ormuz é um risco
-geopolítico com efeito ambíguo: pode elevar o petróleo no curto
-prazo, mas piora o risk-off global se a situação escalar.
+Leitura: o calendário fiscal ficou mais claro, com destaques no
+Senado na terça (17/11) e votação na Câmara na quarta (18/11),
+mas o ajuste segue tímido e de execução incerta. A inflação acima
+da meta e a Selic em 13,75% mantêm o custo de capital alto. O
+ambiente continua favorecendo empresas com caixa, dividendos,
+receita previsível e menor dependência de crédito barato. Há dois
+riscos novos relevantes: o pacote tributário do PT, que ameaça a
+renda líquida das ações de dividendos, e o agravamento da crise do
+Banco do Brasil, que aumenta o contágio sobre a BBSE3. O risk-off
+global em tecnologia, com a Nvidia no centro, aumenta a atração
+relativa por defensivas domésticas, mas pode pressionar o fluxo
+estrangeiro para a bolsa brasileira. O choque no Estreito de Ormuz
+é um risco geopolítico com efeito ambíguo: pode elevar o petróleo
+no curto prazo, mas piora o risk-off global se escalar.
 
 2. JUSTIFICATIVA POR ATIVO
 ----------------------------------------------------------------
@@ -120,6 +151,10 @@ prazo, mas piora o risk-off global se a situação escalar.
     melhora fiscal. É a maior posição porque combina preço baixo,
     dividendo alto e risco de crédito baixo. Mesmo após a alta de
     3,86% em 13/11, o DY segue acima de 9%.
+  * O que monitorar: o projeto do PT que cria imposto de 15% sobre
+    dividendos, se aprovado, reduziria o rendimento líquido da
+    tese. Ainda não há votação, mas o risco tributário entrou no
+    radar e justifica entrada parcelada, não compra concentrada.
 
 - BBSE3 (30% — núcleo de renda / seguros):
   * Números: P/L 7,99; P/VP 6,77; DY 12,14%; ROE 84,38%; LPA de
@@ -135,13 +170,18 @@ prazo, mas piora o risk-off global se a situação escalar.
     recompor capital. Isso remove o risco de oferta secundária da
     BBSE3 e reduz a leitura de que a controladora venderia ativos
     para tapar buraco.
+  * O que mudou para pior: a crise do BB ficou mais evidente, com
+    ROE de 2,8%, 31 mil produtores inadimplentes e R$ 42,6 bilhões
+    provisionados. A pressão pela troca da CEO aumenta a
+    instabilidade na controladora. O banco pode precisar de
+    dividendos da seguradora ou de venda de ativos, e o projeto
+    que eleva o JCP para 20% afeta o mecanismo de remuneração.
   * Por que não é a maior posição: o P/VP de 6,77 já precifica
     muita qualidade, e o payout de 97% deixa pouca margem para
-    surpresas negativas. O lucro do Banco do Brasil caiu 66,5%, o
-    guidance foi cortado pela metade e os dividendos ficaram na
-    mínima obrigatória; isso não muda o balanço da BBSE3 no curto
-    prazo, mas aumenta o risco de contágio e de menor distribuição
-    via rede bancária. Por isso o peso fica em 30%, sem aumento.
+    surpresas negativas. O contágio do BB não muda o balanço da
+    BBSE3 no curto prazo, mas aumenta o risco de menor distribuição
+    e de interferência política. Por isso o peso fica em 30%, sem
+    aumento.
 
 - BBDC4 (20% — banco / valor e liquidez):
   * Números: P/L 6,64; P/VP 1,21; DY 8,67%; ROE 14,13%; LPA de
@@ -181,17 +221,27 @@ prazo, mas piora o risk-off global se a situação escalar.
     risco de curto prazo e reforça o papel de hedge, mas não muda a
     tese estrutural de oferta abundante. O peso menor mantém a
     proteção sem transformar a carteira em aposta em commodity.
+  * O que monitorar: o projeto de imposto de 15% sobre dividendos
+    também afeta PETR4, que distribui proventos relevantes. O
+    payout baixo dá folga, mas o rendimento líquido cairia se a
+    proposta avançar.
 
 3. RISCOS
 ----------------------------------------------------------------
-- Fiscal/político: o pacote foi aprovado, mas é considerado tímido
-  e provisório. Se a execução falhar, se o ajuste efetivo ficar
-  abaixo dos R$ 60-80 bilhões ou se o Congresso desidratar as
-  medidas, os juros longos podem voltar a subir, o dólar pode
-  pressionar e tanto CMIG4 quanto BBDC4 sofrem com marcação a
-  mercado e piora do crédito. A PEC da segunda rodada ainda não
-  foi votada e o Fundeb pode perder R$ 20 bilhões, o que aumenta a
-  resistência política.
+- Fiscal/político: o pacote foi aprovado em texto-base, mas os
+  quatro destaques só serão votados em 17/11 e a Câmara pode votar
+  em 18/11. Se a votação atrasar, se o ajuste efetivo ficar abaixo
+  dos R$ 50-60 bilhões ou se o Congresso desidratar as medidas, os
+  juros longos podem voltar a subir, o dólar pode pressionar e
+  tanto CMIG4 quanto BBDC4 sofrem com marcação a mercado e piora
+  do crédito. A PEC da segunda rodada ainda não foi votada e o
+  Fundeb pode perder R$ 20 bilhões.
+- Tributário: os quatro projetos do PT (dividendos 15%, LCI/LCA
+  7,5%, JCP 20% e patrimônio 0,7%-3%) são o principal risco novo
+  para a tese de renda. Se avançarem, reduzem o DY líquido de
+  CMIG4, BBSE3 e PETR4 e podem provocar realização nos setores de
+  utilities, seguros e petróleo. Ainda não há votação marcada, mas
+  o risco não pode ser ignorado.
 - Juros: mesmo com o pacote, a inflação acima da meta e a cautela
   do Copom podem manter a Selic em 13,75% por mais tempo. Juro alto
   ajuda o float de BBSE3, mas comprime o múltiplo de utilities e
@@ -204,8 +254,10 @@ prazo, mas piora o risk-off global se a situação escalar.
   97% deixa pouca folga; há dependência do Banco do Brasil e risco
   de interferência política na controladora. A decisão de não
   vender a fatia é positiva, mas o banco pode pressionar a
-  seguradora por dividendos se precisar de capital. Liquidez menor
-  do que a dos grandes bancos.
+  seguradora por dividendos se precisar de capital. A crise do BB
+  (ROE 2,8%, 31 mil produtores inadimplentes, R$ 42,6 bilhões
+  provisionados e pressão pela troca da CEO) aumenta o risco de
+  contágio. Liquidez menor do que a dos grandes bancos.
 - CMIG4: risco regulatório, hidrológico e de decisões do
   controlador estatal. O DY de 9,26% pode não se repetir se o lucro
   cair ou se o payout for revisto. A alta de 3,86% em 13/11 reduz
@@ -217,12 +269,12 @@ prazo, mas piora o risk-off global se a situação escalar.
   Estreito de Ormuz tem dois lados: pode elevar o petróleo no curto
   prazo, mas, se escalar, amplia o risk-off global e derruba bolsas
   e moedas emergentes.
-- Externo: a crise da Nvidia, o apagão da Microsoft e a correção
-  das ações de IA podem ampliar o risk-off global e reduzir o fluxo
-  para o Brasil. A suspensão de voos nos EUA e o caos aéreo também
-  afetam a confiança. Commodities têm previsão de alta de 23% em
-  2026, mas com alívio em 2027, segundo o Banco Mundial; o El Niño
-  é um risco adicional.
+- Externo: a Nvidia divulga resultados em 17/11 em meio à crise de
+  sucessão, e uma decepção pode ampliar o risk-off global e
+  reduzir o fluxo para o Brasil. O caos aéreo nos EUA e a pane da
+  Microsoft também afetam a confiança. Commodities têm previsão de
+  alta de 23% em 2026, mas com alívio em 2027, segundo o Banco
+  Mundial; o El Niño é um risco adicional.
 - SANB11/OPA: o preço de R$ 28,40 está próximo do valor implícito
   da oferta de permuta do Santander. O upside fica limitado ao
   prêmio final, e há risco de liquidez e de tratamento tributário
@@ -235,13 +287,19 @@ prazo, mas piora o risk-off global se a situação escalar.
 
 4. PLANO DE EXECUÇÃO
 ----------------------------------------------------------------
-- Como 14/11/2026 é sábado, não há pregão. Programar as ordens para
+- Como 15/11/2026 é domingo, não há pregão. Programar as ordens para
   segunda-feira (16/11/2026), revalidando preço, volume e notícias.
-- Entrar em três tranches: 40% na segunda-feira, 30% após a
-  conclusão da votação dos destaques do pacote e os primeiros
+- Semana de eventos: 17/11 (terça) — destaques do pacote no Senado
+  e resultados da Nvidia; 18/11 (quarta) — votação na Câmara, se o
+  calendário do governo se confirmar.
+- Entrar em três tranches: 40% na segunda-feira (16/11), 30% após a
+  conclusão das votações do pacote (17 e 18/11) e os primeiros
   sinais de execução fiscal, e 30% após os primeiros dados de
   arrecadação/despesa de 2027 ou após a temporada de resultados do
   4T26.
+- Não antecipar as duas últimas tranches antes das votações. O
+  prêmio de risco pode melhorar ou piorar rapidamente, e a entrada
+  parcelada protege contra um resultado adverso no Congresso.
 - Se o investidor preferir simplicidade, dividir em duas metades:
   metade agora e metade após a confirmação da execução fiscal.
 - Se a execução fiscal vier crível e os juros longos caírem:
@@ -250,11 +308,17 @@ prazo, mas piora o risk-off global se a situação escalar.
 - Se o pacote atrasar, perder credibilidade ou os juros longos
   voltarem a subir: reduzir CMIG4 primeiro, manter BBSE3 e BBDC4 e
   elevar caixa. Para PETR4, reavaliar se o Brent perder US$ 85.
+- Se o projeto tributário do PT avançar: reavaliar o tamanho da
+  posição em ações de renda (CMIG4, BBSE3 e PETR4), priorizando
+  empresas com payout menor e maior capacidade de crescer o lucro.
+  Não é motivo para vender tudo agora, mas é motivo para não
+  concentrar a entrada.
 - Para BBSE3, reavaliar a tese se o payout cair de forma
-  estrutural ou se o Banco do Brasil sinalizar necessidade de
-  capital que afete a seguradora. Para BBDC4, reavaliar se a
-  inadimplência subir muito acima dos pares. Para CMIG4, reavaliar
-  em caso de decisão regulatória adversa.
+  estrutural, se o Banco do Brasil sinalizar necessidade de
+  capital que afete a seguradora ou se a crise da controladora
+  levar a uma troca de comando sem plano claro. Para BBDC4,
+  reavaliar se a inadimplência subir muito acima dos pares. Para
+  CMIG4, reavaliar em caso de decisão regulatória adversa.
 - Para quem já tem SANB11: comparar o valor da OPA (troca por ações
   do Santander) com o preço de mercado e com a alternativa BBDC4.
   Se o prêmio for adequado e o investidor quiser exposição ao
@@ -268,11 +332,11 @@ prazo, mas piora o risk-off global se a situação escalar.
 5. O QUE EVITAR NESTE MOMENTO
 ----------------------------------------------------------------
 - BBAS3: P/L 5,92 e P/VP 0,65 parecem muito baratos, mas o lucro
-  ajustado caiu 66,5%, o guidance foi cortado pela metade e o
-  dividendo passou ao mínimo obrigatório. O múltiplo baixo é sobre
-  lucro que deve cair; a ação caiu 8,35% em 12/11 e perdeu mais de
-  R$ 8 bilhões em valor de mercado. Melhor esperar a estabilização
-  da inadimplência no agro.
+  ajustado caiu 66,5%, o ROE ficou em 2,8%, o guidance foi cortado
+  pela metade e o dividendo passou ao mínimo obrigatório. A
+  inadimplência do agro em 6,92%, com 31 mil produtores
+  inadimplentes e R$ 42,6 bilhões provisionados, mostra que o
+  problema não está resolvido. Melhor esperar a estabilização.
 - SANB11: P/L 7,01, P/VP 1,16 e DY 8,12% ainda são atraentes, mas
   a OPA de permuta do Santander, elevada em 5% (oferta de cerca de
   € 1,9 bilhão), cria um teto prático para o preço. O caso é
@@ -310,40 +374,39 @@ prazo, mas piora o risk-off global se a situação escalar.
   dividendo acima do lucro e não há notícia no INVEST.txt que
   sustente a tese. Não incluir sem confirmar se o provento é
   recorrente.
+- Comprar ações apenas por causa do DY, sem checar a tributação:
+  com os projetos do PT na mesa, o rendimento líquido pode mudar.
+  Prefira empresas com payout sustentável e lucro crescente.
 
-6. MUDANÇAS EM RELAÇÃO À VERSÃO DE 13/11/2026
+6. MUDANÇAS EM RELAÇÃO À VERSÃO DE 14/11/2026
 ----------------------------------------------------------------
-A carteira anterior era CMIG4 35%, BBSE3 30%, SANB11 20% e PETR4
-15%. A nova versão mantém CMIG4 (35%), BBSE3 (30%) e PETR4 (15%) e
-troca SANB11 (20%) por BBDC4 (20%).
+A carteira não mudou: CMIG4 35%, BBSE3 30%, BBDC4 20% e PETR4 15%.
+A decisão é manter os pesos e reforçar a entrada parcelada, porque
+o cenário ganhou dois riscos novos (tributário e contágio do BB)
+e um calendário de eventos concentrado na semana.
 
-Motivos:
-- SANB11 sai porque o Santander elevou em 5% a OPA de permuta pelas
-  ações remanescentes (cerca de 10% do capital, negócio de
-  aproximadamente € 1,9 bilhão). O preço de R$ 28,40 está próximo
-  do valor implícito da oferta, o upside fica limitado e o caso
-  passa a ser event-driven, com risco de liquidez e de tratamento
-  tributário da troca por ações da matriz.
-- BBDC4 entra por ter P/L 6,64 (abaixo de SANB11, ITSA4 e ITUB4,
-  excluindo BBAS3, cujo lucro está em colapso), P/VP 1,21,
-  DY 8,67%, payout saudável de 57,5% e liquidez muito superior
-  (32,39 milhões contra 3,09 milhões de SANB11). É a alternativa
-  mais eficiente para manter a exposição a bancos sem o teto da
-  OPA.
-- BBSE3 fica em 30%, sem aumento: a decisão do BB de não vender a
-  fatia e de fazer dois IPOs remove o risco de oferta secundária,
-  mas o lucro 66,5% menor da controladora, o guidance pela metade
-  e os dividendos na mínima recomendam cautela.
-- CMIG4 fica em 35%: a aprovação do pacote fiscal e a possibilidade
-  de queda dos juros longos seguem sendo o principal catalisador.
-  A alta de 3,86% em 13/11 foi forte, mas o DY de 9,26% e o payout
-  de 64,7% ainda justificam a posição.
-- PETR4 fica em 15%: o ataque a petroleiros no Estreito de Ormuz
-  aumenta o prêmio de risco de curto prazo e reforça o papel de
-  hedge, mas a AIE vê oferta superior à demanda no 4º trimestre e
-  a política de preços segue sujeita a interferência. O peso menor
-  mantém a proteção sem transformar a carteira em aposta em
-  commodity.
+O que mudou:
+- Calendário fiscal: Alckmin disse em 15/11 que a Câmara deve votar
+  o pacote em 18/11; os destaques do Senado ficaram para 17/11.
+  Antes, o calendário estava em aberto. Isso permite planejar as
+  tranches, mas também concentra o risco em dois dias.
+- Risco tributário: os quatro projetos do PT (dividendos 15%,
+  LCI/LCA 7,5%, JCP 20% e patrimônio 0,7%-3%) entraram no radar.
+  Ainda não há votação, mas afetam diretamente a tese de renda.
+- Crise do BB: os números do 3T26 ficaram mais claros (ROE 2,8%,
+  31 mil produtores inadimplentes, inadimplência do agro em 6,92%,
+  R$ 42,6 bilhões provisionados) e a pressão pela troca da CEO
+  aumentou. O contágio sobre a BBSE3 é o principal motivo para não
+  elevar o peso da seguradora.
+- Exterior: a Nvidia divulga resultados em 17/11, e a crise de
+  sucessão pode ampliar o risk-off em tecnologia. O Bitcoin caiu
+  para cerca de US$ 64,7 mil, com "medo extremo".
+- Por que não mudar os pesos: CMIG4 continua sendo a melhor
+  combinação de múltiplo, dividendo e proteção fiscal; BBSE3 tem o
+  maior DY, mas o P/VP alto e o contágio do BB limitam o aumento;
+  BBDC4 é a alternativa mais líquida e barata entre os bancos sem
+  o teto da OPA; PETR4 segue como hedge, com peso pequeno por
+  causa da oferta abundante de petróleo no médio prazo.
 - A cautela com incorporadoras e small caps de alta beta foi
   mantida: a aprovação do pacote é um avanço, mas é tímida, a Selic
   está em 13,75% e não há sinal fiscal crível que justifique
