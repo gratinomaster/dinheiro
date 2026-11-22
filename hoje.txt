@@ -1,332 +1,278 @@
 ================================================================
 RECOMENDAÇÃO OBJETIVA DE COMPRA — hoje.txt
-Data da análise: 20/11/2026 (sexta-feira)
-Fontes: INVEST.txt (notícias consolidadas em 20/11/2026) e
-        b3_completo_fundamentos.xlsx (cotações de 16/11/2026;
-        fundamentos do Fundamentus de 19/10/2026)
-Versão anterior preservada em: hoje_2026-11-15.txt
-Atenção aos dados: a planilha foi atualizada em 16/11/2026. As
-notícias de 19/11 mostram queda de 0,69% do Ibovespa (166.376
-pontos), PETR4 -1,16%, BBDC4 -1,78% e dólar a R$ 5,93-5,94. Ou
-seja, os preços abaixo estão defasados em dois pregões: revalidar
-cotação, volume e notícias antes de enviar a ordem em 20/11.
+Data da análise: 22/11/2026 (domingo)
+Fontes: INVEST.txt (notícias consolidadas em 22/11/2026) e
+        b3_completo_fundamentos.xlsx (atualizada em 22/11/2026 com
+        cotações do último pregão, 20/11/2026; fundamentos e proventos
+        preservados da base do Fundamentus de 19/10/2026)
+Atenção: hoje não há pregão. Esta é uma decisão para a abertura de
+23/11/2026, quando a Câmara deve votar o ajuste fiscal e a Petrobras
+deve divulgar seu plano de negócios 2027-2031. Revalidar cotação,
+volume, câmbio e notícias antes de enviar qualquer ordem.
+A versão anterior (20/11/2026) está no histórico do Git.
 ================================================================
 
 RESUMO DA RECOMENDAÇÃO
 ----------------------------------------------------------------
 Carteira sugerida (perfil moderado, horizonte de 6 a 12 meses,
-entrada em três tranches):
+entrada em três tranches). A composição é a mesma de 20/11; o que
+muda agora são os preços, os gatilhos e o cronograma de entrada:
 
-  CMIG4  30%   R$ 10,84   âncora defensiva / energia elétrica
-  BBDC4  25%   R$ 14,17   banco / valor e liquidez
-  PETR4  25%   R$ 43,95   satélite / hedge de câmbio e petróleo
-  PSSA3  20%   R$ 45,47   seguros / substituto de BBSE3
+  CMIG4  30%   R$ 10,94   âncora defensiva / energia elétrica
+  BBDC4  25%   R$ 13,83   banco / valor e liquidez
+  PETR4  25%   R$ 42,67   satélite / hedge de câmbio e petróleo
+  PSSA3  20%   R$ 43,96   seguros / payout coberto
 
-  Métricas ponderadas aproximadas: P/L 6,55; DY 8,23%; P/VP 1,44;
-  ROE 19,76%; payout 53,55%.
+  Métricas ponderadas aproximadas: P/L 6,55; DY 8,24%; P/VP 1,44;
+  ROE 19,76%; payout 53,55%. Os fundamentos não mudaram desde a
+  última análise; apenas os preços foram atualizados para 20/11.
 
-Se for comprar uma única ação, a escolha principal continua sendo
-CMIG4: P/L 6,99, DY 9,26%, payout 64,7%, receita regulada e
-menor dependência de crédito num cenário de juros altos e crédito
-deteriorado. Para quem prioriza proteção contra o dólar a R$ 5,93
-(com risco de R$ 6,50), a alternativa é PETR4, o ativo mais barato
-por lucro e com o menor payout da carteira.
+Para R$ 100,00 (valor citado na rotina de análise):
+  R$ 30,00 em CMIG4, R$ 25,00 em BBDC4, R$ 25,00 em PETR4 e
+  R$ 20,00 em PSSA3. Use ordens limitadas, sobretudo em PSSA3,
+  cujo volume diário é bem menor que o dos demais. A planilha não
+  informa datas-ex para dezembro; a escolha prioriza dividendos
+  recorrentes, sem prometer pagamento no mês que vem.
 
-Mudança central da versão de 15/11: BBSE3 sai (de 30% para 0%) e é
-substituída por PSSA3 (20%); PETR4 sobe de 15% para 25%; BBDC4 de
-20% para 25%; CMIG4 cai de 35% para 30%. O gatilho de revisão da
-BBSE3, escrito na análise anterior, foi acionado: o governo agora
-avalia trocar o comando do Banco do Brasil por pressão da
-inadimplência rural. Somado ao payout de 97,0%, ao P/VP de 6,77 e
-ao risco de imposto sobre dividendos, isso pesa mais que o DY de
-12,14%. A carteira perde rendimento imediato (DY de 9,8% para
-8,2%), mas reduz o payout ponderado de 68,6% para 53,6% e o P/VP
-de cerca de 2,9 para 1,4 — distribuição mais coberta por lucro.
+Se for comprar uma única ação, a preferência segue sendo CMIG4:
+P/L 6,99, DY 9,26%, payout 64,7%, receita regulada e menor
+dependência de crédito num cenário de juros altos. Para quem
+prioriza proteção cambial (dólar em R$ 5,93-5,95), a alternativa
+é PETR4, com o menor P/L e o menor payout da carteira.
 
   Ativo    Peso   Preço(R$)     P/L    P/VP    DY(%)    ROE(%)    Payout    Vol(mi)   Mkt Cap
-  CMIG4     30%       10,84    6,99    1,25     9,26     15,75     64,7%      10,51   31,6 bi
-  BBDC4     25%       14,17    6,64    1,21     8,67     14,13     57,5%      28,36  162,1 bi
-  PETR4     25%       43,95    4,47    1,38     7,99     27,73     35,7%      24,15  619,0 bi
-  PSSA3     20%       45,47    8,38    2,11     6,46     22,84     54,2%       0,96   29,7 bi
+  CMIG4     30%       10,94    6,99    1,25     9,26     15,75     64,7%      13,54   31,8 bi
+  BBDC4     25%       13,83    6,64    1,21     8,67     14,13     57,5%      60,05  158,2 bi
+  PETR4     25%       42,67    4,47    1,38     7,99     27,73     35,7%      39,27  600,9 bi
+  PSSA3     20%       43,96    8,38    2,11     6,46     22,84     54,2%       1,96   28,7 bi
 
-  Payout = Proventos 12m / LPA. Acima de 100% indica distribuição
-  não coberta pelo lucro do período. PSSA3 tem liquidez bem menor
-  que os demais (0,96 milhão de ações): usar ordem limitada.
+  Payout = proventos 12m / LPA. Acima de 100% indica distribuição
+  não coberta pelo lucro do período. LPA e proventos seguem da base
+  de 19/10/2026; não foram recalculados com os preços de 20/11.
 
-1. LEITURA DO CENÁRIO (O QUE MUDOU DESDE 15/11)
+1. O QUE MUDOU DESDE 20/11
 ----------------------------------------------------------------
-- Câmbio/BC: o Banco Central vendeu US$ 1 bilhão em intervenção
-  cambial — a primeira desde 2024 — após fala de Lula. O dólar
-  fechou em R$ 5,93-5,94 (+~1% no dia e cerca de +5% desde 13/11).
-  Investidores estrangeiros criticaram a medida e veem espaço para
-  testar R$ 6,50; uma única ordem bilionária de compra de dólares
-  expôs o desequilíbrio. É o fato novo mais relevante para a
-  carteira: favorece exportadores (PETR4) e penaliza quem depende
-  de demanda doméstica e insumos importados. [CNN][VALOR][BL][TB]
-- Fiscal: o Senado aprovou o plano, com economia estimada de R$ 50
-  a 60 bilhões em 2027, mas o mercado considerou o efeito
-  insuficiente. Cresce o temor sobre a próxima Fazenda; Moretti
-  descartou mudança no salário mínimo em eventual novo pacote. A
-  segunda rodada ainda depende de PEC de cerca de R$ 20 bilhões.
-  O IFI projeta desaceleração expressiva do PIB em 2027 e alerta
-  para subvenções a combustíveis de até R$ 45 bilhões. [BL][CNN]
-  [VALOR]
-- Juros/inflação: o mercado passou a prever Selic de 12,75% e
-  inflação de 5% em 2027, com piora das expectativas no Focus; a
-  Warren Rena elevou o IPCA por El Niño e reforma tributária. A
-  taxa atual é 13,75%. Ata do Fed mostra diretores prevendo novas
-  altas nos EUA, o que sustenta o dólar global e limita o espaço
-  para queda dos juros longos no Brasil. [VALOR][BL][CNN]
-- Crédito/agro: o CEO do Bradesco pediu "pé no chão e prudência"
-  para 2027, com famílias comprometendo 29% da renda. O governo
-  avalia trocar o comando do Banco do Brasil sob pressão da
-  inadimplência rural, que deve seguir em 2027; "fazendas
-  fantasmas" expõem fraudes em crédito rural. Argentina e Brasil
-  lideram o ranking latino-americano de inadimplência bancária.
-  [TB][VALOR][CNN][BL]
-- Risco tributário: base governista voltou a assustar investidores
-  com pacote que taxa dividendos, produtos isentos e grandes
-  fortunas (os quatro projetos protocolados em 13/11: 15% sobre
-  lucros/dividendos, 7,5% sobre LCI/LCA, JCP de 20% e imposto
-  Patrimonial de 0,7% a 3%). Atinge diretamente CMIG4, PETR4 e,
-  sobretudo, BBSE3. [IN]
-- Exterior/risco: Nvidia recuou mais de 40% desde o pico, embora
-  tenha superado receitas (US$ 115,8 bi no 3T, +103%); o IPO
-  recorde da Anthropic (US$ 107,3 bi) caiu já na segunda sessão,
-  e o bitcoin voltou a "medo extremo". O EWZ recuou mais de 2%.
-  Risk-off em tecnologia pode reduzir o fluxo estrangeiro para a
-  bolsa brasileira num momento de câmbio estressado. [IN][BL][TB]
-- Petróleo: o mercado global pode ter excesso de oferta até o fim
-  de 2026, e o secretário do Tesouro dos EUA prevê alívio
-  inflacionário com a queda do óleo. A cúpula Trump/Xi/Putin e a
-  disputa por terras raras mantêm o tema geopolítico, mas o vetor
-  de preço no curto prazo é de oferta abundante. [CNN][TB][BL]
-- Empresas/setores: Copel anuncia R$ 20 bilhões em distribuição até
-  2030 e diz estar pronta para M&As — sinal de ciclo de capex e
-  consolidação em utilities reguladas. BlackRock comprou a
-  SulAmérica Investimentos por até R$ 850 milhões. JBS teve lucro
-  menor por cotas chinesas, embora o Itaú BBA veja alta de 50%.
-  Iguatemi, Boticário, Natura e shoppings mostram consumo fraco;
-  FIDCs e recuperações judiciais reforçam o alerta de crédito.
-  [VALOR][BL][IN][CNN]
+- Pregão: 22/11 é domingo. Os preços da planilha agora são de
+  20/11/2026 (sexta), não mais de 16/11 como na versão anterior.
+  Ibovespa 166.376 pontos (-0,69%); dólar R$ 5,93-5,95; PETR4
+  R$ 42,67 (-1,16%); BBDC4 R$ 13,83 (-1,78%); CMIG4 R$ 10,94
+  (+0,09%); PSSA3 R$ 43,96 (-1,57%). [VALOR][BL]
+- Fiscal: a Câmara deve votar na segunda (23), às 18h, o PLP do
+  "Plano Moretti", com impacto de cerca de R$ 50 bilhões em 2027.
+  Goldman Sachs diz que seria preciso um ajuste de R$ 400 bilhões
+  para estabilizar a dívida e classifica o pacote como insuficiente
+  e de má qualidade. Ashmore estima saída bruta de até US$ 420 bi
+  em 18 meses num cenário de estresse. [VALOR][CNN]
+- Fluxo externo: Goldman, BTG Pactual e Itaú BBA rebaixaram ações
+  brasileiras para "neutro" e elevaram o México. A recomendação é
+  preferir exportadoras e empresas de qualidade/defensivas e evitar
+  companhias voltadas ao consumo interno. Isso reforça CMIG4 e
+  PETR4, mas coloca BBDC4 e PSSA3 sob mais escrutínio. [BL]
+- Petrobras: o plano 2027-2031 sai na segunda (23) após o
+  fechamento. Expectativa de capex de US$ 115 bilhões (US$ 110-120
+  bi) contra US$ 109 bi do plano anterior; o ponto sensível é a
+  linha de dividendos. BTG calcula Brent de US$ 61/barril para
+  cobrir dividendos ordinários em 2027 e US$ 66 com mais US$ 2 bi
+  de investimento. UBS BB não espera dividendo extraordinário em
+  2027. É um evento binário para os 25% em PETR4. [VALOR]
+- Exterior: Nasdaq caiu 5,28% e S&P 500 3,70% em 20/11. China e
+  Coreia anunciaram medidas de estabilização; as ações de tecnologia
+  chinesa perderam US$ 1,7 trilhão desde o fim de junho, e a
+  Nvidia é alvo de questionamentos sobre vendas de chips e
+  conflitos de interesse. O risk-off pode reduzir fluxo para a
+  bolsa brasileira justamente com o câmbio estressado. [VALOR][IN]
+  [BL]
+- Agenda da semana: IPCA-15 no Brasil e PCE nos EUA na quarta;
+  feriado de Ação de Graças na quinta reduz liquidez. Mais
+  volatilidade é provável. [VALOR]
 
 Leitura: o cenário ficou mais duro para ativos domésticos e de
-crédito, e mais favorável a exportadores e a fluxos de caixa
-previsíveis. O dólar a R$ 5,93-5,94 com ameaça de R$ 6,50, a
-inflação em alta e o fiscal considerado insuficiente mantêm juros
-longos e prêmio de risco elevados. A troca de comando do BB em
-avaliação é o motivo concreto para retirar BBSE3. Ainda assim, o
-Mercado segue com oportunidades em empresas baratas, com lucro
-recorrente e payout sustentável — o filtro usado nesta carteira.
+crédito, e mais favorável a exportadores e fluxos de caixa
+previsíveis. Ainda assim, o filtro da carteira permanece o mesmo:
+lucro recorrente, payout coberto e liquidez. Como os dois eventos
+de segunda podem mudar preços rapidamente, a novidade prática não
+é trocar de ações, e sim condicionar as tranches finais a esses
+resultados.
 
 2. JUSTIFICATIVA POR ATIVO
 ----------------------------------------------------------------
 - CMIG4 (30% — âncora defensiva):
-  * Números (planilha, cotação de 16/11): R$ 10,84; P/L 6,99;
+  * Números (planilha, cotação de 20/11): R$ 10,94; P/L 6,99;
     P/VP 1,25; DY 9,26%; ROE 15,75%; LPA R$ 1,578; proventos 12m
     de R$ 1,0211 (data-ex 22/09/2026); payout 64,7%; volume de
-    10,51 milhões; valor de mercado de R$ 31,6 bilhões.
+    13,54 milhões; valor de mercado de R$ 31,8 bilhões.
   * Tese: utility regulada, receita previsível e menor beta que
-    varejo, bancos e incorporadoras. Funciona como proteção no
-    risk-off global e se beneficia se os juros longos caírem após
-    o ajuste fiscal. O payout de 64,7% dá folga para manter o
-    dividendo sem pressionar o caixa.
-  * Por que 30% e não 35%: o fiscal aprovado foi considerado
-    insuficiente, e a proposta de imposto de 15% sobre dividendos
-    atinge diretamente a tese. Manter a maior posição individual,
-    mas sem concentrar a entrada.
-  * Monitorar: decisões regulatórias, hidrologia, controlador
-    estatal e andamento das propostas tributárias.
+    varejo, bancos e incorporadoras. É o tipo de ativo que os
+    estrategistas citados pela Bloomberg Línea enquadram como
+    "defensivo/de qualidade" num mercado brasileiro neutro. O
+    payout de 64,7% deixa folga para manter o dividendo.
+  * Por que 30%: o risco de imposto sobre dividendos continua e o
+    pacote fiscal de R$ 50 bi é visto como insuficiente. Manter a
+    maior posição individual, mas sem concentrar a entrada.
+  * Monitorar: votação do PLP na Câmara, decisões regulatórias,
+    hidrologia, controlador estatal e propostas tributárias.
 
 - BBDC4 (25% — banco / valor e liquidez):
-  * Números: R$ 14,17; P/L 6,64; P/VP 1,21; DY 8,67%; ROE 14,13%;
-    LPA R$ 2,1878; proventos 12m de R$ 1,2585 (data-ex
-    01/10/2026); payout 57,5%; volume de 28,36 milhões; valor de
-    mercado de R$ 162,1 bilhões.
+  * Números: R$ 13,83; P/L 6,64; P/VP 1,21; DY 8,67%; ROE 14,13%;
+    LPA R$ 2,1878; proventos 12m de R$ 1,2585 (data-ex 01/10/2026);
+    payout 57,5%; volume de 60,05 milhões; valor de mercado de
+    R$ 158,2 bilhões.
   * Tese: é o banco líquido mais barato entre os grandes, fora o
-    BBAS3 (P/L 5,92), cujo lucro colapsou. P/L de 6,64 contra
-    SANB11 7,01, ITSA4 8,44 e ITUB4 10,02; P/VP de 1,21 contra
-    1,16 (SANB11, mas com OPA), 1,92 e 2,65; DY superior aos
-    pares. Payout de 57,5% é saudável.
-  * Por que manter apesar do crédito ruim: o alerta do CEO do
-    Bradesco e a inadimplência latino-americana são riscos reais,
-    mas o preço já embute pessimismo, e o banco tem liquidez para
-    navegar 2027. Peso mantido em 25%, sem aumento agressivo.
-  * Monitorar: inadimplência, custo de risco e provisões no 4T26;
-    se piorar muito acima dos pares, reduzir.
+    BBAS3, cujo lucro segue fraco. P/L de 6,64 contra SANB11 7,01,
+    ITSA4 8,44 e ITUB4 10,02; P/VP de 1,21 contra 1,16 (SANB11,
+    com OPA), 1,92 e 2,65; DY superior aos pares. Payout de 57,5%
+    é saudável, e o volume negociado cresceu para 60 milhões.
+  * Por que manter e não aumentar: o CEO do Bradesco pediu
+    prudência para 2027, famílias comprometem 29% da renda e os
+    bancos internacionais rebaixaram o Brasil. O preço já embute
+    pessimismo, mas o peso permanece em 25% sem reforço.
+  * Monitorar: inadimplência, custo de risco e provisões no 4T26.
+    Se piorar acima dos pares, reduzir para 20%.
 
 - PETR4 (25% — satélite / hedge de câmbio):
-  * Números: R$ 43,95; P/L 4,47; P/VP 1,38; DY 7,99%; ROE 27,73%;
-    LPA R$ 10,1282; proventos 12m de R$ 3,6186 (data-ex
-    21/08/2026); payout 35,7%; volume de 24,15 milhões; valor de
-    mercado de R$ 619,0 bilhões.
-  * Tese: o menor P/L e o menor payout da carteira. Com o dólar a
-    R$ 5,93-5,94 e investidores testando R$ 6,50, é a proteção
-    natural do portfólio; também ajuda contra inflação e choque
-    geopolítico. O payout de 35,7% preserva caixa e reduz o risco
-    de corte de proventos e de incidência do imposto sobre
-    dividendos.
-  * Por que subir de 15% para 25%: é uma decisão de câmbio, não
-    de aposta no Brent. A alta do dólar já aconteceu e a
-    intervenção do BC sinaliza estresse; o peso maior aumenta a
-    proteção sem transformar a carteira em uma posição em óleo.
-  * Por que não mais: o mercado prevê excesso de oferta global
-    até o fim de 2026, o Tesouro dos EUA espera queda do petróleo,
-    e há risco de interferência política em preços e dividendos.
-    Se o Brent perder US$ 85, voltar a 15%.
+  * Números: R$ 42,67; P/L 4,47; P/VP 1,38; DY 7,99%; ROE 27,73%;
+    LPA R$ 10,1282; proventos 12m de R$ 3,6186 (data-ex 21/08/2026);
+    payout 35,7%; volume de 39,27 milhões; valor de mercado de
+    R$ 600,9 bilhões.
+  * Tese: o menor P/L e o menor payout da carteira. Com o dólar em
+    R$ 5,93-5,95 e o fluxo externo mais cauteloso, mantém a função
+    de proteção cambial sem depender apenas do Brent.
+  * Evento de 23/11: o novo plano pode elevar capex de US$ 109 bi
+    para cerca de US$ 115 bi. Se a linha de dividendos ficar
+    estável ou cair apesar da maior produção, o ganho operacional
+    estará sendo consumido pelo investimento — sinal negativo.
+  * Por que não aumentar antes do plano: UBS BB vê produção maior,
+    mas não espera dividendo extraordinário em 2027, e BTG calcula
+    que o Brent de equilíbrio dos dividendos sobe de US$ 61 para
+    US$ 66 com US$ 2 bi extras de capex. Esperar o anúncio evita
+    apostar num slide ainda desconhecido.
+  * Gatilho: se o plano confirmar dividendos abaixo da faixa
+    anterior de US$ 45-50 bi no quinquênio, reduza PETR4 para 15%.
 
-- PSSA3 (20% — seguros sem contágio do Banco do Brasil):
-  * Números: R$ 45,47; P/L 8,38; P/VP 2,11; DY 6,46%; ROE 22,84%;
-    LPA R$ 5,5392; proventos 12m de R$ 2,9995 (data-ex
-    23/09/2026); payout 54,2%; volume de 0,96 milhão; valor de
-    mercado de R$ 29,7 bilhões.
-  * Tese: mantém a exposição ao setor de seguros — que tende a se
-    beneficiar de juro alto por mais tempo — sem a dependência da
-    controladora em crise. ROE de 22,84% com payout de 54,2% é uma
-    combinação mais sustentável que o ROE de 84,38% com payout de
-    97,0% da BBSE3. O P/VP de 2,11 também é bem inferior ao 6,77.
-  * Trade-off: DY de 6,46% é menor que os 12,14% da BBSE3, e a
-    liquidez é baixa (0,96 milhão). Entrar com ordens limitadas e
-    aceitar que a posição demora a ser montada.
+- PSSA3 (20% — seguros com payout coberto):
+  * Números: R$ 43,96; P/L 8,38; P/VP 2,11; DY 6,46%; ROE 22,84%;
+    LPA R$ 5,5392; proventos 12m de R$ 2,9995 (data-ex 23/09/2026);
+    payout 54,2%; volume de 1,96 milhões; valor de mercado de
+    R$ 28,7 bilhões.
+  * Tese: mantém exposição a seguros, que tende a se beneficiar de
+    juro alto por mais tempo, sem a dependência da controladora em
+    crise. ROE de 22,84% com payout de 54,2% é mais sustentável que
+    o ROE de 84,38% com payout de 97,0% da BBSE3. O P/VP de 2,11
+    também é bem inferior ao 6,77 da BBSE3.
+  * Trade-off: DY de 6,46% é menor e a liquidez de 1,96 milhão de
+    ações ainda exige ordens limitadas. PSSA3 é domesticamente
+    orientada, por isso não recebe reforço enquanto os bancos
+    globais estiverem "neutros" para o Brasil.
   * Alternativa descartada: CPFE3 (P/L 8,45; DY 8,49%; ROE 26,43%;
-    payout 71,7%; volume 3,71 milhões) é boa opção de utility de
-    maior qualidade, mas já há CMIG4 como exposição ao setor.
+    payout 71,7%; volume 3,71 milhões) é boa utility de maior
+    qualidade, mas já há CMIG4 no portfólio.
 
-3. POR QUE BBSE3 SAI DA CARTEIRA
+3. GATILHOS ESPECÍFICOS PARA 23/11
 ----------------------------------------------------------------
-- A análise de 15/11 escreveu explicitamente: reavaliar se a crise
-  da controladora levasse a uma troca de comando sem plano claro.
-  Em 20/11, o INVEST.txt noticia que o governo avalia trocar o
-  comando do Banco do Brasil sob pressão da inadimplência rural.
-  O gatilho foi acionado.
-- Números: R$ 36,92; P/L 7,99; P/VP 6,77; DY 12,14%; ROE 84,38%;
-  payout 97,0%; volume de apenas 2,99 milhões (contra 8,77
-  milhões em 13/11). Praticamente todo o lucro é distribuído, o
-  que a torna a mais exposta a um imposto de 15% sobre dividendos
-  e a pedidos de mais proventos da controladora.
-- O fato de o BB ter dito que a fatia "não está à venda" ainda
-  vale, mas não elimina pressão por dividendos nem interferência
-  política. Não é uma recomendação de venda para quem já tem; é
-  uma decisão de não alocar capital novo nela agora.
+- Votação do PLP fiscal: se a Câmara aprovar sem desidratar o
+  texto de R$ 50 bilhões, mantém a carteira; se desidratar ou
+  postergar, reduzir CMIG4 e BBDC4 antes de PETR4.
+- Plano da Petrobras: dividendos mantidos/acima de US$ 45-50 bi no
+  quinquênio e capex financiado sem alta de dívida mantêm PETR4 em
+  25%; dividendos menores com capex maior reduzem para 15%.
+- Câmbio: se o dólar romper R$ 6,00 e o BC voltar a intervir,
+  elevar PETR4 para 30% e reduzir CMIG4 para 25%.
+- Juros/tributário: se avançar imposto de 15% sobre dividendos,
+  priorizar PETR4 e PSSA3 (payouts de 35,7% e 54,2%) e rever CMIG4.
+- Exterior: se o Nasdaq/S&P continuarem em queda forte e o EWZ
+  cair, adiar a segunda tranche; o fluxo estrangeiro é necessário
+  para sustentar a bolsa num câmbio já estressado.
 
 4. RISCOS
 ----------------------------------------------------------------
-- Câmbio/intervenção: a venda de US$ 1 bilhão pelo BC foi
-  criticada por estrangeiros, que enxergam o dólar em R$ 6,50.
-  Dólar mais alto eleva inflação, dificulta cortes de Selic e
-  pressiona ativos domésticos (CMIG4 e BBDC4). O Fed com tom de
-  alta agrava o cenário.
-- Fiscal/político: a aprovação no Senado não resolveu a
-  desconfiança. Há temor sobre a próxima Fazenda, PEC de R$ 20
-  bilhões pendente, risco de o Congresso desidratar medidas e
-  alerta do IFI sobre o PIB de 2027 e subsídios a combustíveis.
-- Tributário: os projetos que taxam dividendos (15%), LCI/LCA
-  (7,5%), JCP (20%) e grandes fortunas reduziriam o rendimento
-  líquido de CMIG4, PETR4 e PSSA3. Ainda não há votação marcada,
-  mas o tema voltou a assustar investidores em 20/11.
-- Crédito/agro: troca de comando do BB em avaliação, inadimplência
-  rural persistente em 2027, "fazendas fantasmas", Bradesco
-  pedindo prudência e famílias com 29% da renda comprometida.
-  BBDC4 não está imune a um ciclo maior de provisões.
-- BBSE3 (fora da carteira): se a troca de comando vier com plano
-  claro e o risco político cair, o DY de 12,14% pode voltar a
-  compensar o P/VP de 6,77 e o payout de 97,0% — rever nesse caso.
-- PETR4: excesso de oferta global até o fim de 2026, queda do
-  óleo prevista pelo Tesouro dos EUA, interferência do governo na
-  política de preços e dividendos. O papel de hedge de câmbio não
-  elimina o risco de queda da commodity.
-- PSSA3: liquidez de 0,96 milhão de ações pode dificultar entrada
-  e saída; use ordens limitadas e posição compatível com esse
-  volume.
-- Externo: Nvidia, Anthropic e bitcoin em risk-off podem reduzir
-  fluxo estrangeiro para o Brasil justamente com o câmbio sob
-  pressão. Cúpula Trump/Xi/Putin e terras raras adicionam
-  incerteza geopolítica e comercial.
-- Dados: fundamentos são de 19/10/2026 e cotações de 16/11/2026;
-  os números do 3T26 já podem ter mudado P/L, DY, ROE e payout.
-  Exemplo: a planilha mostra ROE de 7,99% para BBAS3, bem acima
-  dos 2,8% divulgados no 3T26. Revalidar antes de operar.
+- Fiscal/político: o pacote pode ser desidratado na Câmara; a
+  Ashmore mostra que um ajuste apenas pontual pode provocar saída
+  de até US$ 420 bi em 18 meses. Goldman projeta dívida acima de
+  90% do PIB em dois a três anos.
+- Câmbio/juros: dólar em R$ 5,93-5,95 com inflação de 5%-6% e
+  pressão da reforma tributária e da nova regra 6x1 limita cortes
+  de Selic e penaliza ativos domésticos.
+- Fluxo externo: Goldman, BTG e Itaú BBA neutros no Brasil e
+  preferência por México podem reduzir demanda por ações locais.
+- Petrobras: capex maior pode consumir dividendos; interferência
+  política em preços e proventos segue presente. Há também risco
+  de excesso de oferta de petróleo e de Brent abaixo de US$ 85.
+- Crédito/agro: inadimplência rural persistente, "fazendas
+  fantasmas", famílias com 29% da renda comprometida e alerta do
+  CEO do Bradesco para 2027. BBDC4 não está imune.
+- Tributário: projetos que taxam dividendos, LCI/LCA e JCP
+  reduziriam o rendimento líquido de CMIG4, PETR4 e PSSA3.
+- Liquidez: PSSA3 negocia cerca de 1,96 milhão de ações/dia;
+  entrar e sair pode levar mais tempo.
+- Dados: cotações são de 20/11 e fundamentos de 19/10/2026. O 3T26
+  já pode ter alterado P/L, DY, ROE e payout. Exemplo: a planilha
+  mostra ROE de 7,99% para BBAS3, acima dos 2,8% divulgados no
+  3T26 na análise anterior. Revalidar antes de operar.
+- Eventos: 23/11 tem votação fiscal e plano da Petrobras; 25/11
+  traz PCE nos EUA e feriado reduz a liquidez na quinta.
 
-5. PLANO DE EXECUÇÃO
+5. PLANO DE EXECUÇÃO PARA R$ 100,00
 ----------------------------------------------------------------
-- 20/11 é sexta-feira e há pregão, mas a planilha está defasada
-  desde 16/11. Revalidar preço, volume e notícias na abertura; em
-  19/11 PETR4 caiu 1,16% e BBDC4 1,78%, então os preços da tabela
-  provavelmente estão um pouco acima dos atuais.
-- Entrar em três tranches: 40% agora (após checar cotação), 30%
-  após a definição da segunda rodada fiscal/PEC e do comando do
-  Banco do Brasil, e 30% após os resultados do 4T26 e maior
-  clareza sobre os projetos tributários.
-- Não antecipar as últimas tranches: o câmbio e o fiscal podem
-  mudar de tom rapidamente. Para quem prefere simplicidade,
-  metade agora e metade após a definição fiscal.
-- Se o dólar romper R$ 6,00 e o BC voltar a intervir: elevar PETR4
-  para 30% e reduzir CMIG4 para 25%, mantendo BBDC4 e PSSA3.
-- Se o fiscal desidratar ou os juros longos subirem: reduzir
-  CMIG4 primeiro, aumentar caixa e não reforçar BBDC4.
-- Se o imposto sobre dividendos avançar: priorizar PETR4 e PSSA3
-  (payouts de 35,7% e 54,2%) e rever o tamanho de CMIG4.
-- Se o Brent perder US$ 85: reduzir PETR4 de 25% para 15% e
-  realocar para CMIG4/PSSA3.
+- Não enviar ordens em 22/11: é domingo. Na abertura de 23/11,
+  checar preço, volume, câmbio e o calendário fiscal/petrolífero.
+- Primeira tranche (40%): R$ 12 em CMIG4, R$ 10 em BBDC4,
+  R$ 10 em PETR4 e R$ 8 em PSSA3, com ordens limitadas.
+- Segunda tranche (30%): somente após a votação do PLP e do
+  anúncio do plano da Petrobras. Aplicar R$ 9/7,5/7,5/6 na mesma
+  proporção, ajustando os gatilhos da seção 3.
+- Terceira tranche (30%): após resultados do 4T26 e maior
+  clareza sobre os projetos tributários; mesma proporção.
+- Alternativa simples: metade agora (após checar cotação na
+  abertura) e metade após os eventos de segunda.
 - Não usar alavancagem, não comprometer a reserva de emergência e
-  checar a liquidez de PSSA3 antes de cada ordem.
+  respeitar a liquidez menor de PSSA3 em cada ordem.
 
 6. O QUE EVITAR NESTE MOMENTO
 ----------------------------------------------------------------
-- BBAS3: P/L 5,92 e P/VP 0,65 parecem baratos, mas o lucro
-  ajustado caiu 66,5% no 3T26, o ROE real foi de 2,8%, o guidance
-  foi cortado pela metade e o dividendo foi ao mínimo. Somam-se a
-  troca de comando em avaliação e a inadimplência do agro: é
-  armadilha de valor, não oportunidade. A ação caiu 5,17% em
-  16/11 na planilha.
+- BBAS3: R$ 14,30, P/L 5,92 e P/VP 0,65 parecem baratos, mas o
+  lucro ajustado caiu 66,5% no 3T26, o ROE real foi de 2,8% e o
+  guidance foi cortado pela metade na leitura anterior. Somam-se
+  troca de comando em avaliação e inadimplência do agro: é
+  armadilha de valor, não oportunidade.
 - SANB11: P/L 7,01, P/VP 1,16 e DY 8,12%, mas a OPA de permuta do
-  Santander (elevada 5%, cerca de € 1,9 bilhão) coloca teto de
-  preço perto de R$ 28,57. É evento, não compra de valor.
-- BBSE3 para capital novo: pelo gatilho de troca de comando do BB,
-  payout de 97,0% e P/VP de 6,77 (ver seção 3).
-- CYRE3 e DIRR3: DY de 13,83% e 16,26%, mas proventos históricos
-  não recorrentes e setor sensível a juros longos, que seguem
-  altos. MRVE3 tem P/L negativo (-4,46).
-- MGLU3: P/L 63,24 e ROE 0,79% — momentum, não fundamento, em
-  meio a consumo fraco e varejo pressionado.
-- CSAN3 (P/L -1,33; ROE -178,97%), BRKM5 (P/L -0,42; patrimônio
-  negativo e processo da CVM contra 33 administradores), CSNA3
-  (P/L -1,80), RAIZ4 (P/L -0,11; volume zero) e VALE3 (P/L 27,16;
-  payout de 240,0%) — todos fora por balanço, liquidez ou preço.
-- POMO4 (DY 26,53%, mas payout 103,4%), SBSP3 (payout 152,2%),
-  VIVT3 (payout 124,1%), UNIP6 (payout 275,0%) e TIMS3 (P/L
-  3.780,7): dividendos não cobertos ou múltiplos distorcidos.
-  WEG e Embraer são boas empresas, mas P/L 34,80 e 35,20 em
-  ambiente de risk-off.
-- Varejo e shoppings no geral: Iguatemi, Boticário, Natura e C&A
-  mostram vendas fracas; LREN3, apesar dos números baratos na
-  planilha (P/L 6,27; DY 9,47%), carrega esse risco setorial.
+  Santander coloca teto perto de R$ 28,57. É evento, não valor.
+- BBSE3 para capital novo: payout de 97,0%, P/VP de 6,77 e risco
+  político na controladora. O gatilho de 20/11 continua ativo.
+- MGLU3: R$ 8,20, P/L 63,24 e ROE 0,79% — momentum, não
+  fundamento, em meio a consumo fraco e varejo pressionado.
+- CSAN3, BRKM5, CSNA3, RAIZ4 e VALE3: fora por balanço, liquidez
+  ou preço. VALE3 tem P/L 27,16 e payout de 240,0%.
+- POMO4, SBSP3, VIVT3, UNIP6 e TIMS3: dividendos não cobertos ou
+  múltiplos distorcidos. WEG e Embraer são boas empresas, mas com
+  P/L 34,80 e 35,20 em ambiente de risk-off.
+- LREN3 e shoppings no geral: apesar de números baratos na
+  planilha, carregam risco setorial de consumo fraco.
+- Small caps de alta beta e incorporadoras: o cenário de juros
+  altos e fluxo externo cauteloso não favorece esse perfil.
 
-7. MUDANÇAS EM RELAÇÃO À VERSÃO DE 15/11/2026
+7. MUDANÇAS EM RELAÇÃO À VERSÃO DE 20/11/2026
 ----------------------------------------------------------------
-  Ativo     15/11    20/11    Motivo
-  CMIG4       35%      30%    redução para diluir risco tributário
-  BBSE3       30%       0%    gatilho de troca de comando do BB
-  BBDC4       20%      25%    preço baixo e liquidez, com alerta de crédito
-  PETR4       15%      25%    alta do dólar e intervenção do BC
-  PSSA3        0%      20%    seguros sem contágio do BB, payout de 54,2%
+  Ativo     20/11    22/11    Motivo
+  CMIG4       30%      30%    composição mantida; preço atualizado
+  BBDC4       25%      25%    composição mantida; crédito sob alerta
+  PETR4       25%      25%    composição mantida; evento em 23/11
+  PSSA3       20%      20%    composição mantida; liquidez monitorada
 
-O que mudou no cenário: dólar de R$ 5,65 para R$ 5,93-5,94 com
-intervenção inédita do BC; fiscal aprovado mas considerado
-insuficiente, com temor sobre a próxima Fazenda; troca de comando
-do BB em avaliação; crédito e agro piorando para 2027; risk-off em
-IA e cripto; petróleo com viés de excesso de oferta. O pacote
-tributário contra dividendos deixou de ser novidade, mas continua
-sem votação marcada e agora pesa na escolha entre BBSE3 e PSSA3.
+O que mudou no cenário: preços defasados de 16/11 foram substituídos
+pelos de 20/11; Câmara votará o ajuste fiscal na segunda; Petrobras
+divulgará plano com capex maior e dividendos incertos; Goldman pede
+R$ 400 bi de ajuste e Ashmore vê risco de saída de US$ 420 bi;
+bancos globais ficaram neutros no Brasil; Nasdaq caiu 5,28% e
+China/Coreia precisaram intervir em seus mercados.
 
-O que não mudou: a preferência por empresas com lucro recorrente,
-payout coberto e liquidez; a rejeição a small caps de alta beta,
-incorporadoras e "armadilhas de valor"; a entrada parcelada e sem
-alavancagem.
+O que não mudou: preferência por lucro recorrente, payout coberto e
+liquidez; rejeição a small caps de alta beta, incorporadoras e
+armadilhas de valor; entrada parcelada e sem alavancagem.
 
 ----------------------------------------------------------------
 AVISO: análise baseada exclusivamente nos arquivos INVEST.txt e
-b3_completo_fundamentos.xlsx. Não é recomendação formal de
+b3_completo_fundamentos.xlsx, com cotações de 20/11/2026 e
+fundamentos de 19/10/2026. Não é recomendação formal de
 investimento; não considera perfil, patrimônio ou objetivos
 específicos do investidor. Decisões de investimento são de
 responsabilidade do usuário.

@@ -1,8 +1,8 @@
 ================================================================================
 INVEST.txt — RESUMO CONSOLIDADO DE NOTÍCIAS
-Fontes consultadas (20/11/2026): Times Brasil | CNBC, CNN Brasil Money,
+Fontes consultadas (22/11/2026): Times Brasil | CNBC, CNN Brasil Money,
         Valor Econômico, InvestNews e Bloomberg Línea
-Data da consolidação: 20/11/2026 (sexta-feira)
+Data da consolidação: 22/11/2026 (domingo)
 Legenda das fontes: [TB] Times Brasil | CNBC · [CNN] CNN Brasil Money ·
         [VALOR] Valor Econômico · [IN] InvestNews · [BL] Bloomberg Línea
 ================================================================================
@@ -10,233 +10,245 @@ Legenda das fontes: [TB] Times Brasil | CNBC · [CNN] CNN Brasil Money ·
 --------------------------------------------------------------------------------
 1. DESTAQUES DO DIA
 --------------------------------------------------------------------------------
-- CÂMBIO/BC: pela primeira vez desde 2024, o Banco Central vendeu US$ 1 bilhão
-  em uma intervenção cambial após fala de Lula; o dólar fechou em torno de
-  R$ 5,93-5,94 (+~1%). Investidores estrangeiros criticaram a intervenção e veem
-  espaço para testar R$ 6,50. Uma única ordem bilionária de compra de dólares
-  expôs o desequilíbrio que levou o BC a agir. [CNN][VALOR][BL][TB]
-- FISCAL: o Senado aprovou o plano fiscal de Lula, com economia estimada em
-  R$ 50-60 bilhões em 2027, mas investidores consideram o efeito insuficiente.
-  Moretti descartou mudanças no salário mínimo em eventual novo pacote e a Faria
-  Lima cresce com temor sobre a próxima Fazenda. [BL][CNN][VALOR]
-- ANTHROPIC: o IPO recorde na Nasdaq (19/11) levantou US$ 107,3 bilhões e superou
-  a SpaceX como a maior abertura de capital da história; Valor fala em US$ 93,5
-  bilhões após lote suplementar. No segundo dia, as ações despencaram em meio à
-  queda geral das ações de IA — "choque de realidade" após a estreia. Fortunas
-  dos sete fundadores chegaram a US$ 171 bilhões. [TB][VALOR][IN][BL]
-- IA/NVIDIA: as ações da Nvidia recuaram mais de 40% desde o pico, mas Wall Street
-  vê espaço para recuperação. A companhia superou projeções de receita (US$ 115,8
-  bi no 3T, +103%, com projeção de US$ 130 bi) apesar da saída de Jensen Huang.
-  A Apple, que evitou gastos elevados com IA, virou a maior empresa do mundo
-  (US$ 5,1 tri). [IN][BL][TB]
-- CASO MASTER: a PF afirmou não haver indícios de diálogos diretos entre o ministro
-  André Mendonça e Daniel Vorcaro; Fachin manteve a prisão preventiva de Vorcaro
-  e derrubou o sigilo do relatório. Depoimentos dizem que o BTG desistiu de uma
-  "solução de mercado" para o Master e alertou o BC sobre inconsistências ainda
-  em 2024. [VALOR][TB]
-- CRÉDITO/AGRO: o CEO do Bradesco pediu "pé no chão e prudência" para 2027, com
-  famílias comprometendo 29% da renda. O governo avalia trocar a comando do Banco
-  do Brasil sob pressão da inadimplência rural; a inadimplência do agro deve
-  seguir em 2027 e a questão das "fazendas fantasmas" expõe fraudes em crédito
-  rural. [TB][VALOR][CNN][BL]
-- COMMODITIES/GEOPOLÍTICA: Terras raras têm preços até 11 vezes maiores nos EUA e
-  o Brasil mira o mercado; a China pode condicionar a trégua comercial ao tema.
-  O mercado global pode ter excesso de petróleo até o fim de 2026, e o secretário
-  do Tesouro dos EUA prevê alívio na inflação com a queda do óleo. [CNN][TB][BL]
-- CRIPTO: o bitcoin voltou a falhar no teste de "ouro digital" ao cair junto com
-  ações; o medo extremo retornou ao mercado, com liquidações e aversão a risco.
-  [TB][CNN][BL]
+- FISCAL/AGENDA: a Câmara deve votar na segunda-feira (23), às 18h, o PLP do
+  ajuste fiscal ("Plano Moretti"), já aprovado no Senado, com impacto estimado
+  em cerca de R$ 50 bilhões em 2027. Na abertura, o mercado também olha o
+  IPCA-15 e, nos EUA, o PCE de quarta-feira; o feriado de Ação de Graças
+  reduz a liquidez na quinta e encurta a sexta. [VALOR][TB]
+- FISCAL/RISCO: Alberto Ramos (Goldman Sachs) avalia que o Brasil precisa de
+  um ajuste de R$ 400 bilhões para estabilizar a dívida, projeta crescimento
+  de 0,5%-0,6% e inflação de 5%-6% em 2027 e chama o pacote de R$ 50 bi de
+  "insuficiente" e de "má qualidade". A Ashmore simulou saída bruta de até
+  US$ 420 bilhões (16% do PIB) em 18 meses num cenário de estresse fiscal.
+  [CNN][VALOR]
+- CÂMBIO/FLUXO: o dólar segue na faixa de R$ 5,93-5,95. Goldman Sachs, BTG
+  Pactual e Itaú BBA rebaixaram ações brasileiras para "neutro" na última
+  semana e passaram a preferir o México, citando juros altos, desaceleração,
+  inflação e lucros otimistas; a recomendação é favorecer exportadoras e
+  empresas de qualidade/defensivas e evitar companhias voltadas ao mercado
+  interno. [BL][VALOR][TB]
+- PETROBRAS: o novo plano de negócios 2027-2031 sai depois do fechamento de
+  23/11. O mercado espera capex de cerca de US$ 115 bilhões (faixa de US$
+  110-120 bi, contra US$ 109 bi do plano 2026-2030), com atenção ao slide de
+  fontes e usos de caixa e à política de dividendos. BTG vê 2,85 mi bpd em
+  2027; UBS BB, 2,9-3,1 mi bpd e dificilmente um dividendo extraordinário em
+  2027. [VALOR]
+- BOLSAS ASIÁTICAS: China e Coreia do Sul anunciaram medidas para apoiar seus
+  mercados. As bolsas chinesas reduzirão a exigência de margem de 100% para
+  80% a partir de 30/11, cortarão taxas e estudam formador de mercado no
+  ChiNext; a Coreia do Sul preparou fundo de estabilização, flexibilizou
+  recompras por três meses e intensificou o combate a vendas a descoberto
+  ilegais. O Kospi caiu 5,2% na sexta e já acumula queda de 46,57% desde o
+  pico de junho. [VALOR]
+- IA/CHINA: três índices de tecnologia chineses perderam US$ 1,7 trilhão em
+  valor de mercado desde o fim de junho. Hang Seng Tech está no menor nível
+  em dois anos; ChiNext acumula queda de 31% em 2026. Novas regras dos EUA
+  podem impedir que empresas chinesas aluguem chips de ponta em data centers
+  no exterior; Tencent alertou para atraso no modelo HY4. [IN]
+- NVIDIA: o secretário do Tesouro dos EUA, Scott Bessent, pediu respostas da
+  gestão interina sobre vendas de chips para a China e a antiga área de
+  compliance. A Bloomberg Línea destaca conflitos de interesse envolvendo a
+  família de Howard Lutnick e compras de ações por Trump antes da flexibilização
+  das regras do H200; a Nvidia já perdeu quase US$ 3 trilhões em valor de
+  mercado. [VALOR][BL]
+- COP31: as negociações climáticas em Antália terminaram domingo sem acordo
+  abrangente, após a UE e outros países rejeitarem a minuta final apresentada
+  por Turquia e Austrália. Foi a conferência mais longa da história e, segundo
+  a Times Brasil, a primeira em 17 anos sem acordo político. Guterres chamou
+  o resultado de "retrocesso". [VALOR][TB]
+- OUTROS: o varejo perfilou o consumidor da Black Friday (compras de madrugada,
+  online e em marketplaces); o governo detalhou mudanças para MEI,
+  nanoempreendedor e Simples Nacional em 2027; clubes brasileiros acumulam
+  R$ 14,3 bilhões em dívidas, alta de 46% em cinco anos. [VALOR][TB]
 
 --------------------------------------------------------------------------------
 2. MERCADOS E COTAÇÕES
 --------------------------------------------------------------------------------
-- Ibovespa: 166.376 pontos, -0,69% (fechamento de 19/11 segundo Valor; o mesmo
-  número aparece na Bloomberg Línea em cotação mais recente). [VALOR][BL]
-- Dólar comercial: R$ 5,93-5,94, alta de cerca de 1% (R$ 5,9338/5,9344 no Valor,
-  R$ 5,9404 na Bloomberg, fechamento noticiado pela CNN em R$ 5,935). Os Sites
-  divergem levemente por horário de coleta. [VALOR][BL][CNN][TB]
-- Dólar turismo: R$ 6,17; dólar cabo: R$ 6,21; euro comercial: R$ 6,51. [TB][VALOR]
-- Índices internacionais (Times Brasil): S&P 500 7.323,63 (-0,23%); Dow Jones
-  50.198,17 (-1,11%); DAX 25.736,24 (-1,19%); Nasdaq 24.429,88 (+0,42%).
-  A Bloomberg Línea informa Nasdaq Composite em 23.124,80 (-3,16%) — conferir
-  índice e horário antes de usar os números. [TB][BL]
-- Bitcoin: os sites também divergem: US$ 62.235 (-0,45%) no Times Brasil e
-  US$ 59.435 (-3,34%) na Bloomberg Línea. [TB][BL]
-- Ações brasileiras na Bloomberg Línea: PETR4 -1,16%; VALE3 -0,88%; ITUB4 -0,30%;
-  BBDC4 -1,78%; BBAS3 +1,27%; Nubank -3,72%. O EWZ, ETF de ações brasileiras
-  em Nova York, recuou mais de 2% com a queda das bolsas globais. [BL][TB]
-- BDRs e índices: o Ibovespa passa a aceitar BDRs de empresas brasileiras em maio;
-  Nubank, JBS, XP e Inter são candidatos. A B3 lançou BDR da Anthropic. [IN][BL]
+- Atenção: 22/11/2026 é domingo e não há pregão. Os preços abaixo são do
+  fechamento de sexta-feira (20/11/2026), consultados em 22/11. [VALOR][BL]
+- Ibovespa: 166.376 pontos, -0,69% (166.376,44 no dado de cotação). O valor é
+  o mesmo divulgado por Valor e Bloomberg Línea. [VALOR][BL]
+- Dólar comercial: Valor mostrou R$ 5,9338/5,9344 (+1,15%) em 19/11 às 18h20;
+  Bloomberg Línea indicou R$ 5,9404 (+0,96%); Times Brasil, R$ 5,93 (+1,14%).
+  A cotação mais recente disponível ficou em torno de R$ 5,95. Use a faixa
+  R$ 5,93-5,95 e confira o horário antes de operar. [VALOR][BL][TB]
+- Dólar turismo: R$ 6,17; dólar cabo: R$ 6,21; euro comercial: R$ 6,51.
+  [TB][VALOR]
+- Índices americanos no fechamento de 20/11: Nasdaq Composite 22.617,73
+  (-5,28%), S&P 500 6.910,39 (-3,70%) e Dow Jones 48.147,33 (-1,93%). A
+  Bloomberg Línea confirma o Nasdaq em queda de 5,28%. A Times Brasil ainda
+  exibia valores de 19/11 (Nasdaq 24.429,88, +0,42%; S&P 7.323,63, -0,23%),
+  o que mostra divergência de data/horário entre as fontes. [BL][TB]
+- Bitcoin: US$ 61,1 mil a US$ 62,2 mil. Bloomberg Línea mostrou alta de cerca
+  de 1,2%; Times Brasil, queda de 0,45%; a cotação mais recente disponível
+  era US$ 61,1 mil, com alta de cerca de 2%. [TB][BL]
+- WTI/petróleo: US$ 83,41 por barril, alta de 1,18% no dado mais recente de
+  20/11 (cotação consultada em 22/11). O mercado segue com viés de oferta
+  abundante, segundo análises anteriores das fontes.
+- Ações brasileiras na Bloomberg Línea: PETR4 R$ 42,67 (-1,16%); VALE3 R$
+  58,48 (-0,88%); ITUB4 R$ 40,07 (-0,30%); BBDC4 R$ 13,83 (-1,78%); BBAS3
+  R$ 14,30 (+1,27%); Nubank R$ 11,27 (-4,65%). [BL]
+- Complemento da planilha/cotações: CMIG4 R$ 10,94 (+0,09%); PSSA3 R$ 43,96
+  (-1,57%); MGLU3 R$ 8,20 (-1,44%). A variação e o volume de FNAM11 seguem
+  atípicos e devem ser conferidos na fonte primária.
 
 --------------------------------------------------------------------------------
 3. FISCAL, JUROS, INFLAÇÃO E CÂMBIO
 --------------------------------------------------------------------------------
-- O Senado aprovou o plano fiscal do governo; três emendas da oposição foram
-  rejeitadas. O texto pode melhorar o resultado em R$ 50-60 bi, mas o mercado
-  vê retorno limitado. A aprovação sinaliza força do presidente do Senado,
-  Alcolumbre. [BL][VALOR]
-- Daniel Rittner (CNN): a segunda rodada de ajuste terá PEC com impacto de
-  R$ 20 bilhões. Moretti descarta alterar o salário mínimo no pacote. [CNN]
-- O IFI projeta desaceleração expressiva do PIB em 2027 e alerta que subvenções
-  aos combustíveis podem deixar conta de até R$ 45 bilhões no próximo ano.
-  [CNN][VALOR]
-- O ministro da Fazenda, Dario Durigan, defende ajuste gradual "sem negacionismo"
-  da necessidade de melhorar as contas públicas. [CNN]
-- A Warren Rena elevou projeções de IPCA por causa de um El Niño mais forte e da
-  reforma tributária. O mercado prevê Selic de 12,75% e inflação de 5% em 2027,
-  com piora das expectativas (pesquisa Focus). [VALOR][BL]
-- Focus/Copom: o BC prevê desaceleração da economia à medida que a inflação
-  aumenta; a taxa atual é 13,75%. [BL]
-- Fed: a ata mostra que quase todos os diretores preveem novas altas de juros nos
-  EUA. A possibilidade de alta do Fed e receios com IA valorizam o dólar
-  globalmente. Christine Lagarde anunciou maior acesso a linhas de crédito em
-  euros para bancos centrais. [BL][CNN]
-- A Receita disse que o programa para corrigir erros da reforma tributária será
-  permanente e deve poupar quem errar de boa-fé; créditos de PIS/Cofins poderão
-  quitar CBS. [VALOR][IN]
-- Risco tributário: base governista assusta investidores com pacote que taxa
-  dividendos, produtos isentos e grandes fortunas. [IN]
+- O Plano Moretti tem impacto estimado de R$ 50 bilhões em 2027 e será
+  votado pela Câmara na segunda (23) às 18h. Moretti afirma que as medidas
+  dão mais segurança sobre o cumprimento das metas e que novas ações podem
+  vir. Lula rebateu críticas e disse que não cortará educação e saúde. [VALOR]
+- Goldman Sachs: ajuste necessário de R$ 400 bilhões para primário de 3% do
+  PIB; dívida perto de 83% do PIB e tendência a superar 90% em dois a três
+  anos. A meta de 0,5% do PIB, anunciada em 2024, na prática seria primário
+  próximo de zero. Inflação de 5%-6% em 2027 e "quase estagflação". [CNN]
+- Ashmore: se o ajuste for apenas pontual e não estabilizar expectativas, a
+  saída bruta de recursos pode chegar a US$ 420 bilhões em 18 meses. O
+  cenário considera alta renda, fundos de previdência e varejo ampliando
+  aplicações no exterior. [VALOR]
+- Semana: IPCA-15 no Brasil e PCE americano na quarta-feira; mercados dos
+  EUA fechados na quinta e com pregão encurtado na sexta por Ação de Graças.
+  Menor liquidez pode amplificar movimentos. [VALOR]
+- O câmbio em R$ 5,93-5,95 e a inflação resistente limitam espaço para
+  cortes de Selic, conforme a leitura de Ramos; reforma tributária e nova
+  legislação trabalhista (6x1 para 5x2) também pressionam custos. [CNN]
+- Os bancos citados pela Bloomberg Línea veem espaço limitado para corte de
+  juros no Brasil em 2027 e previsões de lucro otimistas demais para o
+  cenário de crescimento e taxas. [BL]
+- Agenda tributária: audiência na terça (24) sobre a alíquota-padrão da CBS;
+  a Câmara também pode votar regras de concorrência para grandes plataformas
+  digitais. [VALOR]
 
 --------------------------------------------------------------------------------
-4. CASO MASTER, REGULAÇÃO E POLÍTICA
+4. POLÍTICA E REGULAÇÃO
 --------------------------------------------------------------------------------
-- A PF diz não haver indícios de diálogos diretos entre Mendonça e Vorcaro; ao
-  pedir o fim do sigilo do relatório, Mendonça tentaria se antecipar a críticas
-  sobre sua relatoria. O relatório foi produzido em cinco dias e sob restrições.
-  [VALOR][TB]
-- Fachin manteve a prisão preventiva de Daniel Vorcaro. Galípolo disse à PF que
-  alertou sobre risco de fuga de Vorcaro. Vorcaro e Fábio Faria teriam discutido
-  em Londres a criação de um instituto ligado a Alexandre de Moraes. [VALOR][TB]
-- BTG desistiu da "solução de mercado" para o Master; Campos Neto afirmou à PF
-  que o banco levantou inconsistências em operações em reunião de 2024. O FGC
-  ainda tem R$ 600 milhões a pagar a credores do Master e de outras instituições.
-  [VALOR][TB]
-- A PF questiona pagamentos de empresa supostamente ligada a Zettel à Cooxupé.
-  O BC paraguaio critica "falência regulatória" nos casos Ueno Bank e Master.
-  [VALOR]
-- CVM encaminha ao Otto Lobo processo contra 33 administradores da Braskem;
-  a autarquia completa 50 anos com saldo positivo, apesar de episódios
-  problemáticos. [TB][VALOR]
-- Política: PSD volta a pedir ao STF segundo turno no governo do Rio; Moraes
-  autorizou ministro do TCU a visitar Bolsonaro; Lula assinou demarcação da terra
-  indígena Kapôt Nhinore. Tempestade com granizo destruiu Tupanciretã (RS) e
-  deixou um morto. [VALOR]
+- Câmara: sessão extraordinária na segunda (23) às 18h para votar o PLP do
+  ajuste fiscal. A votação é o principal evento de curto prazo para o
+  mercado doméstico. [VALOR]
+- STF: Lula discute com Alcolumbre a indicação para a vaga de Luis Roberto
+  Barroso; Alcolumbre defende Rodrigo Pacheco e Lula ainda fala em
+  reapresentar Jorge Messias. [VALOR]
+- Supremo julga na quarta (25) ação do Roraima sobre a Convenção 169 da OIT;
+  também estão na pauta porte de armas por guardas municipais, impactos
+  ambientais da Lei da Liberdade Econômica e emendas impositivas. [VALOR]
+- TSE analisa na terça (24) o pedido do Avante para ingressar em federação
+  com PRD e Solidariedade. [VALOR]
+- Reforma tributária/Simples: mudanças em MEI, nanoempreendedor e Simples
+  Nacional passam a valer em 2027; especialistas explicam dez pontos das
+  novas regras. [VALOR]
+- Regulação externa: novas regras americanas podem impedir o aluguel de
+  processadores avançados por empresas chinesas por meio de data centers no
+  exterior; o tema pressiona cadeias de IA e semicondutores. [IN][VALOR]
 
 --------------------------------------------------------------------------------
 5. EMPRESAS E SETORES
 --------------------------------------------------------------------------------
+Energia e petróleo:
+- Petrobras: plano 2027-2031 na segunda (23), após o fechamento. Capex
+  esperado de US$ 110-120 bilhões, com foco em refino, produção e preços de
+  combustíveis. O plano atual prevê US$ 45-50 bilhões em dividendos e o
+  mesmo intervalo em arrendamentos no quinquênio. BTG calcula Brent de US$
+  61/barril para cobrir dividendos ordinários em 2027, ou US$ 66 com US$ 2
+  bilhões extras de capex. Magda Chambriard quer atender 85%-90% da demanda
+  de diesel (hoje cerca de 70%). [VALOR]
+- A estatal também mostrou o supercomputador Harpia, entre os 40 mais
+  potentes do mundo, reforçando o uso de tecnologia na exploração. [TB]
+
 Tecnologia e IA:
-- Anthropic: IPO recorde, depois queda na segunda sessão; analistas alertam
-  volatilidade. A empresa teria exigido US$ 25 milhões de investimento mínimo.
-  [TB][VALOR][IN][BL]
-- Nvidia: receita acima do esperado apesar da crise de sucessão; a cultura interna
-  de Jensen Huang e o impacto da saída do CEO seguem no centro das atenções.
-  [BL][IN][VALOR]
-- TSMC endurece restrições a chips de IA para China com novas regras dos EUA;
-  o Brasil entrou no mapa de chips de IA, o que pode afetar o setor local.
-  Resistência a data centers nos EUA ameaça o avanço da IA. [VALOR][CNN][IN]
-- Microsoft: bug que desencadeou falha global passou despercebido desde julho;
-  panes em aviação e bancos alimentam desconfiança tecnológica. [BL]
-- Apple: maior empresa do mundo; sucessão de Tim Cook e disputa com OpenAI por
-  hardware de IA também estão em pauta. [BL][TB]
+- Ações de tecnologia chinesa perderam US$ 1,7 trilhão desde o fim de junho;
+  ETF da KraneShares ligado ao Star 50 caiu mais de 4% em Nova York. Nenhum
+  dos dez modelos mais avançados do ranking Artificial Analysis é chinês
+  hoje; há quatro meses, o Kimi K3 rivalizava com OpenAI e Anthropic. [IN]
+- Alibaba projeta desaceleração do crescimento da receita de nuvem para
+  30%-45% em 2027 e retorno acima de 50% em 2028; Tencent teme atraso no
+  HY4 por escassez de chips. [IN]
+- Bessent diz que o governo ainda precisa entender a cultura de compliance
+  da Nvidia; reportagem da Bloomberg Línea aponta que Trump comprou ações
+  da empresa uma semana antes de o governo flexibilizar as exportações do
+  H200 e que a família de Lutnick tinha investimentos em data centers com
+  tecnologia Nvidia. [VALOR][BL]
 
 Financeiro, varejo e serviços:
-- BlackRock comprou a SulAmérica Investimentos por até R$ 850 milhões. O banco
-  Digimais, de Edir Macedo, recebeu aporte de R$ 1,7 bilhão. [VALOR][BL]
-- Bradesco: CEO prega cautela no crédito em 2027. Hapvida pode cortar dívida com
-  venda de hospitais no Sul e Sudeste, segundo JPMorgan. [TB][BL]
-- Iguatemi elevou juro e encurtou prazo de oferta de R$ 800 milhões; shoppings
-  chegam à Black Friday com vendas fracas e aluguel acima da inflação. [BL]
-- Grupo Boticário suspendeu por tempo indeterminado fábrica de R$ 1,8 bi em MG.
-  Natura encontra mais falhas de abastecimento; C&A aposta em experiência de
-  compra sem desconto. [CNN][IN]
-- FIDCs: a Anbima se move para explicar riscos após captação de R$ 1 trilhão;
-  centenas de fundos têm atrasos acima de 10%. [IN][BL]
-- Novo plano da Fictor propõe pagar credores com cotas de fundo; onda de
-  recuperações judiciais atinge grandes marcas. [VALOR][CNN]
-
-Energia, infraestrutura e agro:
-- Copel anuncia investimento recorde em distribuição (mais de R$ 20 bi até 2030)
-  e diz estar pronta para M&As. [VALOR]
-- JBS: lucro caiu com cotas da China, apesar da melhora nos EUA; Itaú BBA vê
-  potencial de alta de 50% nas ações. MBRF diz que pior fase do gado nos EUA
-  ficou para trás. [BL][TB]
-- A chinesa Jetour (Chery) vai investir R$ 400 milhões em SUVs elétricos no Brasil.
-  Siderúrgicas (ArcelorMittal, Usiminas, Gerdau) investem para reduzir custos
-  diante do aço chinês. [BL][IN]
-- Arcelor/Usiminas/Gerdau e Natura também aparecem entre destaques de resultados;
-  a M. Dias Branco ampliou vendas, mas viu receita cair 2%. [IN][BL]
+- Goldman, BTG e Itaú BBA rebaixaram Brasil para "neutro" e elevaram México;
+  a tese é de crescimento de cerca de 2% no México, inflação em queda e
+  política monetária menos restritiva. Para o Brasil, preferência por
+  exportadoras e qualidade. [BL]
+- Varejo faz raio-x do consumidor da Black Friday; compras de madrugada,
+  online e em marketplace ganham força. [VALOR]
+- Investidores nos EUA levaram gestoras de private equity à Justiça por
+  vendas entre fundos da mesma administradora. [IN]
+- UBS enfrenta disputa regulatória que pode levar o banco a mudar sua sede
+  da Suíça. [IN]
 
 --------------------------------------------------------------------------------
 6. MUNDO E GEOPOLÍTICA
 --------------------------------------------------------------------------------
-- Cúpula trilateral: Trump, Xi Jinping e Putin se reuniram em Shenzhen. Comércio
-  EUA-China, Taiwan e tensões tecnológicas seguem sem solução; a reunião discutiu
-  o futuro da ordem global e alarmou a Europa. Putin teria obtido "vitória
-  enorme" e propôs que europeus viajem à Rússia para falar de paz na Ucrânia.
-  [TB][BL][VALOR]
-- Terras raras: o representante americano Greer disse que o tema definirá a
-  extensão da trégua EUA-China. A mineradora Aclara estuda processar terras raras
-  no Brasil e pede incentivos. [CNN][BL]
-- Venezuela: autoridade do governo Trump sugeriu ceder território da Guiana ao
-  país; Trump destacou o controle americano sobre o petróleo venezuelano. [VALOR][BL]
-- COP31: o rascunho do acordo não menciona combustíveis fósseis, mas cita
-  oceanos; há risco de impasse. Geração Z protestou por educação e justiça
-  climática na Europa. [VALOR][CNN]
-- EUA: democratas começam a listar alvos de investigações; a vitória democrata
-  aumenta a previsibilidade do mercado, na avaliação de Rita Mundim (CNN).
-  [VALOR][CNN]
-- Colômbia: protestos contra o plano econômico de Espriella provocaram confrontos.
-  Argentina e Brasil lideram ranking de inadimplência bancária na América Latina;
-  boom de petróleo e gás argentino impulsionou emissões de US$ 11 bi. [VALOR][BL]
-- Inflação acelera na América Latina e supera metas dos bancos centrais;
-  classe média da região sobe a 42,8%. [BL]
+- COP31: sem acordo abrangente após rejeição da minuta por UE e outros
+  países; Guterres disse que o retrocesso "não altera os fatos" e que
+  temperaturas, extremos climáticos e emissões seguem em alta. [VALOR]
+- A Times Brasil destaca que é a primeira COP em 17 anos sem acordo político
+  final; as conversas se estenderam por dois dias além do previsto. [TB]
+- China: bolsas de Xangai, Shenzhen e Pequim reduzirão a margem mínima de
+  100% para 80% em 30/11, reduzirão taxas e propõem formador de mercado no
+  ChiNext. Xangai Composto caiu quase 3% na semana, ao menor nível em 16
+  meses; STAR Market e ChiNext recuam mais de 40% do pico de junho. [VALOR]
+- Coreia do Sul: reunião de emergência com vice-ministro das Finanças,
+  Banco Central e reguladores; fundo de estabilização, recompras flexíveis
+  por três meses e monitoramento intensivo contra short-selling ilegal.
+  Goldman vê indicador de pânico perto do máximo e espera mais vendas. [VALOR]
+- Os EUA devem endurecer regras para chips de IA e data centers, com efeitos
+  sobre China, Taiwan, Coreia e possíveis reflexos no Brasil. [IN][VALOR]
+- Financiamento de US$ 32 bilhões para os chips da SpaceX, montado pelo
+  Goldman Sachs, aparece como contexto da corrida por infraestrutura de IA
+  (notícia de 21/11). [IN]
 
 --------------------------------------------------------------------------------
-7. AGRO E COMMODITIES
+7. COMMODITIES, ENERGIA E AGRO
 --------------------------------------------------------------------------------
-- Inadimplência no agro pressiona preço de terras e deve seguir em 2027; o
-  Santander também projeta ciclo de inadimplência longo. "Fazendas fantasmas"
-  expõem irregularidades em garantias de crédito rural. [CNN][VALOR][TB]
-- Citi prevê forte queda no preço do café com aumento de oferta de Brasil e
-  Vietnã (projeção de US$ 2,25/libra em 12 meses). [BL]
-- O preço do cobre caiu ao menor nível desde março com dúvidas sobre
-  investimentos em IA; a IA amplia sua influência no mercado do metal. [IN][BL]
-- Petróleo: risco de excesso de oferta até o fim de 2026; Bessent prevê alívio
-  inflacionário com queda do óleo. [TB]
-- Banco Mundial vê pressão sobre preços de alimentos (soja, trigo, fertilizantes);
-  chuvas do El Niño ameaçam o início da safra de açúcar. [BL]
+- Petróleo: WTI em torno de US$ 83,41, com alta de 1,18% no dado mais
+  recente. O mercado segue dividido entre risco geopolítico e oferta
+  abundante; o plano da Petrobras pode mudar a leitura para o setor. [VALOR]
+- Transição energética: a Times Brasil discute os dilemas entre petróleo e
+  energia limpa no Brasil, enquanto a COP31 termina sem acordo sobre
+  combustíveis fósseis. [TB][VALOR]
+- Agro: não houve novo dado relevante nas manchetes de 22/11; segue o alerta
+  de inadimplência rural e crédito com "fazendas fantasmas" da edição
+  anterior, agora com atenção à composição da equipe econômica. [VALOR]
 
 --------------------------------------------------------------------------------
 8. INVESTIMENTOS, CRIPTO E FINANÇAS PESSOAIS
 --------------------------------------------------------------------------------
-- Bitcoin caiu junto com ações e o índice de medo e ganância voltou a "medo
-  extremo"; stablecoins avançam em pagamentos internacionais e reforçam demanda
-  por dólar. O CMN proibiu derivativos ligados a eventos. [TB][CNN]
-- Tesouro Direto tem "oportunidades que podem durar"; ETFs podem superar 400
-  produtos no Brasil em 2027 e a próxima onda deve ser de ETFs ativos. [IN]
-- Crianças e adolescentes já investem R$ 3,5 bilhões em ações, FIIs e ETFs no
-  Brasil; brasileiros ampliam compra de imóveis em Portugal, inclusive com
-  financiamento em euro. [IN]
-- ITCMD muda em 2027 e seis estados ainda não atualizaram alíquotas; fim da
-  escala 6x1 encarece hora extra e folha de pagamento. [IN]
-- Black Friday 2026: como aproveitar descontos sem cair em golpes ou comprometer
-  o orçamento; shoppings projetam alta de 3% nas vendas. [VALOR][BL][IN]
-- Carreira: desengajamento atinge 61% dos trabalhadores brasileiros; conselhos
-  precisam avançar em sucessão e avaliação de desempenho. [VALOR]
+- Bitcoin oscila entre US$ 61,1 mil e US$ 62,2 mil nas fontes; a InvestNews
+  registrou na véspera o menor nível em mais de dois anos, mostrando que a
+  recuperação recente ainda é frágil. [TB][BL][IN]
+- Com o feriado americano e o PCE na quarta, a semana tende a menor liquidez;
+  isso pode amplificar movimentos em cripto, câmbio e bolsas. [VALOR]
+- Black Friday: além das ofertas, o varejo observa perfil de consumo mais
+  digital e compras noturnas; vale evitar gastos financiados que comprometam
+  a reserva de emergência. [VALOR]
+- MEI, nanoempreendedor e Simples Nacional mudam em 2027; quem investe como
+  pessoa jurídica deve revisar tributação e custos. [VALOR]
+- A carteira sugerida em hoje.txt mantém as mesmas quatro ações de 20/11,
+  mas atualiza preços para o fechamento de 20/11 e reforça os gatilhos para
+  a abertura de 23/11 (votação fiscal e plano da Petrobras).
 
 --------------------------------------------------------------------------------
 9. FONTES, DATAS E METODOLOGIA
 --------------------------------------------------------------------------------
-- Notícias: manchetes e linhas gerais dos cinco sites solicitados, consultados
-  em 20/11/2026: timesbrasil.com.br, cnnbrasil.com.br/money, valor.globo.com,
+- Notícias: manchetes e conteúdo dos cinco sites solicitados, consultados em
+  22/11/2026: timesbrasil.com.br, cnnbrasil.com.br/money, valor.globo.com,
   investnews.com.br e bloomberglinea.com.br.
-- Cotações: os sites apresentam pequenas divergências de horário e de índice;
-  números diferentes foram mantidos e sinalizados na seção 2.
-- A edição anterior deste arquivo (15/11/2026) foi preservada em
-  INVEST_2026-11-15.txt.
-- Este resumo é informativo. Confirme dados e números antes de qualquer decisão
-  de investimento.
+- Cotações: como 22/11 é domingo, os preços são de 20/11/2026. Valores de
+  Ibovespa, câmbio, índices americanos, ações e petróleo também foram
+  conferidos em Yahoo Finance; diferentes horários de coleta explicam as
+  divergências sinalizadas na seção 2.
+- A planilha b3_completo_fundamentos.xlsx foi atualizada em 22/11 com esses
+  preços de 20/11; fundamentos e proventos seguem da base de 19/10/2026.
+- A versão anterior deste arquivo (20/11/2026) está preservada no histórico
+  do Git; este é apenas o resumo vigente.
+- Este resumo é informativo. Confirme dados, horários e números antes de
+  qualquer decisão de investimento.
 ================================================================================
 FIM DO RESUMO — INVEST.txt
 ================================================================================
