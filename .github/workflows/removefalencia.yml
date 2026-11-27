@@ -9,7 +9,7 @@ on:
 jobs:
   opencode:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
 
     permissions:
       contents: write
@@ -23,6 +23,12 @@ jobs:
       - name: Aguardar 1 minuto
         run: sleep 60
 
+      - name: Instalar dependências
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 python3-pip
+          python3 -m pip install --user --break-system-packages openpyxl requests
+
       - name: Instalar OpenCode
         run: |
           curl -fsSL https://opencode.ai/v2/install | bash
@@ -35,11 +41,48 @@ jobs:
 
           if [ "$COUNT" -ne 1 ]; then
             echo "ERRO: Esperada exatamente uma planilha XLSX."
-            echo "Planilhas encontradas: $COUNT"
+            echo "Encontradas: $COUNT"
             exit 1
           fi
 
-          echo "Planilha encontrada com sucesso."
+          echo "Planilha localizada."
+
+      - name: Preparar pesquisa oficial
+        run: |
+          cat > consultar_fontes.py <<'PY'
+          import requests
+          from datetime import datetime, timezone
+
+          fontes = [
+              "https://www.google.com/search?q=site%3Agov.br%2Fcvm+OPA",
+              "https://www.google.com/search?q=site%3Ab3.com.br+OPA+oferta+p%C3%BAblica",
+              "https://www.google.com/search?q=recupera%C3%A7%C3%A3o+judicial+fal%C3%AAncia+companhias+listadas"
+          ]
+
+          headers = {
+              "User-Agent": "Mozilla/5.0 (compatible; GitHubActions/1.0)"
+          }
+
+          print("CONSULTA DE FONTES PÚBLICAS")
+          print("Data:", datetime.now(timezone.utc).isoformat())
+
+          for url in fontes:
+              try:
+                  response = requests.get(
+                      url,
+                      headers=headers,
+                      timeout=20
+                  )
+                  print("\nURL:", url)
+                  print("HTTP:", response.status_code)
+                  print(response.text[:5000])
+              except requests.RequestException as e:
+                  print("Falha na consulta:", url, str(e))
+          PY
+
+      - name: Executar consultas públicas
+        run: |
+          python3 consultar_fontes.py > PESQUISA_FONTES.txt
 
       - name: Filtrar empresas da planilha
         run: |
@@ -50,17 +93,49 @@ jobs:
           que estejam em alguma das seguintes situações:
 
           1. OPA (Oferta Pública de Aquisição) em andamento ou vigente.
-          2. Recuperação judicial.
-          3. Recuperação extrajudicial.
+          2. Recuperação judicial em andamento.
+          3. Recuperação extrajudicial em andamento.
           4. Falência decretada.
 
-          Consulte fontes oficiais e atualizadas, principalmente CVM,
-          B3 e documentos oficiais das companhias.
+          OBJETIVO:
 
-          Consulte também documentos judiciais oficiais quando necessário.
+          Consultar fontes oficiais e atualizadas para identificar
+          empresas que precisam ser removidas da planilha.
 
-          EXCLUA da planilha Excel todas as linhas referentes às empresas
-          que se enquadrem em pelo menos uma dessas situações.
+          FONTES PRIORITÁRIAS:
+
+          - CVM.
+          - Sistema SRE da CVM.
+          - B3.
+          - Documentos oficiais das companhias.
+          - Diário Oficial.
+          - Documentos judiciais oficiais.
+
+          PESQUISA AUTOMÁTICA:
+
+          A execução ocorre no GitHub Actions, sem interação humana.
+
+          REGRAS OBRIGATÓRIAS:
+
+          - Não solicite autorização ou confirmação ao usuário.
+          - Não aguarde respostas interativas.
+          - Não utilize ferramentas que dependam de aprovação manual.
+          - Não interrompa a execução para solicitar Web Search.
+          - Utilize pesquisas HTTP/HTTPS e APIs públicas disponíveis.
+          - Consulte também o arquivo PESQUISA_FONTES.txt como
+            material auxiliar, nunca como confirmação definitiva.
+          - Pesquise cada empresa individualmente.
+          - Não considere resultados de pesquisa genéricos como
+            comprovação de situação jurídica.
+          - Confirme os resultados em documentos oficiais.
+          - Se uma fonte estiver indisponível, tente outra fonte oficial.
+          - Não invente informações.
+          - Se não conseguir confirmar uma situação, mantenha o ativo.
+
+          EXCLUSÕES:
+
+          Exclua da planilha Excel todas as linhas referentes às empresas
+          que se enquadrem em pelo menos uma das quatro situações.
 
           REGRAS IMPORTANTES:
 
@@ -68,42 +143,71 @@ jobs:
           - Não exclua OPAs encerradas, canceladas ou indeferidas.
           - Não exclua empresas que já encerraram sua recuperação judicial,
             salvo se houver falência decretada.
-          - Não exclua empresas que já encerraram sua recuperação extrajudicial.
+          - Não exclua empresas que já encerraram sua recuperação
+            extrajudicial.
           - Não altere os demais ativos.
           - Preserve fórmulas, formatação, abas e estrutura da planilha.
-          - Se houver dúvida, mantenha o ativo na planilha.
-          - Não invente informações ou situações jurídicas.
-          - Confirme as informações em fontes oficiais.
+          - Preserve estilos, congelamento de painéis e filtros.
+          - Se houver dúvida, mantenha o ativo.
 
-          Salve a planilha Excel atualizada, substituindo a original.
+          ARQUIVOS:
 
-          Gere também um arquivo EXCLUIDOS.txt com os tickers,
-          nomes das empresas, motivos das exclusões,
-          fontes oficiais consultadas e datas das confirmações.
+          Salve a planilha atualizada substituindo a original.
 
-          Se nenhuma empresa for excluída, gere EXCLUIDOS.txt
-          informando que nenhuma exclusão foi realizada.
+          Gere também EXCLUIDOS.txt contendo:
+
+          - Ticker.
+          - Nome da empresa.
+          - Motivo da exclusão.
+          - Fonte oficial.
+          - Link da fonte.
+          - Data da confirmação.
+
+          Se nenhuma empresa for excluída, informe isso no arquivo.
 
           Não faça nenhuma análise de indicadores financeiros,
           classificação por setores ou recomendação de investimentos.
+
+          FINALIZAÇÃO:
+
+          Termine a execução automaticamente.
+          Não solicite confirmação.
+          Não deixe pesquisas pendentes.
           "
 
-      - name: Verificar arquivos gerados
+      - name: Validar arquivos
         run: |
-          if ! find . -maxdepth 2 -type f -iname "*.xlsx" \
-            -not -path "./.git/*" | grep -q .; then
-            echo "ERRO: Planilha Excel não encontrada."
-            exit 1
-          fi
+          python3 - <<'PY'
+          import os
+          import glob
+          from openpyxl import load_workbook
 
-          if [ ! -s EXCLUIDOS.txt ]; then
-            echo "ERRO: EXCLUIDOS.txt não foi gerado ou está vazio."
-            exit 1
-          fi
+          arquivos = [
+              f for f in glob.glob("**/*.xlsx", recursive=True)
+              if ".git/" not in f
+          ]
 
-          echo "Arquivos verificados."
+          if len(arquivos) != 1:
+              raise SystemExit("ERRO: Planilha Excel não encontrada ou duplicada.")
 
-      - name: Commit alterações
+          arquivo = arquivos[0]
+
+          try:
+              wb = load_workbook(arquivo, read_only=False)
+              print("Excel válido:", arquivo)
+              print("Abas:", wb.sheetnames)
+              wb.close()
+          except Exception as e:
+              raise SystemExit(f"ERRO: Planilha inválida: {e}")
+
+          if not os.path.isfile("EXCLUIDOS.txt"):
+              raise SystemExit("ERRO: EXCLUIDOS.txt não foi gerado.")
+
+          if os.path.getsize("EXCLUIDOS.txt") == 0:
+              raise SystemExit("ERRO: EXCLUIDOS.txt está vazio.")
+          PY
+
+      - name: Commit e Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
