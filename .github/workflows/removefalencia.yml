@@ -9,6 +9,7 @@ on:
 jobs:
   opencode:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     permissions:
       contents: write
@@ -16,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Aguardar 1 minuto
         run: sleep 60
@@ -23,7 +26,20 @@ jobs:
       - name: Instalar OpenCode
         run: |
           curl -fsSL https://opencode.ai/v2/install | bash
-          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+
+      - name: Verificar planilha Excel
+        run: |
+          COUNT=$(find . -maxdepth 2 -type f -iname "*.xlsx" \
+            -not -path "./.git/*" | wc -l)
+
+          if [ "$COUNT" -ne 1 ]; then
+            echo "ERRO: Esperada exatamente uma planilha XLSX."
+            echo "Planilhas encontradas: $COUNT"
+            exit 1
+          fi
+
+          echo "Planilha encontrada com sucesso."
 
       - name: Filtrar empresas da planilha
         run: |
@@ -41,6 +57,8 @@ jobs:
           Consulte fontes oficiais e atualizadas, principalmente CVM,
           B3 e documentos oficiais das companhias.
 
+          Consulte também documentos judiciais oficiais quando necessário.
+
           EXCLUA da planilha Excel todas as linhas referentes às empresas
           que se enquadrem em pelo menos uma dessas situações.
 
@@ -50,24 +68,51 @@ jobs:
           - Não exclua OPAs encerradas, canceladas ou indeferidas.
           - Não exclua empresas que já encerraram sua recuperação judicial,
             salvo se houver falência decretada.
+          - Não exclua empresas que já encerraram sua recuperação extrajudicial.
           - Não altere os demais ativos.
           - Preserve fórmulas, formatação, abas e estrutura da planilha.
           - Se houver dúvida, mantenha o ativo na planilha.
+          - Não invente informações ou situações jurídicas.
+          - Confirme as informações em fontes oficiais.
 
           Salve a planilha Excel atualizada, substituindo a original.
 
           Gere também um arquivo EXCLUIDOS.txt com os tickers,
-          nomes das empresas e motivos das exclusões.
+          nomes das empresas, motivos das exclusões,
+          fontes oficiais consultadas e datas das confirmações.
+
+          Se nenhuma empresa for excluída, gere EXCLUIDOS.txt
+          informando que nenhuma exclusão foi realizada.
 
           Não faça nenhuma análise de indicadores financeiros,
           classificação por setores ou recomendação de investimentos.
           "
 
+      - name: Verificar arquivos gerados
+        run: |
+          if ! find . -maxdepth 2 -type f -iname "*.xlsx" \
+            -not -path "./.git/*" | grep -q .; then
+            echo "ERRO: Planilha Excel não encontrada."
+            exit 1
+          fi
+
+          if [ ! -s EXCLUIDOS.txt ]; then
+            echo "ERRO: EXCLUIDOS.txt não foi gerado ou está vazio."
+            exit 1
+          fi
+
+          echo "Arquivos verificados."
+
       - name: Commit alterações
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
-          git commit -m "Remove empresas em OPA, recuperação ou falência" || echo "Nada para commit"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+          else
+            git commit -m "Remove empresas em OPA, recuperação ou falência"
+            git push origin HEAD
+          fi
