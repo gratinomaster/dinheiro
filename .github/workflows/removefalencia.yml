@@ -6,13 +6,13 @@ on:
   schedule:
     - cron: '0 10 * * 1'
 
+permissions:
+  contents: write
+
 jobs:
   opencode:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repo
@@ -23,68 +23,61 @@ jobs:
       - name: Aguardar 1 minuto
         run: sleep 60
 
-      - name: Instalar dependências
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y python3 python3-pip
-          python3 -m pip install --user --break-system-packages openpyxl requests
-
       - name: Instalar OpenCode
         run: |
           curl -fsSL https://opencode.ai/v2/install | bash
           echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
 
-      - name: Verificar planilha Excel
+      - name: Configurar pesquisa automática
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: |
-          COUNT=$(find . -maxdepth 2 -type f -iname "*.xlsx" \
-            -not -path "./.git/*" | wc -l)
-
-          if [ "$COUNT" -ne 1 ]; then
-            echo "ERRO: Esperada exatamente uma planilha XLSX."
-            echo "Encontradas: $COUNT"
+          if [ -z "$TAVILY_API_KEY" ]; then
+            echo "ERRO: Configure TAVILY_API_KEY nos Secrets."
             exit 1
           fi
 
-          echo "Planilha localizada."
-
-      - name: Preparar pesquisa oficial
-        run: |
-          cat > consultar_fontes.py <<'PY'
-          import requests
-          from datetime import datetime, timezone
-
-          fontes = [
-              "https://www.google.com/search?q=site%3Agov.br%2Fcvm+OPA",
-              "https://www.google.com/search?q=site%3Ab3.com.br+OPA+oferta+p%C3%BAblica",
-              "https://www.google.com/search?q=recupera%C3%A7%C3%A3o+judicial+fal%C3%AAncia+companhias+listadas"
-          ]
-
-          headers = {
-              "User-Agent": "Mozilla/5.0 (compatible; GitHubActions/1.0)"
+          cat > opencode.json <<'EOF'
+          {
+            "$schema": "https://opencode.ai/config.json",
+            "websearch": {
+              "provider": "tavily"
+            },
+            "permissions": [
+              {
+                "action": "websearch",
+                "resource": "*",
+                "effect": "allow"
+              },
+              {
+                "action": "webfetch",
+                "resource": "*",
+                "effect": "allow"
+              }
+            ]
           }
+          EOF
 
-          print("CONSULTA DE FONTES PÚBLICAS")
-          print("Data:", datetime.now(timezone.utc).isoformat())
+          echo "Pesquisa automática configurada."
 
-          for url in fontes:
-              try:
-                  response = requests.get(
-                      url,
-                      headers=headers,
-                      timeout=20
-                  )
-                  print("\nURL:", url)
-                  print("HTTP:", response.status_code)
-                  print(response.text[:5000])
-              except requests.RequestException as e:
-                  print("Falha na consulta:", url, str(e))
-          PY
-
-      - name: Executar consultas públicas
+      - name: Verificar planilha Excel
         run: |
-          python3 consultar_fontes.py > PESQUISA_FONTES.txt
+          mapfile -d '' XLSX_FILES < <(
+            find . -type f -iname "*.xlsx" \
+              -not -path "./.git/*" -print0
+          )
+
+          if [ "${#XLSX_FILES[@]}" -ne 1 ]; then
+            echo "ERRO: Esperada exatamente uma planilha XLSX."
+            echo "Encontradas: ${#XLSX_FILES[@]}"
+            exit 1
+          fi
+
+          echo "Planilha localizada: ${XLSX_FILES[0]}"
 
       - name: Filtrar empresas da planilha
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: |
           opencode run "
           Localize o arquivo Excel (.xlsx) no diretório de trabalho.
@@ -97,12 +90,9 @@ jobs:
           3. Recuperação extrajudicial em andamento.
           4. Falência decretada.
 
-          OBJETIVO:
+          FONTES DE CONSULTA:
 
-          Consultar fontes oficiais e atualizadas para identificar
-          empresas que precisam ser removidas da planilha.
-
-          FONTES PRIORITÁRIAS:
+          Consulte fontes oficiais e atualizadas, principalmente:
 
           - CVM.
           - Sistema SRE da CVM.
@@ -110,31 +100,28 @@ jobs:
           - Documentos oficiais das companhias.
           - Diário Oficial.
           - Documentos judiciais oficiais.
+          - Decisões judiciais e tribunais competentes.
 
-          PESQUISA AUTOMÁTICA:
+          PESQUISA NA INTERNET:
 
-          A execução ocorre no GitHub Actions, sem interação humana.
+          A execução ocorre automaticamente no GitHub Actions.
 
-          REGRAS OBRIGATÓRIAS:
-
-          - Não solicite autorização ou confirmação ao usuário.
-          - Não aguarde respostas interativas.
+          - Utilize Web Search com o provedor Tavily configurado.
+          - Utilize Web Fetch para consultar documentos e páginas.
+          - Não solicite autorização ou confirmação humana.
+          - Não interrompa a execução para solicitar escolha de provedor.
           - Não utilize ferramentas que dependam de aprovação manual.
-          - Não interrompa a execução para solicitar Web Search.
-          - Utilize pesquisas HTTP/HTTPS e APIs públicas disponíveis.
-          - Consulte também o arquivo PESQUISA_FONTES.txt como
-            material auxiliar, nunca como confirmação definitiva.
-          - Pesquise cada empresa individualmente.
-          - Não considere resultados de pesquisa genéricos como
-            comprovação de situação jurídica.
-          - Confirme os resultados em documentos oficiais.
+          - Pesquise individualmente cada empresa.
+          - Faça pesquisas paralelas quando possível.
+          - Consulte os documentos originais das fontes oficiais.
+          - Não considere resultados genéricos como confirmação.
           - Se uma fonte estiver indisponível, tente outra fonte oficial.
           - Não invente informações.
           - Se não conseguir confirmar uma situação, mantenha o ativo.
 
           EXCLUSÕES:
 
-          Exclua da planilha Excel todas as linhas referentes às empresas
+          EXCLUA da planilha Excel todas as linhas referentes às empresas
           que se enquadrem em pelo menos uma das quatro situações.
 
           REGRAS IMPORTANTES:
@@ -143,44 +130,70 @@ jobs:
           - Não exclua OPAs encerradas, canceladas ou indeferidas.
           - Não exclua empresas que já encerraram sua recuperação judicial,
             salvo se houver falência decretada.
-          - Não exclua empresas que já encerraram sua recuperação
-            extrajudicial.
+          - Não exclua empresas que já encerraram sua recuperação extrajudicial.
           - Não altere os demais ativos.
           - Preserve fórmulas, formatação, abas e estrutura da planilha.
-          - Preserve estilos, congelamento de painéis e filtros.
+          - Preserve estilos, larguras, alturas, filtros e freeze panes.
+          - Não altere as abas B3_Ticker_Produtos e Resumo se não houver
+            necessidade de exclusão nessas abas.
           - Se houver dúvida, mantenha o ativo.
 
-          ARQUIVOS:
+          VERIFICAÇÃO:
+
+          Antes de excluir cada empresa:
+
+          1. Confirme o ticker e o nome empresarial.
+          2. Confirme a situação jurídica atual.
+          3. Consulte uma fonte oficial.
+          4. Verifique se a situação continua vigente.
+          5. Registre o endereço da fonte consultada.
+          6. Registre a data da confirmação.
+
+          ARQUIVO EXCEL:
 
           Salve a planilha atualizada substituindo a original.
 
-          Gere também EXCLUIDOS.txt contendo:
+          Não crie uma planilha simplificada.
+          Não remova abas.
+          Não recrie a estrutura da planilha.
+          Não modifique os ativos que não se enquadram nos critérios.
+
+          RELATÓRIO EXCLUIDOS.txt:
+
+          Gere um arquivo EXCLUIDOS.txt contendo:
 
           - Ticker.
           - Nome da empresa.
           - Motivo da exclusão.
-          - Fonte oficial.
+          - Situação jurídica identificada.
+          - Fonte oficial consultada.
           - Link da fonte.
           - Data da confirmação.
 
-          Se nenhuma empresa for excluída, informe isso no arquivo.
+          Se nenhuma empresa for excluída, informe isso claramente.
+
+          IMPORTANTE:
+
+          Se não conseguir confirmar oficialmente uma OPA,
+          não exclua a empresa por esse motivo.
 
           Não faça nenhuma análise de indicadores financeiros,
           classificação por setores ou recomendação de investimentos.
 
           FINALIZAÇÃO:
 
-          Termine a execução automaticamente.
-          Não solicite confirmação.
+          Termine todas as pesquisas antes de concluir.
           Não deixe pesquisas pendentes.
+          Salve a planilha e o relatório.
+          Não solicite confirmação humana.
           "
 
-      - name: Validar arquivos
+      - name: Validar arquivos gerados
         run: |
           python3 - <<'PY'
-          import os
           import glob
-          from openpyxl import load_workbook
+          import os
+          import zipfile
 
           arquivos = [
               f for f in glob.glob("**/*.xlsx", recursive=True)
@@ -188,29 +201,39 @@ jobs:
           ]
 
           if len(arquivos) != 1:
-              raise SystemExit("ERRO: Planilha Excel não encontrada ou duplicada.")
+              raise SystemExit(
+                  f"ERRO: Esperada uma planilha. Encontradas: {len(arquivos)}"
+              )
 
           arquivo = arquivos[0]
 
-          try:
-              wb = load_workbook(arquivo, read_only=False)
-              print("Excel válido:", arquivo)
-              print("Abas:", wb.sheetnames)
-              wb.close()
-          except Exception as e:
-              raise SystemExit(f"ERRO: Planilha inválida: {e}")
+          if not zipfile.is_zipfile(arquivo):
+              raise SystemExit("ERRO: Arquivo Excel inválido.")
+
+          with zipfile.ZipFile(arquivo) as z:
+              erro = z.testzip()
+              if erro:
+                  raise SystemExit(f"ERRO de integridade: {erro}")
+
+              if "xl/workbook.xml" not in z.namelist():
+                  raise SystemExit("ERRO: Estrutura XLSX inválida.")
+
+          print("Planilha Excel validada:", arquivo)
 
           if not os.path.isfile("EXCLUIDOS.txt"):
               raise SystemExit("ERRO: EXCLUIDOS.txt não foi gerado.")
 
           if os.path.getsize("EXCLUIDOS.txt") == 0:
               raise SystemExit("ERRO: EXCLUIDOS.txt está vazio.")
+
+          print("Relatório EXCLUIDOS.txt validado.")
           PY
 
       - name: Commit e Push
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
 
