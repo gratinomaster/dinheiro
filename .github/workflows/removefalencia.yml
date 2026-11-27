@@ -28,38 +28,6 @@ jobs:
           curl -fsSL https://opencode.ai/v2/install | bash
           echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
 
-      - name: Configurar pesquisa automática
-        env:
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        run: |
-          if [ -z "$TAVILY_API_KEY" ]; then
-            echo "ERRO: Configure TAVILY_API_KEY nos Secrets."
-            exit 1
-          fi
-
-          cat > opencode.json <<'EOF'
-          {
-            "$schema": "https://opencode.ai/config.json",
-            "websearch": {
-              "provider": "tavily"
-            },
-            "permissions": [
-              {
-                "action": "websearch",
-                "resource": "*",
-                "effect": "allow"
-              },
-              {
-                "action": "webfetch",
-                "resource": "*",
-                "effect": "allow"
-              }
-            ]
-          }
-          EOF
-
-          echo "Pesquisa automática configurada."
-
       - name: Verificar planilha Excel
         run: |
           mapfile -d '' XLSX_FILES < <(
@@ -75,9 +43,22 @@ jobs:
 
           echo "Planilha localizada: ${XLSX_FILES[0]}"
 
+      - name: Configurar permissões do OpenCode
+        run: |
+          cat > opencode.json <<'EOF'
+          {
+            "$schema": "https://opencode.ai/config.json",
+            "permission": {
+              "websearch": "allow",
+              "webfetch": "allow",
+              "external_directory": "allow"
+            }
+          }
+          EOF
+
+          echo "Permissões configuradas."
+
       - name: Filtrar empresas da planilha
-        env:
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: |
           opencode run "
           Localize o arquivo Excel (.xlsx) no diretório de trabalho.
@@ -106,7 +87,7 @@ jobs:
 
           A execução ocorre automaticamente no GitHub Actions.
 
-          - Utilize Web Search com o provedor Tavily configurado.
+          - Utilize a ferramenta Web Search disponível no OpenCode.
           - Utilize Web Fetch para consultar documentos e páginas.
           - Não solicite autorização ou confirmação humana.
           - Não interrompa a execução para solicitar escolha de provedor.
@@ -121,7 +102,7 @@ jobs:
 
           EXCLUSÕES:
 
-          EXCLUA da planilha Excel todas as linhas referentes às empresas
+          Exclua da planilha Excel todas as linhas referentes às empresas
           que se enquadrem em pelo menos uma das quatro situações.
 
           REGRAS IMPORTANTES:
@@ -134,8 +115,8 @@ jobs:
           - Não altere os demais ativos.
           - Preserve fórmulas, formatação, abas e estrutura da planilha.
           - Preserve estilos, larguras, alturas, filtros e freeze panes.
-          - Não altere as abas B3_Ticker_Produtos e Resumo se não houver
-            necessidade de exclusão nessas abas.
+          - Não modifique as abas B3_Ticker_Produtos e Resumo
+            quando não houver necessidade.
           - Se houver dúvida, mantenha o ativo.
 
           VERIFICAÇÃO:
@@ -171,8 +152,6 @@ jobs:
           - Data da confirmação.
 
           Se nenhuma empresa for excluída, informe isso claramente.
-
-          IMPORTANTE:
 
           Se não conseguir confirmar oficialmente uma OPA,
           não exclua a empresa por esse motivo.
