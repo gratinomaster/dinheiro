@@ -4,9 +4,13 @@ name: Executar OpenCode - Gravar Lives
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   executar-opencode:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
 
     steps:
       # ================================
@@ -25,11 +29,12 @@ jobs:
           curl -fsSL https://opencode.ai/install | bash
 
       # ================================
-      # 3. Ajustar PATH
+      # 3. Configurar PATH
       # ================================
       - name: Configurar PATH
         run: |
-          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       # ================================
       # 4. Verificar instalação
@@ -42,12 +47,5 @@ jobs:
       # 5. Executar tarefa
       # ================================
       - name: Gravar lives
-        env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         run: |
-          pergunta=$(cat <<'PROMPT'
-          me diga quanto está o dolar hoje
-          PROMPT
-          )
-
-          opencode run "$pergunta"
+          opencode run "Me diga quanto está o dólar hoje, incluindo cotação comercial, compra, venda, variação e fonte da informação."
