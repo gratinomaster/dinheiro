@@ -48,4 +48,4 @@ jobs:
       # ================================
       - name: Gravar lives
         run: |
-          opencode run "Me diga quanto está o dólar hoje, incluindo cotação comercial, compra, venda, variação e fonte da informação."
+          opencode run "Me diga quanto está o dólar hoje, incluindo cotação comercial, compra, venda, variação e fonte da informação, salve em DOLAR.txt"
