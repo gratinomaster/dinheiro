@@ -70,7 +70,8 @@ jobs:
 
           Utilize as ferramentas e dependências disponíveis para produzir os resultados reais solicitados.
 
-          Ao terminar, verifique se os arquivos foram efetivamente criados e salvos na pasta resultados."
+          Ao terminar, verifique se os arquivos foram efetivamente criados e salvos na pasta resultados.
+          salve o que encontrou em DOLAR.txt"
 
       # ================================
       # 7. Verificar resultados
