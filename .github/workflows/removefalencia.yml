@@ -1,17 +1,19 @@
 
-name: Executar OpenCode - Auditoria Jurídica B3
+name: REMOVE FALENCIA
 
 on:
+  # Executar automaticamente a cada hora
   schedule:
     - cron: '0 * * * *'
 
+  # Permitir execução manual
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: auditoria-juridica-b3
+  group: executar-opencode
   cancel-in-progress: false
 
 jobs:
@@ -64,13 +66,19 @@ jobs:
           opencode --version
 
       # =====================================
-      # 5. Executar análise jurídica B3
+      # 5. Executar solicitação automática
       # =====================================
-      - name: Executar auditoria das empresas
+      - name: Atualizar arquivos de texto e Excel
         run: |
           set -euo pipefail
 
-          opencode run --dir "$GITHUB_WORKSPACE" "$(cat <<'PROMPT'
+          echo "===================================="
+          echo "INICIANDO ATUALIZAÇÃO"
+          echo "===================================="
+
+          opencode run --dir "$GITHUB_WORKSPACE" \
+            "
+            
           Localize o arquivo Excel (.xlsx) no diretório de trabalho.
 
           Analise todas as empresas e identifique exclusivamente aquelas
@@ -175,36 +183,41 @@ jobs:
           Não deixe pesquisas pendentes.
           Salve a planilha e o relatório.
           Não solicite confirmação humana.
-          PROMPT
-          )"
+          
+          "
+
+
 
       # =====================================
-      # 6. Verificar arquivos finais
+      # 6. Verificar arquivos
       # =====================================
-      - name: Verificar resultados
+      - name: Verificar arquivos atualizados
         run: |
           set -euo pipefail
 
-          echo "Verificando planilhas e relatório..."
+          echo "===================================="
+          echo "ARQUIVOS DO REPOSITÓRIO"
+          echo "===================================="
 
-          find . -maxdepth 2 -type f \
-            \( -iname "*.xlsx" -o -iname "EXCLUIDOS.txt" \) \
+          git status --short
+
+          echo "===================================="
+          echo "ARQUIVOS DE TEXTO"
+          echo "===================================="
+
+          find . -type f \
+            \( -iname "*.txt" -o -iname "*.md" \) \
             -not -path "./.git/*" \
             -print
 
-          if ! find . -maxdepth 2 -type f \
+          echo "===================================="
+          echo "PLANILHAS EXCEL"
+          echo "===================================="
+
+          find . -type f \
             -iname "*.xlsx" \
             -not -path "./.git/*" \
-            -print -quit | grep -q .; then
-
-            echo "ERRO: Nenhuma planilha Excel encontrada."
-            exit 1
-          fi
-
-          if [ ! -f "EXCLUIDOS.txt" ]; then
-            echo "ERRO: Relatório EXCLUIDOS.txt não foi gerado."
-            exit 1
-          fi
+            -print
 
       # =====================================
       # 7. Commit e push
@@ -214,21 +227,26 @@ jobs:
           set -euo pipefail
 
           git config user.name "github-actions[bot]"
+
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
 
           if git diff --cached --quiet; then
+
             echo "Nenhuma alteração para commit."
+
           else
 
             git commit -m \
-              "Auditoria jurídica B3 - atualização automática"
+              "Atualização automática dos arquivos de texto e Excel"
 
             git push origin "HEAD:${GITHUB_REF_NAME}"
 
-            echo "Commit e push realizados com sucesso."
+            echo "===================================="
+            echo "COMMIT E PUSH CONCLUÍDOS"
+            echo "===================================="
 
           fi
 
@@ -239,12 +257,22 @@ jobs:
         if: success()
         run: |
           echo "===================================="
-          echo "AUDITORIA JURÍDICA B3 CONCLUÍDA"
+          echo "EXECUÇÃO CONCLUÍDA"
           echo "===================================="
-          echo "Frequência: A cada hora"
-          echo "Planilha: Original atualizada"
-          echo "Relatório: EXCLUIDOS.txt"
+
+          echo "Solicitação:"
+          echo "Atualizar os 2 arquivos de textos e a planilha Excel."
+
+          echo "Frequência: A cada 1 hora"
           echo "Destino: Raiz do repositório"
           echo "Commit: Automático"
           echo "Push: Automático"
+
           echo "===================================="
+          
+          
+          
+
+
+          
+   
