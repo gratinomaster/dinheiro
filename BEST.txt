@@ -1,0 +1,83 @@
+BEST.txt - RELATORIO COMPARATIVO: MELHORES ATIVOS POR SETOR
+
+Data: 28/11/2026 (cotacoes do pregao de 27/11/2026)
+Fontes: INVEST.txt (contexto e cotacoes) e b3_completo_fundamentos.xlsx
+        (aba Cotacoes_Atuais_B3, 2007 linhas; fundamentos de 19/10/2026)
+
+METODOLOGIA
+- Universo: acoes/units com 0 < P/L <= 30, 0 < P/VP <= 10, ROE > 0,
+  Dividend Yield > 0, market cap >= R$ 10 bi e volume >= 5 milhoes de acoes.
+  Duplicatas com sufixo "F" foram removidas; TIMS3 foi excluida por P/L
+  distorcido (3.780,70). Uma acao por empresa (classe mais liquida).
+- Energia = geracao/distribuicao de energia eletrica e gas; petroleo/gas
+  e analisado a parte (PETR4).
+- Score por categoria: 30% P/L (menor melhor) + 25% ROE + 25% DY +
+  20% sustentabilidade do payout, por ranking dentro da categoria.
+- A planilha nao traz margem liquida/EBIT. O proxy disponivel e o payout
+  (DY x P/L) e a margem de retencao do lucro (100% - payout), considerados
+  saudaveis entre 30% e 100%.
+
+================================================================================
+QUADRO COMPARATIVO
+================================================================================
+
+Categoria        Melhor ativo              Preco    P/L   P/VP    DY     ROE   Payout  Score  Vice
+--------------------------------------------------------------------------------
+Bancos           BBDC4 - Bradesco         16,07    6,64  1,21   8,67% 14,13%  57,6%  73,0  SANB11 (62,0)
+Energia          CMIG4 - Cemig            11,32    6,99  1,25   9,26% 15,75%  64,7%  90,0  ISAE4 (75,0)
+Saneamento       SBSP3 - Sabesp           29,95   11,96  2,74  12,73% 17,80% 152,3%  80,0  CSMG3 (20,0)
+Seguros          BBSE3 - BB Seguridade    37,34    7,99  6,77  12,14% 84,38%  97,0% 100,0  PSSA3 (47,5)
+Telecomunicacoes VIVT3 - Telefonica       35,00   16,58  1,66   7,48% 10,05% 124,0%  90,4  sem vice elegivel
+
+================================================================================
+DETALHAMENTO
+================================================================================
+
+1) BANCOS - BBDC4 (BCO BRADESCO S.A.)
+   P/L 6,64 | P/VP 1,21 | DY 8,67% | ROE 14,13% | payout 57,6% | score 73,0
+   Melhor combinacao de multiplo baixo, dividendos e liquidez (151,3 mi de
+   acoes). SANB11 (P/L 7,01, DY 8,12%, ROE 15,69%) ficou em segundo; ITUB4
+   tem ROE maior (22,45%), mas P/L 10,02. BBAS3 tem P/L 5,92, porem ROE de
+   apenas 7,99%. INVEST.txt registra boa recepcao do mercado a indicacao de
+   Trabuco (ligado ao Bradesco) para a Fazenda.
+
+2) ENERGIA - CMIG4 (CIA ENERGETICA DE MINAS GERAIS - CEMIG)
+   P/L 6,99 | P/VP 1,25 | DY 9,26% | ROE 15,75% | payout 64,7% | score 90,0
+   Lider entre as eletricas liquidas, a frente de ISAE4 (P/L 6,65, DY 7,66%,
+   ROE 12,71%). CPFE3 tem ROE 26,43% e DY 8,49%, mas volume de 1,8 mi de
+   acoes ficou abaixo do filtro; INVEST.txt registra o pagamento de R$ 1,13
+   por acao pela CPFL. No segmento de oleo e gas (fora da categoria), PETR4
+   tem P/L 4,47, ROE 27,73% e DY 7,99%, com R$ 15,6 bi em dividendos
+   extraordinarios anunciados (ex em 08/12).
+
+3) SANEAMENTO - SBSP3 (CIA SANEAMENTO BASICO EST SAO PAULO)
+   P/L 11,96 | P/VP 2,74 | DY 12,73% | ROE 17,80% | payout 152,3% | score 80,0
+   Supera CSMG3 (P/L 16,08, DY 3,61%, ROE 14,60%) e SAPR3 (ROE 3,76%).
+   Atencao: payout acima de 100% indica dividendos maiores que o LPA verificado.
+
+4) SEGUROS - BBSE3 (BB SEGURIDADE PARTICIPAÇÕES S.A.)
+   P/L 7,99 | P/VP 6,77 | DY 12,14% | ROE 84,38% | payout 97,0% | score 100,0
+   ROE muito acima de PSSA3 (22,84%) e CXSE3 (32,79%), com DY de dois digitos.
+   Riscos: P/VP elevado e payout quase total do lucro; PSSA3 e a alternativa
+   mais equilibrada (P/L 8,38, payout 54,1%). INVEST.txt registra o dividendo
+   de R$ 0,89 por acao pago pela Porto Seguro em 27/11.
+
+5) TELECOMUNICAÇÕES - VIVT3 (TELEFÔNICA BRASIL S.A.)
+   P/L 16,58 | P/VP 1,66 | DY 7,48% | ROE 10,05% | payout 124,0% | score 90,4
+   Unica telecom com volume e fundamentos elegiveis: TIMS3 tem P/L 3.780,70,
+   FIQE3 tem metricas melhores (P/L 9,78, DY 12,61%, ROE 18,40%), mas volume
+   de 1,8 mi de acoes, e TELB3 nao paga dividendos. Cotacao de R$ 35,00
+   (-2,91%) conforme INVEST.txt. Payout acima de 100% merece cautela.
+
+================================================================================
+RESUMO CONSOLIDADO
+================================================================================
+- Bancos: BBDC4 - melhor equilibrio valor/qualidade/liquidez
+- Energia: CMIG4 - P/L baixo, DY alto e payout sustentavel
+- Saneamento: SBSP3 - lider de DY e ROE no grupo
+- Seguros: BBSE3 - ROE excepcional e DY elevado
+- Telecomunicacoes: VIVT3 - unica opcao solida apos filtros de qualidade
+
+Relatorio informativo, nao recomendacao de investimento. Fundamentos da base
+Fundamentus (19/10/2026) e cotacoes de 27/11/2026; revalide os numeros antes
+de qualquer decisao.
