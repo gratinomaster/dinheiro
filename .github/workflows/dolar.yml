@@ -2,15 +2,25 @@
 name: Executar OpenCode - Gerar e Salvar Arquivos
 
 on:
+  # Executar automaticamente a cada hora
+  schedule:
+    - cron: '0 * * * *'
+
+  # Permitir execução manual
   workflow_dispatch:
     inputs:
       prompt:
         description: "Digite o que deseja que o OpenCode faça"
-        required: true
+        required: false
         type: string
+        default: "oi, tudo bem?"
 
 permissions:
   contents: write
+
+concurrency:
+  group: executar-opencode
+  cancel-in-progress: false
 
 jobs:
   executar-opencode:
@@ -18,8 +28,9 @@ jobs:
     timeout-minutes: 360
 
     steps:
+
       # =====================================
-      # 1. Preparar ambiente
+      # 1. Baixar repositório
       # =====================================
       - name: Baixar repositório
         uses: actions/checkout@v4
@@ -33,6 +44,7 @@ jobs:
       - name: Instalar dependências
         run: |
           sudo apt-get update
+
           sudo apt-get install -y \
             curl \
             ffmpeg \
@@ -60,84 +72,96 @@ jobs:
           opencode --version
 
       # =====================================
-      # 5. Preparar diretório de resultados
+      # 5. Definir solicitação automática
       # =====================================
-      - name: Preparar diretório
+      - name: Definir prompt
+        env:
+          INPUT_PROMPT: ${{ github.event.inputs.prompt }}
         run: |
-          mkdir -p resultados
+          if [ -n "$INPUT_PROMPT" ]; then
+            echo "PROMPT=$INPUT_PROMPT" >> "$GITHUB_ENV"
+          else
+            echo "PROMPT=oi, tudo bem?" >> "$GITHUB_ENV"
+          fi
 
       # =====================================
-      # 6. Executar solicitação
+      # 6. Executar OpenCode
       # =====================================
       - name: Executar solicitação no OpenCode
-        env:
-          PROMPT: ${{ inputs.prompt }}
         run: |
           set -euo pipefail
 
-          echo "Executando solicitação..."
+          echo "===================================="
+          echo "EXECUTANDO OPENCODE"
+          echo "===================================="
+
+          echo "Solicitação: $PROMPT"
 
           opencode run --dir "$GITHUB_WORKSPACE" \
-            "SOLICITAÇÃO DO USUÁRIO:
+            "SOLICITAÇÃO:
 
           $PROMPT
 
           INSTRUÇÕES:
-          - Execute a tarefa solicitada integralmente.
-          - Utilize as ferramentas disponíveis no ambiente.
-          - Crie os arquivos necessários.
-          - Escolha os nomes e formatos adequados ao pedido.
-          - Salve os arquivos finais dentro da pasta resultados/.
-          - Não se limite a explicar como fazer: execute o trabalho.
-          - Verifique se os arquivos foram realmente gerados."
+
+          - Execute a solicitação diretamente.
+          - Não espere novas instruções do usuário.
+          - Utilize as ferramentas disponíveis.
+          - Analise o repositório e seu conteúdo.
+          - Crie ou modifique os arquivos necessários.
+          - Salve os arquivos diretamente na raiz do repositório.
+          - Não crie a pasta resultados.
+          - Não coloque os arquivos finais em subpastas desnecessárias.
+          - Não se limite a explicar como fazer.
+          - Execute efetivamente o trabalho.
+          - Verifique os arquivos criados e modificados.
+          - Preserve os arquivos existentes que não precisam ser alterados."
 
       # =====================================
-      # 7. Verificar arquivos gerados
+      # 7. Verificar alterações
       # =====================================
-      - name: Verificar resultados
+      - name: Verificar arquivos modificados
         run: |
-          echo "Arquivos encontrados:"
+          echo "===================================="
+          echo "ARQUIVOS MODIFICADOS"
+          echo "===================================="
 
-          find resultados -type f -print
+          git status --short
 
-          if [ -z "$(find resultados -type f -print -quit)" ]; then
-            echo "ERRO: Nenhum arquivo foi gerado."
-            exit 1
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nenhuma alteração detectada."
+            exit 0
           fi
 
       # =====================================
-      # 8. Fazer commit e push
+      # 8. Commit e push
       # =====================================
       - name: Commit e push para o GitHub
         run: |
-          set -e
+          set -euo pipefail
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -A resultados/
+          # Adicionar arquivos modificados e novos
+          git add -A
 
           if git diff --cached --quiet; then
             echo "Nenhuma alteração para commit."
           else
+
             git commit -m "Arquivos gerados automaticamente pelo OpenCode"
 
             git push origin "HEAD:${GITHUB_REF_NAME}"
+
+            echo "===================================="
+            echo "COMMIT E PUSH CONCLUÍDOS"
+            echo "===================================="
+
           fi
 
       # =====================================
-      # 9. Disponibilizar arquivos para download
-      # =====================================
-      - name: Publicar arquivos gerados
-        uses: actions/upload-artifact@v5
-        with:
-          name: resultados-opencode
-          path: resultados/
-          if-no-files-found: error
-          retention-days: 7
-
-      # =====================================
-      # 10. Resumo
+      # 9. Resumo
       # =====================================
       - name: Resumo da execução
         if: success()
@@ -145,6 +169,11 @@ jobs:
           echo "===================================="
           echo "EXECUÇÃO CONCLUÍDA"
           echo "===================================="
-          echo "Arquivos salvos em resultados/"
-          echo "Commit enviado para: ${GITHUB_REF_NAME}"
+
+          echo "Solicitação: $PROMPT"
+          echo "Frequência: A cada 1 hora"
+          echo "Destino: Raiz do repositório"
+          echo "Commit: Automático"
+          echo "Push: Automático"
+
           echo "===================================="
