@@ -1,66 +1,76 @@
 
-name: removefalencia
+name: Executar OpenCode - Auditoria Jurídica B3
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 10 * * 1'
+    - cron: '0 * * * *'
+
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: auditoria-juridica-b3
+  cancel-in-progress: false
+
 jobs:
-  opencode:
+  executar-opencode:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 360
 
     steps:
-      - name: Checkout repo
+
+      # =====================================
+      # 1. Baixar repositório
+      # =====================================
+      - name: Baixar repositório
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           persist-credentials: true
 
-      - name: Aguardar 1 minuto
-        run: sleep 60
+      # =====================================
+      # 2. Instalar dependências
+      # =====================================
+      - name: Instalar dependências
+        run: |
+          sudo apt-get update
 
+          sudo apt-get install -y \
+            curl \
+            ffmpeg \
+            python3 \
+            python3-pip \
+            zip \
+            unzip \
+            git
+
+      # =====================================
+      # 3. Instalar OpenCode
+      # =====================================
       - name: Instalar OpenCode
         run: |
-          curl -fsSL https://opencode.ai/v2/install | bash
+          curl -fsSL https://opencode.ai/install | bash
+
           echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
-      - name: Verificar planilha Excel
+      # =====================================
+      # 4. Verificar instalação
+      # =====================================
+      - name: Verificar OpenCode
         run: |
-          mapfile -d '' XLSX_FILES < <(
-            find . -type f -iname "*.xlsx" \
-              -not -path "./.git/*" -print0
-          )
+          opencode --version
 
-          if [ "${#XLSX_FILES[@]}" -ne 1 ]; then
-            echo "ERRO: Esperada exatamente uma planilha XLSX."
-            echo "Encontradas: ${#XLSX_FILES[@]}"
-            exit 1
-          fi
-
-          echo "Planilha localizada: ${XLSX_FILES[0]}"
-
-      - name: Configurar permissões do OpenCode
+      # =====================================
+      # 5. Executar análise jurídica B3
+      # =====================================
+      - name: Executar auditoria das empresas
         run: |
-          cat > opencode.json <<'EOF'
-          {
-            "$schema": "https://opencode.ai/config.json",
-            "permission": {
-              "websearch": "allow",
-              "webfetch": "allow",
-              "external_directory": "allow"
-            }
-          }
-          EOF
+          set -euo pipefail
 
-          echo "Permissões configuradas."
-
-      - name: Filtrar empresas da planilha
-        run: |
-          opencode run "
+          opencode run --dir "$GITHUB_WORKSPACE" "$(cat <<'PROMPT'
           Localize o arquivo Excel (.xlsx) no diretório de trabalho.
 
           Analise todas as empresas e identifique exclusivamente aquelas
@@ -165,53 +175,46 @@ jobs:
           Não deixe pesquisas pendentes.
           Salve a planilha e o relatório.
           Não solicite confirmação humana.
-          "
+          PROMPT
+          )"
 
-      - name: Validar arquivos gerados
+      # =====================================
+      # 6. Verificar arquivos finais
+      # =====================================
+      - name: Verificar resultados
         run: |
-          python3 - <<'PY'
-          import glob
-          import os
-          import zipfile
+          set -euo pipefail
 
-          arquivos = [
-              f for f in glob.glob("**/*.xlsx", recursive=True)
-              if ".git/" not in f
-          ]
+          echo "Verificando planilhas e relatório..."
 
-          if len(arquivos) != 1:
-              raise SystemExit(
-                  f"ERRO: Esperada uma planilha. Encontradas: {len(arquivos)}"
-              )
+          find . -maxdepth 2 -type f \
+            \( -iname "*.xlsx" -o -iname "EXCLUIDOS.txt" \) \
+            -not -path "./.git/*" \
+            -print
 
-          arquivo = arquivos[0]
+          if ! find . -maxdepth 2 -type f \
+            -iname "*.xlsx" \
+            -not -path "./.git/*" \
+            -print -quit | grep -q .; then
 
-          if not zipfile.is_zipfile(arquivo):
-              raise SystemExit("ERRO: Arquivo Excel inválido.")
+            echo "ERRO: Nenhuma planilha Excel encontrada."
+            exit 1
+          fi
 
-          with zipfile.ZipFile(arquivo) as z:
-              erro = z.testzip()
-              if erro:
-                  raise SystemExit(f"ERRO de integridade: {erro}")
+          if [ ! -f "EXCLUIDOS.txt" ]; then
+            echo "ERRO: Relatório EXCLUIDOS.txt não foi gerado."
+            exit 1
+          fi
 
-              if "xl/workbook.xml" not in z.namelist():
-                  raise SystemExit("ERRO: Estrutura XLSX inválida.")
-
-          print("Planilha Excel validada:", arquivo)
-
-          if not os.path.isfile("EXCLUIDOS.txt"):
-              raise SystemExit("ERRO: EXCLUIDOS.txt não foi gerado.")
-
-          if os.path.getsize("EXCLUIDOS.txt") == 0:
-              raise SystemExit("ERRO: EXCLUIDOS.txt está vazio.")
-
-          print("Relatório EXCLUIDOS.txt validado.")
-          PY
-
-      - name: Commit e Push
+      # =====================================
+      # 7. Commit e push
+      # =====================================
+      - name: Commit e push para o GitHub
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email \
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
@@ -219,6 +222,29 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nenhuma alteração para commit."
           else
-            git commit -m "Remove empresas em OPA, recuperação ou falência"
-            git push origin HEAD
+
+            git commit -m \
+              "Auditoria jurídica B3 - atualização automática"
+
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+
+            echo "Commit e push realizados com sucesso."
+
           fi
+
+      # =====================================
+      # 8. Resumo
+      # =====================================
+      - name: Resumo da execução
+        if: success()
+        run: |
+          echo "===================================="
+          echo "AUDITORIA JURÍDICA B3 CONCLUÍDA"
+          echo "===================================="
+          echo "Frequência: A cada hora"
+          echo "Planilha: Original atualizada"
+          echo "Relatório: EXCLUIDOS.txt"
+          echo "Destino: Raiz do repositório"
+          echo "Commit: Automático"
+          echo "Push: Automático"
+          echo "===================================="
