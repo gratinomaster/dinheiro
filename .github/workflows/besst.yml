@@ -77,7 +77,7 @@ jobs:
           echo "===================================="
 
           opencode run --dir "$GITHUB_WORKSPACE" \
-            "Localize e carregue os arquivos INVEST.txt e o arquivo .xlsx no diretório de trabalho. Processe os dados fundamentalistas para classificar as ações por setor. Para cada categoria (Bancos, Energia, Saneamento, Seguros e Telecomunicações), determine o melhor ativo com base nas métricas presentes nos arquivos (ex: P/L, ROE, Dividend Yield e Margens). Gere um relatório comparativo resumido e salve o resultado no arquivo BEST.txt."
+            "Localize e carregue os arquivos INVEST.txt e o arquivo .xlsx no diretório de trabalho. Processe os dados fundamentalistas para classificar as ações por setor. Para cada categoria (Bancos, Energia, Saneamento, Seguros e Telecomunicações), determine o melhor ativo com base nas métricas presentes nos arquivos (ex: P/L, ROE, Dividend Yield e Margens). Gere um relatório comparativo resumido e salve o resultado no arquivo BESST.txt."
 
 
 
