@@ -1,0 +1,203 @@
+Empresas excluídas da planilha b3_completo_fundamentos.xlsx
+Data da confirmação: 28/11/2026
+Critérios: OPA vigente/em andamento, recuperação judicial/em andamento, recuperação extrajudicial/em andamento ou falência decretada.
+Total de empresas: 26
+Total de ativos/tickers removidos: 59
+
+1) Tickers removidos: AALR3, AALR3F
+Empresa: ALLIANÇA SAÚDE E PARTICIPAÇÕES S.A.
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: pedido de homologação do plano de recuperação extrajudicial protocolado em 05/08/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1077775&numVersao=1&numProtocolo=1553069&descTipo=IPE&CodigoInstituicao=1
+
+2) Tickers removidos: AERI3, AERI3F
+Empresa: AERIS IND. E COM. DE EQUIP. GERACAO DE ENERGIA S/A
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: petição inicial e minuta do plano de recuperação extrajudicial protocoladas em 03/11/2026; homologação pendente.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Links:
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1109363&numVersao=1&numProtocolo=1584657&descTipo=IPE&CodigoInstituicao=1
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1109361&numVersao=1&numProtocolo=1584655&descTipo=IPE&CodigoInstituicao=1
+
+3) Tickers removidos: AGXY3, AGXY3F
+Empresa: AGROGALAXY PARTICIPAÇÕES S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento, com documentação oficial vigente em 2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1592310
+
+4) Tickers removidos: AMBP3, AMBP3F
+Empresa: AMBIPAR PARTICIPAÇÕES E EMPREENDIMENTOS S/A
+Motivo: recuperação judicial em andamento.
+Situação jurídica: RJ em processamento; a CVM suspendeu o registro da companhia em 23/11/2026.
+Fonte oficial: CVM - Comissão de Valores Mobiliários; CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Links:
+https://www.gov.br/cvm/pt-br/assuntos/noticias/2026/cvm-suspende-registro-de-cinco-companhias-abertas
+https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1570648&numSequencia=1095354&numVersao=1
+
+5) Tickers removidos: ARND3, ARND3F
+Empresa: ARANDU INVESTIMENTOS S.A.
+Motivo: OPA em andamento.
+Situação jurídica: oferta pública de aquisição com prazo para aquisições supervenientes até 30/11/2026.
+Fonte oficial: CVM/RAD - Oferta pública de aquisição.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?Tela=99&numSequencia=1106536&numVersao=1&numProtocolo=1581830&descTipo=IPE&CodigoInstituicao=1
+
+6) Tickers removidos: BDLL3, BDLL4, BDLL4F
+Empresa: BARDELLA S.A. INDUSTRIAS MECANICAS
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento, com documentação oficial vigente em 2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1589480&numSequencia=1114186&numVersao=1
+
+7) Tickers removidos: BHIA3, BHIA3F
+Empresa: GRUPO CASAS BAHIA S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: plano de recuperação judicial ratificado/homologado em 19/10/2026; processo em cumprimento.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1587411&numSequencia=1112117&numVersao=1
+
+8) Tickers removidos: BOBR4, BOBR4F
+Empresa: BOMBRIL S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento, com documentação oficial vigente em 2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1588883&numSequencia=1113589&numVersao=1
+
+9) Tickers removidos: BRKM3, BRKM5, BRKM6, BRKM3F, BRKM5F, BRKM6F
+Empresa: BRASKEM S.A.
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: negociações e pedido de recuperação extrajudicial em curso; acordo e decisão judicial em 23-25/11/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1593283&numSequencia=1117989&numVersao=1
+
+10) Tickers removidos: CTAX3, CTAX3F
+Empresa: CONTAX S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento, com documentação oficial vigente em 2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1590189&numSequencia=1114895&numVersao=1
+
+11) Tickers removidos: ESTR4
+Empresa: MANUFATURA DE BRINQUEDOS ESTRELA S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processamento da RJ deferido em 16/06/2026; plano de recuperação judicial apresentado em 14/08/2026; contas mensais vigentes em 19/11/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Links:
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1059876&numVersao=1&numProtocolo=1535170&descTipo=IPE&CodigoInstituicao=1
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1117009&numVersao=1&numProtocolo=1592303&descTipo=IPE&CodigoInstituicao=1
+
+12) Tickers removidos: FASA3, FASA3F
+Empresa: FASA S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: RJ em andamento; aditivo ao plano em 19/11/2026 e stay period prorrogado em 17/11/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Links:
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1116663&numVersao=1&numProtocolo=1591957&descTipo=IPE&CodigoInstituicao=1
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1115583&numVersao=1&numProtocolo=1590877&descTipo=IPE&CodigoInstituicao=1
+
+13) Tickers removidos: HBOR3, HBOR3F
+Empresa: HELBOR EMPREENDIMENTOS S.A.
+Motivo: OPA em andamento.
+Situação jurídica: leilão da OPA realizado em 28/10/2026; acionistas remanescentes podiam alienar ações de 29/10 a 28/11/2026.
+Fonte oficial: CVM/RAD - Oferta pública de aquisição.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?Tela=99&numSequencia=1105959&numVersao=1&numProtocolo=1581253&descTipo=IPE&CodigoInstituicao=1
+
+14) Tickers removidos: HOOT4
+Empresa: HOTEIS OTHON S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: RJ em andamento; contas demonstrativas mensais vigentes em 03/11/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1107811&numVersao=1&numProtocolo=1583105&descTipo=IPE&CodigoInstituicao=1
+
+15) Tickers removidos: INEP3, INEP4, INEP3F, INEP4F
+Empresa: INEPAR S.A. INDUSTRIA E CONSTRUCOES
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento, com documentação oficial vigente em 2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1589359&numSequencia=1114065&numVersao=1
+
+16) Tickers removidos: JFEN3, JFEN3F
+Empresa: JOAO FORTES ENGENHARIA S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: plano de recuperação judicial homologado em 10/10/2022; contas demonstrativas mensais vigentes em 31/10/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Links:
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=545826&numVersao=1&numProtocolo=1021093&descTipo=IPE&CodigoInstituicao=1
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1112958&numVersao=1&numProtocolo=1588252&descTipo=IPE&CodigoInstituicao=1
+
+17) Tickers removidos: LUPA3, LUPA3F
+Empresa: LUPATECH S.A.
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: minuta do plano de recuperação extrajudicial protocolada em 02/04/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1565673&numSequencia=1090379&numVersao=1
+
+18) Tickers removidos: NEXP3, NEXP3F
+Empresa: NEXPE PARTICIPAÇÕES S.A
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento; pedido de encerramento ainda sem decisão final confirmada.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1588886&numSequencia=1113592&numVersao=1
+
+19) Tickers removidos: NUTR3, NUTR3F
+Empresa: NUTRIPLANT INDUSTRIA E COMERCIO S.A.
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: plano de recuperação extrajudicial homologado em 18/03/2025; processo em cumprimento.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=873611&numVersao=1&numProtocolo=1348885&descTipo=IPE&CodigoInstituicao=1
+
+20) Tickers removidos: ONCO3, ONCO11, ONCO3F, ONCO11F
+Empresa: ONCOCLINICAS DO BRASIL SERVICOS MEDICOS S.A.
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: versão atualizada do plano protocolada em 29/10/2026; homologação pendente.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial; Oncoclínicas - Relações com Investidores.
+Links:
+https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1581436&numSequencia=1106142&numVersao=1
+https://ri.grupooncoclinicas.com/informacoes-financeiras/plano-de-recuperacao-extrajudicial
+
+21) Tickers removidos: OSXB3, OSXB3F
+Empresa: OSX BRASIL S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento, com documentação oficial vigente em 2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1568615&numSequencia=1093321&numVersao=1
+
+22) Tickers removidos: PCAR3, PCAR3F
+Empresa: CIA BRASILEIRA DE DISTRIBUICAO
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: plano homologado em 07/10/2026, com publicação em 20/10/2026; implementação do plano em andamento em 19/11/2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Links:
+https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1099687&numVersao=1&numProtocolo=1574981&descTipo=IPE&CodigoInstituicao=1
+https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?Tela=99&numSequencia=1116677&numVersao=1&numProtocolo=1591971&descTipo=IPE&CodigoInstituicao=1
+
+23) Tickers removidos: PMAM3, PMAM3F
+Empresa: PARANAPANEMA S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: processo de recuperação judicial em andamento, com documentação oficial vigente em 2026.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1582485&numSequencia=1107191&numVersao=1
+
+24) Tickers removidos: RAIZ4, RAIZ4F
+Empresa: RAIZEN S.A.
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: plano de recuperação extrajudicial homologado em 30/07/2026; implementação em andamento.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1075309&numVersao=1&numProtocolo=1550603&descTipo=IPE&CodigoInstituicao=1
+
+25) Tickers removidos: SEQL3, SEQL3F
+Empresa: SEQUOIA LOGISTICA E TRANSPORTES S.A
+Motivo: recuperação extrajudicial em andamento.
+Situação jurídica: plano de recuperação extrajudicial homologado em 19/03/2025; reestruturação em curso.
+Fonte oficial: CVM/RAD - Empresas em recuperação judicial ou extrajudicial.
+Link: https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=99&descTipo=IPE&numProtocolo=1559775&numSequencia=1084481&numVersao=1
+
+26) Tickers removidos: TOKY3, TOKY3F
+Empresa: GRUPO TOKY S.A.
+Motivo: recuperação judicial em andamento.
+Situação jurídica: RJ em andamento; decisão da CVM em 03/11/2026.
+Fonte oficial: CVM - Comissão de Valores Mobiliários.
+Link: https://conteudo.cvm.gov.br/decisoes/2026/20261103_R1/20261103_D3649.html
+
+Nenhuma exclusão por falência decretada: não foi confirmado caso vigente entre os ativos listados.
