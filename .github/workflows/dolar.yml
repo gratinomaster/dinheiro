@@ -1,16 +1,16 @@
 
-name: Executar OpenCode - Tarefas Automáticas
+name: Executar OpenCode - Gerar e Salvar Arquivos
 
 on:
   workflow_dispatch:
     inputs:
       prompt:
-        description: "Descreva o que deseja que o OpenCode faça"
+        description: "Digite o que deseja que o OpenCode faça"
         required: true
         type: string
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   executar-opencode:
@@ -18,10 +18,18 @@ jobs:
     timeout-minutes: 360
 
     steps:
-
-      # ==========================================
+      # =====================================
       # 1. Preparar ambiente
-      # ==========================================
+      # =====================================
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      # =====================================
+      # 2. Instalar dependências
+      # =====================================
       - name: Instalar dependências
         run: |
           sudo apt-get update
@@ -34,109 +42,93 @@ jobs:
             unzip \
             git
 
-      # ==========================================
-      # 2. Instalar OpenCode
-      # ==========================================
+      # =====================================
+      # 3. Instalar OpenCode
+      # =====================================
       - name: Instalar OpenCode
         run: |
           curl -fsSL https://opencode.ai/install | bash
 
-      # ==========================================
-      # 3. Configurar PATH
-      # ==========================================
-      - name: Configurar PATH
-        run: |
           echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
-      # ==========================================
+      # =====================================
       # 4. Verificar instalação
-      # ==========================================
+      # =====================================
       - name: Verificar OpenCode
         run: |
           opencode --version
 
-      # ==========================================
-      # 5. Preparar diretórios
-      # ==========================================
-      - name: Preparar ambiente de trabalho
+      # =====================================
+      # 5. Preparar diretório de resultados
+      # =====================================
+      - name: Preparar diretório
         run: |
-          mkdir -p "$GITHUB_WORKSPACE/resultados"
+          mkdir -p resultados
 
-          echo "Diretório de trabalho:"
-          pwd
-
-      # ==========================================
-      # 6. Executar solicitação do usuário
-      # ==========================================
-      - name: Executar solicitação
+      # =====================================
+      # 6. Executar solicitação
+      # =====================================
+      - name: Executar solicitação no OpenCode
         env:
           PROMPT: ${{ inputs.prompt }}
         run: |
           set -euo pipefail
 
-          cd "$GITHUB_WORKSPACE"
-
-          echo "=========================================="
-          echo "SOLICITAÇÃO RECEBIDA"
-          echo "=========================================="
-
-          printf '%s\n' "$PROMPT"
-
-          echo "=========================================="
-          echo "INICIANDO OPENCODE"
-          echo "=========================================="
+          echo "Executando solicitação..."
 
           opencode run --dir "$GITHUB_WORKSPACE" \
             "SOLICITAÇÃO DO USUÁRIO:
 
           $PROMPT
 
-          INSTRUÇÕES OBRIGATÓRIAS:
+          INSTRUÇÕES:
+          - Execute a tarefa solicitada integralmente.
+          - Utilize as ferramentas disponíveis no ambiente.
+          - Crie os arquivos necessários.
+          - Escolha os nomes e formatos adequados ao pedido.
+          - Salve os arquivos finais dentro da pasta resultados/.
+          - Não se limite a explicar como fazer: execute o trabalho.
+          - Verifique se os arquivos foram realmente gerados."
 
-          1. Execute integralmente a solicitação recebida.
-          2. Não substitua a execução por explicações ou instruções.
-          3. Produza os resultados reais solicitados.
-          4. Salve todos os arquivos produzidos dentro da pasta resultados.
-          5. Escolha livremente os nomes, formatos e extensões necessários.
-          6. Utilize as ferramentas, programas e dependências disponíveis.
-          7. Se precisar criar scripts auxiliares, execute-os para produzir o resultado final.
-          8. Não considere um código ou uma descrição como resultado final quando o usuário solicitar um arquivo pronto.
-          9. Verifique se os arquivos foram realmente criados.
-          10. Informe quais arquivos foram produzidos e onde estão salvos.
-          salve o que encontrou em DOLAR.txt
-
-          IMPORTANTE:
-          A pasta de destino de todos os resultados é:
-          $GITHUB_WORKSPACE/resultados"
-
-      # ==========================================
-      # 7. Verificar resultados
-      # ==========================================
-      - name: Verificar arquivos produzidos
+      # =====================================
+      # 7. Verificar arquivos gerados
+      # =====================================
+      - name: Verificar resultados
         run: |
-          echo "=========================================="
-          echo "ARQUIVOS PRODUZIDOS"
-          echo "=========================================="
+          echo "Arquivos encontrados:"
 
-          find resultados -type f -printf '%p (%s bytes)\n'
+          find resultados -type f -print
 
           if [ -z "$(find resultados -type f -print -quit)" ]; then
-            echo "ERRO: Nenhum arquivo foi produzido!"
+            echo "ERRO: Nenhum arquivo foi gerado."
             exit 1
           fi
 
-          echo "=========================================="
-          echo "TOTAL DE ARQUIVOS:"
-          find resultados -type f | wc -l
+      # =====================================
+      # 8. Fazer commit e push
+      # =====================================
+      - name: Commit e push para o GitHub
+        run: |
+          set -e
 
-          echo "TAMANHO TOTAL:"
-          du -sh resultados
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # ==========================================
-      # 8. Disponibilizar arquivos para download
-      # ==========================================
-      - name: Salvar resultados
+          git add -A resultados/
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+          else
+            git commit -m "Arquivos gerados automaticamente pelo OpenCode"
+
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      # =====================================
+      # 9. Disponibilizar arquivos para download
+      # =====================================
+      - name: Publicar arquivos gerados
         uses: actions/upload-artifact@v5
         with:
           name: resultados-opencode
@@ -144,15 +136,15 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
-      # ==========================================
-      # 9. Finalização
-      # ==========================================
+      # =====================================
+      # 10. Resumo
+      # =====================================
       - name: Resumo da execução
         if: success()
         run: |
-          echo "=========================================="
+          echo "===================================="
           echo "EXECUÇÃO CONCLUÍDA"
-          echo "=========================================="
-          echo "Os arquivos estão disponíveis em Artifacts."
-          echo "Nome: resultados-opencode"
-          echo "=========================================="
+          echo "===================================="
+          echo "Arquivos salvos em resultados/"
+          echo "Commit enviado para: ${GITHUB_REF_NAME}"
+          echo "===================================="
