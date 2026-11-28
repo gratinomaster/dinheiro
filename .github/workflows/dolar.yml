@@ -1,5 +1,5 @@
 
-name: Executar OpenCode - Gravar Lives
+name: Executar OpenCode - Tarefas Automáticas
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
       - name: Instalar dependências
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl ffmpeg python3 python3-pip
+          sudo apt-get install -y curl ffmpeg python3 python3-pip zip unzip
 
       # ================================
       # 2. Instalar OpenCode
@@ -44,8 +44,55 @@ jobs:
           opencode --version
 
       # ================================
-      # 5. Executar tarefa
+      # 5. Preparar diretório
       # ================================
-      - name: Gravar lives
+      - name: Preparar ambiente de trabalho
         run: |
-          opencode run "Me diga quanto está o dólar hoje, incluindo cotação comercial, compra, venda, variação e fonte da informação, salve em DOLAR.txt"
+          mkdir -p "$GITHUB_WORKSPACE/resultados"
+
+      # ================================
+      # 6. Executar solicitação
+      # ================================
+      - name: Executar solicitação
+        run: |
+          cd "$GITHUB_WORKSPACE"
+
+          opencode run --dir "$GITHUB_WORKSPACE" \
+          "Pesquise quanto está o dólar hoje, incluindo cotação comercial, compra, venda, variação e fonte da informação.
+
+          Execute integralmente a solicitação.
+
+          Salve todos os arquivos necessários dentro da pasta resultados.
+
+          Escolha livremente os formatos, nomes e extensões de acordo com a natureza da solicitação.
+
+          Não limite a criação de arquivos a nenhum formato específico.
+
+          Utilize as ferramentas e dependências disponíveis para produzir os resultados reais solicitados.
+
+          Ao terminar, verifique se os arquivos foram efetivamente criados e salvos na pasta resultados."
+
+      # ================================
+      # 7. Verificar resultados
+      # ================================
+      - name: Verificar arquivos gerados
+        run: |
+          echo "Arquivos gerados:"
+
+          find resultados -type f -printf '%p (%s bytes)\n'
+
+          if [ -z "$(find resultados -type f -print -quit)" ]; then
+            echo "ERRO: Nenhum arquivo foi criado!"
+            exit 1
+          fi
+
+      # ================================
+      # 8. Disponibilizar resultados
+      # ================================
+      - name: Salvar resultados
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-opencode
+          path: resultados/
+          if-no-files-found: error
+          retention-days: 7
